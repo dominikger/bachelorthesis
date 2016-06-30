@@ -1,0 +1,48 @@
+\clearemptydoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{Outline of the Thesis}
+
+\begin{center}
+	\huge{Outline of the Thesis}
+\end{center}
+
+
+%--------------------------------------------------------------------
+%\section*{Part I: Introduction and Theory}
+
+\noindent {\scshape Chapter 1: Introduction}  \vspace{1mm}
+
+\noindent Motivation  \\
+\noindent Problem statement and goal \\
+\noindent Structure of this thesis \\
+
+
+\noindent {\scshape Chapter 2: Background and related work}  \vspace{1mm}
+
+\noindent EV ADMM \\
+\noindent PADRES \\
+\noindent Aggregation  \\
+
+%--------------------------------------------------------------------
+%\section*{Part II: Aggregation in PADRES for Distributed Optimization}
+
+\noindent {\scshape Chapter 3: Conceptual approach}  \vspace{1mm}
+
+\noindent Centralized aggregation \\
+\noindent In-Network aggregation \\
+\noindent DOPS framework \\
+
+\noindent {\scshape Chapter 4: Implementation} \vspace{1mm}
+
+\noindent {\scshape Chapter 5: Evaluation} \vspace{1mm}
+
+\noindent {\scshape Chapter 6: Conclusions} \vspace{1mm}
+
+%\noindent Results \\
+%\noindent Further work \\
+
+%\noindent {\scshape Appendices} \vspace{1mm}
+%
+%\noindent User's manual \\
+%\noindent Design documents \\
