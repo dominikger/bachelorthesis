@@ -1,0 +1,60 @@
+@misc{NetEm:2013:Online,
+ lastchecked = {October 26, 2013},
+ title = {NetEm},
+ note = {\url{http://www.linuxfoundation.org/collaborate/workgroups/networking/netem}, Last checked on October 26, 2013}
+}
+
+
+@book{latex,
+  title = {LaTeX : A Documentation Preparation System User's Guide and Reference Manual},
+  publisher = {Addison-Wesley Professional},
+  year = {1994},
+  author = {Leslie Lamport}
+}
+
+@book{Tanenbaum:2006,
+ author = {Tanenbaum, Andrew S. and Steen, Maarten van},
+ title = {Distributed Systems: Principles and Paradigms (2nd Edition)},
+ year = {2006},
+ isbn = {0132392275},
+ publisher = {Prentice-Hall, Inc.},
+ address = {Upper Saddle River, NJ, USA},
+} 
+
+@book{Coulouris:2011,
+ author = {Coulouris, George and Dollimore, Jean and Kindberg, Tim and Blair, Gordon},
+ title = {Distributed Systems: Concepts and Design},
+ year = {2011},
+ isbn = {0132143011, 9780132143011},
+ edition = {5th},
+ publisher = {Addison-Wesley Publishing Company},
+ address = {USA},
+} 
+
+@ONLINE{Toronto:2013:Online,
+author = {Jacobsen, Arno},
+title = {PADRES},
+month = August,
+year = {2013},
+url = {http://msrg.utoronto.ca/projects/padres/}
+}
+
+@article{Eugster:2003:Faces:PubSub,
+ author = {Eugster, Patrick Th. and Felber, Pascal A. and Guerraoui, Rachid and Kermarrec, Anne-Marie},
+ title = {The many faces of publish/subscribe},
+ journal = {ACM Comput. Surv.},
+ issue_date = {June 2003},
+ volume = {35},
+ number = {2},
+ month = jun,
+ year = {2003},
+ issn = {0360-0300},
+ pages = {114--131},
+ numpages = {18},
+ url = {http://doi.acm.org/10.1145/857076.857078},
+ doi = {10.1145/857076.857078},
+ acmid = {857078},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Distribution, interaction, publish/subscribe},
+} 
