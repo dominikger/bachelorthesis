@@ -1,0 +1,67 @@
+% The titlepage for the CAMP report document.
+% Included by MAIN.TEX
+
+
+%--------------------------------------------------
+% The title page
+%--------------------------------------------------
+
+% correct BCOR - undo at the end !!!
+\def\bcorcor{0.15cm}
+\addtolength{\hoffset}{\bcorcor}
+
+\thispagestyle{empty}
+
+\vspace{10mm}
+\begin{center}
+	       \oTUM{4cm}
+	   
+	   \vspace{5mm}     
+	   \huge FAKULT{\"A}T F{\"U}R INFORMATIK\\ 
+	   \vspace{0.5cm}
+	 \large DER TECHNISCHEN UNIVERSIT{\"A}T M{\"U}NCHEN\\        
+	 
+\end{center}
+
+
+\vspace{5mm}
+\begin{center}
+
+   {\Large \doctype}
+
+  \vspace{5mm}
+  
+  {\Large \title}\\
+  
+  
+  \vspace{5mm}
+  
+  
+  {\Large  \titleGer}\\
+  
+  
+  \vspace{10mm}
+
+   % \hfill
+    \begin{tabular}{ll}
+	   \large Author:	& \large \author \\[2mm]
+	   \large Supervisor:	& \large Prof. Dr. rer. pol. Hans-Arno Jacobsen  \\[2mm]				
+	   \large Advisor:	& \large \begin{minipage}[t]{1.0\columnwidth}
+		 Martin Jergler, M.Sc.
+	     \end{minipage} \\[10mm]
+	     
+	   \large Date:	& \large November 15, 2016
+	 \end{tabular}
+	 
+	 \vspace{5mm}
+	 
+	 \begin{figure}[H]
+  \centering
+   \includegraphics[width=4cm]{styles/informat.png}
+  \end{figure}
+   
+
+\end{center}
+
+% undo BCOR correction
+\addtolength{\hoffset}{\bcorcor}

@@ -1,0 +1,21 @@
+\clearemptydoublepage
+
+
+\thispagestyle{empty}
+\selectlanguage{german}
+	\vspace*{0.6\textheight}
+	\noindent
+	Ich versichere, dass ich diese Bachelor-Thesis selbst{\"a}ndig verfasst und nur 
+	die angegebenen Quellen und Hilfsmittel verwendet habe.
+	
+	\vspace{20mm}
+	
+	\selectlanguage{english}
+	\noindent
+	I confirm that this bachelor's thesis is my own work and I have documented all sources and 		material used.
+	
+	\vspace{10mm}
+	\noindent
+	Munich, November 15, 2016 \hspace{4cm} \author
+	\selectlanguage{english}
+\newpage
