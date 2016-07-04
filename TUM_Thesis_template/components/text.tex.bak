@@ -8,10 +8,18 @@
 %Introduction and Background Theory
 %
 % ---------------------------------------------------------------------------
-\part[Introduction and Background Theory]{Introduction and Background Theory}
+\part[Introduction]{Introduction}
 \label{part:introAndBackgroundTheory}
 \input{chapters/Introduction}
-\input{chapters/BackgroundTheory} 
+
+\part[Preliminaries]{Preliminaries}
+\label{part:preliminaries}
+\input{chapters/Preliminaries}
+
+\part[Related Work]{Related_Work}
+\label{part:relatedWork}
+\input{chapters/Related_Work}
+
 
 %
 %% ---------------------------------------------------------------------------
@@ -19,23 +27,23 @@
 %% Fully Automated Calibration for Ultrasound
 %%
 %%% ---------------------------------------------------------------------------
-\part[Fully Automated Calibration for Ultrasound]{Fully Automated Calibration for Ultrasound}
-\label{part:fullyAutomatedCalibration}
-\input{chapters/FullyAutomatedCalibrationOverview} 
-\input{chapters/MethodsAndImplementation}
-\input{chapters/SpheresPhantom} 
-\input{chapters/ModulatedCirclesPhantom} 
+%\part[Fully Automated Calibration for Ultrasound]{Fully Automated Calibration for Ultrasound}
+%\label{part:fullyAutomatedCalibration}
+%\input{chapters/FullyAutomatedCalibrationOverview} 
+%\input{chapters/MethodsAndImplementation}
+%\input{chapters/SpheresPhantom} 
+%\input{chapters/ModulatedCirclesPhantom} 
 
 %% ---------------------------------------------------------------------------
 %%
 %% Results and Conclusion
 %%
 %% ---------------------------------------------------------------------------
-\part[Results and Conclusion]{Results and Conclusion}
-\label{part:resultsAndConclusion}
-\input{chapters/Experiments} 
-\input{chapters/Simulations} 
-\input{chapters/Conclusion} 
+%\part[Results and Conclusion]{Results and Conclusion}
+%\label{part:resultsAndConclusion}
+%\input{chapters/Experiments} 
+%\input{chapters/Simulations} 
+%\input{chapters/Conclusion} 
 
 
 % ---------------------------------------------------------------------------
@@ -49,4 +57,4 @@
 
 \appendix %---------------------------------------
 
-\input{chapters/validationDetailed}
+%\input{chapters/validationDetailed}

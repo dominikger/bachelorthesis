@@ -3,44 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: bibliography/literature.bib
-You've used 1 entry,
+Warning--can't use both author and editor fields in Kuzin2013
+Warning--can't use both author and editor fields in BiardMauffBigandEtAl2015
+You've used 9 entries,
             1791 wiz_defined-function locations,
-            450 strings with 3677 characters,
-and the built_in function-call counts, 166 in all, are:
-= -- 12
-> -- 4
-< -- 0
-+ -- 2
-- -- 1
-* -- 5
-:= -- 32
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 0
+            513 strings with 6840 characters,
+and the built_in function-call counts, 3061 in all, are:
+= -- 303
+> -- 99
+< -- 9
++ -- 36
+- -- 27
+* -- 181
+:= -- 410
+add.period$ -- 33
+call.type$ -- 9
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 20
-format.name$ -- 1
-if$ -- 36
+cite$ -- 11
+duplicate$ -- 169
+empty$ -- 308
+format.name$ -- 27
+if$ -- 753
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 1
-pop$ -- 7
+int.to.str$ -- 9
+missing$ -- 11
+newline$ -- 48
+num.names$ -- 9
+pop$ -- 48
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2
+skip$ -- 106
 stack$ -- 0
-substring$ -- 0
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 211
+swap$ -- 76
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 12
+warning$ -- 2
+while$ -- 30
+width$ -- 10
+write$ -- 109
+(There were 2 warnings)

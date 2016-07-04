@@ -1,65 +1,5 @@
 % Encoding: UTF-8
 
-@Misc{NetEm:2013:Online,
-  title       = {{N}et{E}m},
-  note        = {\url{http://www.linuxfoundation.org/collaborate/workgroups/networking/netem}, Last checked on October 26, 2013},
-  lastchecked = {October 26, 2013},
-}
-
-@Book{latex,
-  author    = {Leslie Lamport},
-  title     = {{L}a{T}e{X} : {A} {D}ocumentation {P}reparation {S}ystem {U}ser's {G}uide and {R}eference {M}anual},
-  year      = {1994},
-  publisher = {Addison-Wesley Professional},
-}
-
-@Book{Tanenbaum:2006,
-  author    = {Tanenbaum, Andrew S. and Steen, Maarten van},
-  title     = {{D}istributed {S}ystems: {P}rinciples and {P}aradigms (2nd {E}dition)},
-  year      = {2006},
-  publisher = {Prentice-Hall, Inc.},
-  isbn      = {0132392275},
-  address   = {Upper Saddle River, NJ, USA},
-}
-
-@Book{Coulouris:2011,
-  author    = {Coulouris, George and Dollimore, Jean and Kindberg, Tim and Blair, Gordon},
-  title     = {{D}istributed {S}ystems: {C}oncepts and {D}esign},
-  year      = {2011},
-  edition   = {5th},
-  publisher = {Addison-Wesley Publishing Company},
-  isbn      = {0132143011, 9780132143011},
-  address   = {USA},
-}
-
-@Online{Toronto:2013:Online,
-  author = {Jacobsen, Arno},
-  title  = {{PADRES}},
-  year   = {2013},
-  url    = {http://msrg.utoronto.ca/projects/padres/},
-  month  = August,
-}
-
-@Article{Eugster:2003:Faces:PubSub,
-  author     = {Eugster, Patrick Th. and Felber, Pascal A. and Guerraoui, Rachid and Kermarrec, Anne-Marie},
-  title      = {{T}he many faces of publish/subscribe},
-  year       = {2003},
-  volume     = {35},
-  number     = {2},
-  month      = jun,
-  pages      = {114--131},
-  issn       = {0360-0300},
-  doi        = {10.1145/857076.857078},
-  url        = {http://doi.acm.org/10.1145/857076.857078},
-  acmid      = {857078},
-  address    = {New York, NY, USA},
-  issue_date = {June 2003},
-  journal    = {ACM Comput. Surv.},
-  keywords   = {Distribution, interaction, publish/subscribe},
-  numpages   = {18},
-  publisher  = {ACM},
-}
-
 @Manual{2014,
   title         = {{C}ase {M}anagement {M}odel and {N}otation},
   year          = {2014},
@@ -143,7 +83,7 @@
   numpages  = {2},
 }
 
-@InProceedings{ZeisingSchoenigJablonski2014,
+@InProceedings{Zeising_2014,
   author    = {Michael Zeising and Stefan Sch{\"{o}}nig and Stefan Jablonski},
   title     = {{T}owards a {C}ommon {P}latform for the {S}upport of {R}outine and {A}gile {B}usiness {P}rocesses},
   booktitle = {Proceedings of the 10\textsuperscript{th} {IEEE} International Conference on Collaborative Computing: Networking, Applications and Worksharing},
@@ -155,7 +95,7 @@
   keywords  = {business data processing;knowledge based systems;CMMN models;agile business processes;business process requirements;case management model and notation;intermediate language;process navigation platform;routine business processes;rule-based notation;Routing;Synchronization;Transient analysis;CMMN;Process Navigation;Workflow Patterns;agile processes;business processes;cross-perspective modeling;modalities;procedural modeling;routine processes;rule-based modeling},
 }
 
-@InBook{KuzinKuzina2013,
+@InBook{Kuzin2013,
   author    = {Kuzin, Vadim and Kuzina, Galina},
   title     = {{O}n the {M}ove to {M}eaningful {I}nternet {S}ystems: {OTM} 2013~{W}orkshops: {C}onfederated {I}nternational {W}orkshops: {OTM} {A}cademy, {OTM} {I}ndustry {C}ase {S}tudies {P}rogram, {ACM}, {EI}2{N}, {ISDE}, {META}4e{S}, {ORM}, {S}e{D}e{S}, {SINCOM}, {SMS}, and {SOMOCO} 2013, {G}raz, {Austria}, {September} 9 - 13, 2013, {P}roceedings},
   year      = {2013},
@@ -287,8 +227,7 @@
 
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
-1 ExplicitGroup:Löschen\;0\;Coulouris:2011\;Eugster:2003:Faces:PubSub\;NetEm:2013:Online\;Tanenbaum:2006\;Toronto:2013:Online\;latex\;;
-1 ExplicitGroup:proposal\;0\;2014\;Aalst2011\;BatoulisMeyerBazhenovaEtAl2015\;BiardMauffBigandEtAl2015\;BiardMauffBigandEtAl2015a\;DumasRosaMendlingEtAl2013\;HenkelPerjonsSneiders2015\;HerzbergKirchnerWeske2015\;KurzSchmidtFleischmannEtAl2015\;KuzinKuzina2013\;MarinLotrietPoll2014\;MarinLotrietPoll2015\;MertensGaillyPoels2015\;Motahari-NezhadSwenson2013\;OsuszekStanek2015\;ThomasDiamentMartinoEtAl2012\;WangTraore2014\;WeilkiensWeissGrassEtAl2015\;WiebringSandkuhl2015\;ZeisingSchoenigJablonski2014\;;
+1 ExplicitGroup:proposal\;0\;2014\;2014a\;2014b\;Aalst2011\;Aalst2011a\;Aalst2011b\;BatoulisMeyerBazhenovaEtAl2015\;BatoulisMeyerBazhenovaEtAl2015a\;BatoulisMeyerBazhenovaEtAl2015b\;BiardMauffBigandEtAl2015\;BiardMauffBigandEtAl2015a\;BiardMauffBigandEtAl2015b\;BiardMauffBigandEtAl2015c\;BiardMauffBigandEtAl2015d\;BiardMauffBigandEtAl2015e\;DumasRosaMendlingEtAl2013\;DumasRosaMendlingEtAl2013a\;DumasRosaMendlingEtAl2013b\;HenkelPerjonsSneiders2015\;HenkelPerjonsSneiders2015a\;HenkelPerjonsSneiders2015b\;HerzbergKirchnerWeske2015\;HerzbergKirchnerWeske2015a\;HerzbergKirchnerWeske2015b\;KurzSchmidtFleischmannEtAl2015\;KurzSchmidtFleischmannEtAl2015a\;KurzSchmidtFleischmannEtAl2015b\;Kuzin2013\;KuzinKuzina2013a\;KuzinKuzina2013b\;MarinLotrietPoll2014\;MarinLotrietPoll2014a\;MarinLotrietPoll2014b\;MarinLotrietPoll2015\;MarinLotrietPoll2015a\;MarinLotrietPoll2015b\;MertensGaillyPoels2015\;MertensGaillyPoels2015a\;MertensGaillyPoels2015b\;Motahari-NezhadSwenson2013\;Motahari-NezhadSwenson2013a\;Motahari-NezhadSwenson2013b\;OsuszekStanek2015\;OsuszekStanek2015a\;OsuszekStanek2015b\;ThomasDiamentMartinoEtAl2012\;ThomasDiamentMartinoEtAl2012a\;ThomasDiamentMartinoEtAl2012b\;WangTraore2014\;WangTraore2014a\;WangTraore2014b\;WeilkiensWeissGrassEtAl2015\;WeilkiensWeissGrassEtAl2015a\;WeilkiensWeissGrassEtAl2015b\;WiebringSandkuhl2015\;WiebringSandkuhl2015a\;WiebringSandkuhl2015b\;ZeisingSchoenigJablonski2014a\;ZeisingSchoenigJablonski2014b\;Zeising_2014\;;
 }
 
 @Comment{jabref-meta: groupsversion:3;}
