@@ -1,0 +1,7 @@
+\chapter{The Evolution from BPMN to CMMN and DMN }
+\label{chapter:Background}
+
+\section{Evolution of BPMN}
+The evolution of business processes and process thinking dates back to the 1980s when Michael Porter developed the \textit{Value Chain} making a first proposal on how to align companies along the business processes \cite{Porter1988}. 
+This major step initiated consecutive research and improvements in the field of business process engineering and re-engineering. The latter has been a very popular technique for companies to strip down their legacy processes, optimize and 
+

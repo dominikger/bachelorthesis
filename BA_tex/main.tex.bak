@@ -1,0 +1,109 @@
+ % The main file for CAMP reports
+ % Don't put any content in here. 
+ % Don't even include content files by using \input or \inlcude. 
+ % Put your content to TEXT.TEX or include it there using \input.
+ % Uses:
+ %		SETTINGS.TEX	contains the settings for this document
+ %		COMMANDS.TEX	contains commands which can be used while writing
+ %		INFO.TEX			contains the author, title and so on for the cover
+ %		COVER.TEX			formats the front cover of the document
+ %		ABSTRACT.TEX	contains the abstract to be included (if needed)
+ %		TEXT.TEX			contains the actual content of the document
+ %		BIB.BIB				containt the BibTeX entries for the document
+  
+\documentclass[12pt,a4paper,bibtotoc,idxtotoc,headsepline,footsepline,footexclude,BCOR12mm,DIV13]{scrbook}
+
+\usepackage{listings}
+\usepackage{url}
+\usepackage{algorithm}
+\usepackage{color}
+
+\definecolor{Gray}{gray}{0.96}
+
+%%Settings for Java listings
+\lstset{%
+	language=Java,
+	showstringspaces=false,
+	basicstyle=\small,
+	keywordstyle=\color{blue},
+	breaklines=true,
+	frame=single,
+	commentstyle=\color{green},
+	stringstyle=\color{red},
+	backgroundcolor=\color{Gray},
+	numbers=left,
+	xleftmargin=15pt,
+	xrightmargin=15pt,
+	tabsize=2,
+	captionpos=b
+}
+
+% include title and author information for the cover
+\input{components/info}
+% include settings
+\input{components/settings}
+% include commands
+\input{components/commands}
+
+
+%\makeindex
+\linespread{1.15}
+
+\makeglossary
+
+\begin{document}
+
+	\frontmatter
+	
+	\input{components/cover}
+
+	\clearemptydoublepage
+	
+	\input{components/titlepage}
+	
+	\input{components/disclaimer}
+	
+	\input{components/abstract}
+	
+	\input{components/acknowledgements}
+
+	\clearemptydoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Table of contents}
+	\tableofcontents
+  	\clearemptydoublepage
+  
+	\mainmatter
+		\input{components/text}
+		
+		
+		% ---------------------------------------------------------------------------
+		%
+		% Appendix
+		%
+		% ---------------------------------------------------------------------------
+		%\newpage
+%		\part*{Appendix}
+%		\addcontentsline{toc}{part}{Appendix}
+%		\appendix %---------------------------------------
+%		\begin{appendices}
+%		\input{chapters/oneAppendix}
+%		\end{appendices}
+%		\appendix
+		\renewcommand\thechapter{}
+%		\renewcommand\thesection{\arabic{section}}
+		\renewcommand\thesection{}
+%		\input{chapters/oneAppendix}
+
+	\clearemptydoublepage		
+	\phantomsection
+	\addcontentsline{toc}{chapter}{\listfigurename}
+	\listoffigures 
+	
+    \clearemptydoublepage
+	\bibliography{bibliography/literature}
+	
+	
+ 
+\end{document}
+
