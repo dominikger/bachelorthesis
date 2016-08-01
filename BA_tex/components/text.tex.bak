@@ -12,14 +12,17 @@
 \label{part:introAndBackgroundTheory}
 \input{chapters/Introduction}
 
-\part[Preliminaries]{Preliminaries}
-\label{part:preliminaries}
-\input{chapters/Preliminaries}
+%\part[Preliminaries]{Preliminaries}
+%\label{part:preliminaries}
+%\input{chapters/Preliminaries}
 
-\part[Related Work]{Related_Work}
+\part[Related Work]{Related Work}
 \label{part:relatedWork}
 \input{chapters/Related_Work}
 
+\part[The Evolution from BPMN to CMMN and DMN]{The Evolution from BPMN to CMMN and DMN}
+\label{part:background}
+\input{chapters/Background}
 
 %
 %% ---------------------------------------------------------------------------

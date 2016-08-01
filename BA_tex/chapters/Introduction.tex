@@ -4,8 +4,30 @@
 \section{Motivation}
 
 \section{Problem Statement}
+The Business Model and Notation (BPMN) modeling language and technique has become a quasi-standard for modeling business processes, logical steps in software-systems or align companies along the process chains. BPMN was standardized in 2005 by the Objective Management Group (OMG), but had a long list of predecessors including the \textit{Event-driven Process Chain} (EPC), the \textit{Swimlane Visualization}, \textit{Business Process Re-engineering} to mention only a few. 
+Despite the inheritance of these languages, BPMN has some major downsizes which will be discussed.
+BPMN suits best when it comes to processes that incorporate the \textit{Value Chain Model} by Michael E. Porter \cite{Porter1988}. Every company needs these strict processes to optimize the value chain, for the value creation and to separate the hierarchies between employees and departments. \\
+By 2016 these processes have been largely automated. For this automation, the BPMN syntax suited very well due to the strict processes that could be automated more or less easily. The next challenge is to support processes that cannot be simply automated: decisions and case management. 
+At this point, \textit{Case Management Model and Notation} (CMMN) and \textit{Decision Model and Notation} (DMN) come into play. Both are were highly anticipated by people working in modeling departments. This thesis will investigate the benefits of separating the decision logic and case management into these new standards as well as combining them into a macro model. Additionally, every language has its own indicators and way of modeling. The weaknesses and strengthens of BPMN, CMMN and DMN will be presented in detail in order form indicators for when to use which language best. 
+Both modeling languages are relatively new to the market as they were standardized in 2014 (CMMN) and 2015 (DMN). The goal of this thesis is to provide a guideline helping modelers to differentiate between the languages, to help combining each language and to provide information about the historical background of these new standards. 
+Another key aspect in this thesis is the use case study to prove the indicators by real process models taken from the eKulturPortal GmbH. An evaluation will show how the indicators applied on a model work and how they can work for the reader's own models. 
+
+Summing up the preceding paragraph leads to three research questions: 
+\begin{itemize}
+\item Investigation of the new Decision Model and Notation specification published by the Object Management Group, extracting the downsides and advantages especially concerning the vast modeling of gateways in BPMN. Is DMN the solution to simplify decision-modeling? 
+\item Investigation of the Case Management Model and Notation specification by the Object Management Group, particularly how case modeling can be applied in a model-driven software development project. 
+\item How do CMMN, DMN and BPMN work together in a model-driven software project? Is there a valid possibility to combine all three specifications in one model? Is it possible to improve the process and information flow, readability and eventually implementation of the model by the developer?   
+\end{itemize}
 
 \section{Approach}
+To start the analysis of each modeling language, a brief background information about the demand for standardization by people working in modeling departments or researchers will be provided. On this account a thorough literature research suits best, presenting the results in the Background chapter. 
 
+In chapter 2 we will examine the specifications provided by the OMG and have a look at each modeling language. What are the strengthens and weaknesses, what has been standardized and when do the standards suit best. These questions will be answered for each CMMN and DMN. BPMN will not be analyzed in detail, but is a key element to do the comparison between the standards. The goal is to carve out the scope, requirements which were met and indicators of each language. 
+In the following chapter, the ability to combine each standard with BPMN will be presented. At first, the modularity of each standard will be determined. Is each language able to stand for its own or does it need to be implemented in a larger model to work properly? Afterwards, the results are taken in order to compare the combination aspect of BPMN, DMN and CMMN. The questions are directed on how to combine each language, whether a model with all three languages is possible or if there are any downsides that prohibit combining the languages. Additionally, the connectors of each model will be carved out. 
 
-\section{Structure of this thesis}
+With these findings obtained we will do the use case study in order to demonstrate the robustness of the indicators. Process models from the eKulturPortal GmbH will be analyzed with regard to the indicators and remodeled to show the working concept of each standard. A demonstration of the connectors, the scope of each language and the requirements which were met will be presented in this chapter. 
+
+Closing up this thesis a chapter of evaluation and discussion is succeeding and the conclusion with a summary of the findings and proposals for future work.
+\section{Contributions}
+
+\section{Organization}

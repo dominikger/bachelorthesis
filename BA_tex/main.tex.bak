@@ -64,6 +64,8 @@
 	\input{components/disclaimer}
 	
 	\input{components/abstract}
+	
+	\input{components/acknowledgements}
 
 	\clearemptydoublepage
 	\phantomsection
