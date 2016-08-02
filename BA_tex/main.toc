@@ -5,7 +5,8 @@
 \select@language {english}
 \contentsline {chapter}{Abstract}{vii}{section*.1}
 \contentsline {chapter}{Acknowledgements}{ix}{section*.2}
-\contentsline {chapter}{Table of contents}{xi}{section*.3}
+\contentsline {chapter}{Acronyms}{xi}{section*.3}
+\contentsline {chapter}{Table of contents}{xiii}{section*.4}
 \contentsline {part}{\numberline {I}Introduction}{1}{part.1}
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
@@ -20,7 +21,9 @@
 \contentsline {section}{\numberline {2.3}DMN}{10}{section.2.3}
 \contentsline {part}{\numberline {III}The Evolution from BPMN to CMMN and DMN}{13}{part.3}
 \contentsline {chapter}{\numberline {3}The Evolution from BPMN to CMMN and DMN}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Evolution of BPMN}{15}{section.3.1}
-\contentsline {part}{Appendix}{19}{part*.5}
-\contentsline {chapter}{List of Figures}{19}{section*.6}
-\contentsline {chapter}{\nonumberline Bibliography}{21}{appendix*.8}
+\contentsline {section}{\numberline {3.1}BPMN and its shortcomings}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Origins of BPMN}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Shortcomings}{16}{subsection.3.1.2}
+\contentsline {part}{Appendix}{19}{part*.6}
+\contentsline {chapter}{List of Figures}{19}{section*.7}
+\contentsline {chapter}{\nonumberline Bibliography}{21}{appendix*.9}
