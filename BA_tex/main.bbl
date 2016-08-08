@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{CMMNspec2014}
-Object Management Group.
-\newblock {\em {C}ase {M}anagement {M}odel and {N}otation}, version 1.0
-  edition, May 2014.
-
 \bibitem{Porter1988}
 Micheal~Porter Michael E.~Porter.
 \newblock {\em {C}ompetitive {A}dvantage: {C}reating and {S}ustaining
@@ -83,5 +78,35 @@ Steven Mertens, Frederik Gailly, and Geert Poels.
   {L}ogic.
 \newblock In {\em Enterprise, Business-Process and Information Systems
   Modeling}, pages 151--165. Springer Science $\mathplus$ Business Media, 2015.
+
+\bibitem{Dumas2013}
+Marlon Dumas, Marcello~La Rosa, Jan Mendling, and Hajo Reijers.
+\newblock {\em {F}undamentals of {B}usiness {P}rocess {M}anagement}.
+\newblock Springer Science \& Business Media, Berlin Heidelberg, 2013.
+
+\bibitem{Lankhorst2009}
+Marc Lankhorst.
+\newblock {\em {E}nterprise {A}rchitecture at {W}ork}.
+\newblock Springer Science $\mathplus$ Business Media, 2009.
+
+\bibitem{Allweyer2010}
+T.~Allweyer.
+\newblock {\em {BPMN} 2.0: {I}ntroduction to the {S}tandard for {B}usiness
+  {P}rocess {M}odeling}.
+\newblock Books on Demand, 2010.
+
+\bibitem{Repa2014}
+V.~Repa and O.~Zelenzfik.
+\newblock {M}ethodological limitations of modeling languages {BP}{MN} and
+  {ARIS}.
+\newblock In {\em Proc. 15th Int Control Conf. (ICCC) Carpathian}, pages
+  507--512, May 2014.
+
+\bibitem{ReckerIndulskaRosemannEtAl2006}
+Jan~C. Recker, Marta Indulska, Michael Rosemann, and Peter Green.
+\newblock {H}ow {G}ood is {BPMN} {R}eally? {I}nsights from {T}heory and
+  {P}ractice.
+\newblock In Jan Ljungberg and Magnus Andersson, editors, {\em 14th European
+  Conference on Information Systems}, Goeteborg, Sweden, 2006.
 
 \end{thebibliography}

@@ -5,45 +5,45 @@ The style file: unsrt.bst
 Database file #1: bibliography/literature.bib
 Warning--can't use both author and editor fields in Kuzin2013
 Warning--can't use both author and editor fields in BiardMauffBigandEtAl2015
-You've used 11 entries,
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            524 strings with 7083 characters,
-and the built_in function-call counts, 3308 in all, are:
-= -- 325
-> -- 104
-< -- 9
-+ -- 39
-- -- 28
-* -- 191
-:= -- 447
-add.period$ -- 38
-call.type$ -- 11
-change.case$ -- 8
+            550 strings with 7857 characters,
+and the built_in function-call counts, 4305 in all, are:
+= -- 405
+> -- 155
+< -- 10
++ -- 57
+- -- 42
+* -- 237
+:= -- 602
+add.period$ -- 51
+call.type$ -- 15
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 185
-empty$ -- 340
-format.name$ -- 28
-if$ -- 812
+cite$ -- 17
+duplicate$ -- 242
+empty$ -- 446
+format.name$ -- 42
+if$ -- 1047
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 13
-newline$ -- 57
-num.names$ -- 10
-pop$ -- 57
+int.to.str$ -- 15
+missing$ -- 21
+newline$ -- 78
+num.names$ -- 17
+pop$ -- 88
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 109
+skip$ -- 132
 stack$ -- 0
-substring$ -- 211
-swap$ -- 78
-text.length$ -- 9
+substring$ -- 243
+swap$ -- 92
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 31
-width$ -- 13
-write$ -- 128
+while$ -- 40
+width$ -- 17
+write$ -- 172
 (There were 2 warnings)

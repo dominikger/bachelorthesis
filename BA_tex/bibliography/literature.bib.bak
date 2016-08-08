@@ -11,7 +11,7 @@
   month         = may,
 }
 
-@Book{DumasRosaMendlingEtAl2013,
+@Book{Dumas2013,
   author    = {Dumas, Marlon AND Rosa, Marcello La AND Mendling, Jan AND Reijers, Hajo},
   title     = {{F}undamentals of {B}usiness {P}rocess {M}anagement},
   year      = {2013},
@@ -236,13 +236,126 @@
   ean       = {9780684841465},
 }
 
+@Article{Recker2010,
+  author    = {Jan Recker},
+  title     = {{O}pportunities and constraints: the current struggle with {BP}{MN}},
+  year      = {2010},
+  volume    = {16},
+  number    = {1},
+  month     = {feb},
+  pages     = {181--201},
+  doi       = {10.1108/14637151011018001},
+  url       = {http://dx.doi.org/10.1108/14637151011018001},
+  journal   = {Business Process Mgmt Journal},
+  publisher = {Emerald},
+}
+
+@InProceedings{Repa2014,
+  author    = {V. Repa and O. Zelenzfik},
+  title     = {{M}ethodological limitations of modeling languages {BP}{MN} and {ARIS}},
+  booktitle = {Proc. 15th Int Control Conf. (ICCC) Carpathian},
+  year      = {2014},
+  month     = may,
+  pages     = {507--512},
+  doi       = {10.1109/CarpathianCC.2014.6843657},
+  keywords  = {business data processing, specification languages, ARIS modeling languages, Architecture of Integrated Systems Notation, BPMN modeling languages, Business Process Modeling Notation, MMABP business process meta-model, business perspective, business process management, business-technology border, technology perspective, Collaboration, Computer aided software engineering, Organizations, Process control, Standards organizations, ARIS, BPMN, business process management, business process modeling, modeling language},
+}
+
+@InProceedings{AyacheConquetHumbertEtAl1996,
+  author    = {S. Ayache and E. Conquet and P. Humbert and C. Rodriguez and J. Sifakis and R. Gerlich},
+  title     = {{F}ormal methods for the validation of fault tolerance in autonomous spacecraft},
+  booktitle = {Proc. Annual Symp. Fault Tolerant Computing},
+  year      = {1996},
+  month     = jun,
+  pages     = {353--357},
+  doi       = {10.1109/FTCS.1996.534620},
+  issn      = {0731-3071},
+  keywords  = {aerospace computing, aerospace industry, fault tolerant computing, formal specification, program verification, reliability, special purpose computers, specification languages, Data Management System Design Validation, SDL, Specification and Design Language, abnormal events, autonomous spacecraft, executable specification, fault tolerance validation, fault-tolerant systems engineering, formal methodolog, formal methods, life cycle phases, model-based formalism, new-generation spacecraft design, space industry, systems complexity, Aerospace electronics, Aerospace engineering, Aerospace industry, Application software, Fault tolerance, Fault tolerant systems, Laboratories, Space missions, Space vehicles, Systems engineering and theory},
+}
+
+@InProceedings{HubauxHeymansBenavides2008,
+  author    = {A. Hubaux and P. Heymans and D. Benavides},
+  title     = {{V}ariability {M}odeling {C}hallenges from the {T}renches of an {O}pen {S}ource {P}roduct {L}ine {R}e-engineering {P}roject},
+  booktitle = {Proc. 12th Int. Software Product Line Conf. SPLC '08},
+  year      = {2008},
+  month     = sep,
+  pages     = {55--64},
+  doi       = {10.1109/SPLC.2008.39},
+  keywords  = {government data processing, product development, public domain software, software reusability, systems re-engineering, PloneMeeting, feature diagrams, open source product line re-engineering project, open source software family, variability modelling, Automation, Computer languages, Computer science, Design engineering, Open source software},
+}
+
+@Article{KellerAsudeh2002,
+  author   = {F. Keller and A. Asudeh},
+  title    = {{P}robabilistic {L}earning {A}lgorithms and {O}ptimality {T}heory},
+  year     = {2002},
+  volume   = {33},
+  number   = {2},
+  month    = apr,
+  pages    = {225--244},
+  issn     = {0024-3892},
+  doi      = {10.1162/002438902317406704},
+  journal  = {Linguistic Inquiry},
+  keywords = {Optimality Theory, competence/ performance, corpus frequencies, degrees of grammaticality, language acquisition, probabilistic grammars},
+}
+
+@InProceedings{ColomboLavazzaCoen-PorisiniEtAl2009,
+  author    = {P. Colombo and L. Lavazza and A. Coen-Porisini and V. d. Bianco},
+  title     = {{T}owards a {M}eta-model for {P}roblem {F}rames: {C}onceptual {I}ssues and {T}ool {B}uilding {S}upport},
+  booktitle = {Proc. Fourth Int. Conf. Software Engineering Advances ICSEA '09},
+  year      = {2009},
+  month     = sep,
+  pages     = {339--345},
+  doi       = {10.1109/ICSEA.2009.56},
+  keywords  = {Unified Modeling Language, formal specification, software tools, meta-model, problem frames, requirements analysis, requirements modeling, tool building support, Educational institutions, Guidelines, Information analysis, Metamodeling, Pattern analysis, Performance analysis, Proposals, Prototypes, Software engineering, Unified modeling language, meta-modeling, modeling tools, problem frames},
+}
+
+@InProceedings{ReckerIndulskaRosemannEtAl2006,
+  author    = {Jan C. Recker and Marta Indulska and Michael Rosemann and Peter Green},
+  title     = {{H}ow {G}ood is {BPMN} {R}eally? {I}nsights from {T}heory and {P}ractice},
+  booktitle = {14th European Conference on Information Systems},
+  year      = {2006},
+  editor    = {Jan Ljungberg and Magnus Andersson},
+  url       = {http://eprints.qut.edu.au/4636/},
+  abstract  = {The increased interest in a more disciplined approach for Business Process Management has motivated many organizations to make significant investments in process modelling initiatives. This, in turn, has triggered significant related research. One outcome of this development is the Business Process Modeling Notation (BPMN), which has been proposed as the new process modelling industry standard. BPMN has become over the last two years a popular process modelling technique. This paper represents the first contribution towards a theoretically sound and empirically validated analysis of BPMN. Based on an established process, we conducted a representational analysis of BPMN using a representation model based on the Bunge ontology. In addition to the theoretical identification of possible shortcomings of BPMN, we conducted a comprehensive series of interviews with BPMN users in order to seek empirical evidence for our propositions. Through this study, we identified a number of critical issues related to the practice of modelling with BPMN in contemporary process management initiatives, for example, the capture of business rules and the specification of the Lane and the Pool constructs.},
+  address   = {Goeteborg, Sweden},
+  keywords  = {Process Modelling, Representational Analysis, BWW model, BPMN, Ontology},
+}
+
+@Book{Lankhorst2009,
+  author    = {Marc Lankhorst},
+  title     = {{E}nterprise {A}rchitecture at {W}ork},
+  year      = {2009},
+  publisher = {Springer Science $\mathplus$ Business Media},
+  doi       = {10.1007/978-3-642-01310-2},
+  url       = {http://dx.doi.org/10.1007/978-3-642-01310-2},
+}
+
+@WWW{white2006,
+  author       = {Stephen A. White},
+  title        = {{I}ntroduction to {BPMN}},
+  year         = {2006},
+  date         = {October, 16},
+  url          = {http://www.omg.org/news/meetings/workshops/soa-bpm-mda-2006/00-T4_White.pdf},
+  organization = {IBM Software Group},
+  urldate      = {2016-08-02},
+}
+
+@Book{Allweyer2010,
+  author    = {Allweyer, T.},
+  title     = {{BPMN} 2.0: {I}ntroduction to the {S}tandard for {B}usiness {P}rocess {M}odeling},
+  year      = {2010},
+  publisher = {Books on Demand},
+  isbn      = {9783839149850},
+  url       = {https://books.google.de/books?id=fdlC7K\_3dzEC},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
-1 ExplicitGroup:proposal\;0\;Aalst2011\;BatoulisMeyerBazhenovaEtAl2015\;BiardMauffBigandEtAl2015\;BiardMauffBigandEtAl2015a\;CMMNspec2014\;DumasRosaMendlingEtAl2013\;HenkelPerjonsSneiders2015\;HerzbergKirchnerWeske2015\;KurzSchmidtFleischmannEtAl2015\;Kuzin2013\;MarinLotrietPoll2014\;MarinLotrietPoll2015\;MertensGaillyPoels2015\;Motahari-NezhadSwenson2013\;OsuszekStanek2015\;ThomasDiamentMartinoEtAl2012\;WangTraore2014\;WeilkiensWeissGrassEtAl2015\;WiebringSandkuhl2015\;Zeising_2014\;;
-1 ExplicitGroup:Background\;0\;Porter1988\;;
-1 ExplicitGroup:BPMN\;0\;;
+1 ExplicitGroup:proposal\;0\;Aalst2011\;BatoulisMeyerBazhenovaEtAl2015\;BiardMauffBigandEtAl2015\;BiardMauffBigandEtAl2015a\;CMMNspec2014\;Dumas2013\;HenkelPerjonsSneiders2015\;HerzbergKirchnerWeske2015\;KurzSchmidtFleischmannEtAl2015\;Kuzin2013\;MarinLotrietPoll2014\;MarinLotrietPoll2015\;MertensGaillyPoels2015\;Motahari-NezhadSwenson2013\;OsuszekStanek2015\;ThomasDiamentMartinoEtAl2012\;WangTraore2014\;WeilkiensWeissGrassEtAl2015\;WiebringSandkuhl2015\;Zeising_2014\;;
+1 ExplicitGroup:Background\;0\;Lankhorst2009\;Porter1988\;white2006\;;
+1 ExplicitGroup:BPMN\;0\;Allweyer2010\;Recker2010\;ReckerIndulskaRosemannEtAl2006\;Repa2014\;;
 1 ExplicitGroup:CMMN\;0\;;
 1 ExplicitGroup:DMN\;0\;;
 }
