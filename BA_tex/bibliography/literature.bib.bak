@@ -1,10 +1,14 @@
 % Encoding: UTF-8
 
 @Manual{CMMNspec2014,
-  title         = {{C}ase {M}anagement {M}odel and {N}otation},
+  author        = {The Object Management Group},
+  editor        = {The Object Management Group},
+  title         = {{C}ase {M}anagement {M}odel and {N}otation version 1.0},
   year          = {2014},
+  date          = {2014-05-01},
   edition       = {Version 1.0},
   organization  = {Object Management Group},
+  url           = {www.omg.org/spec/CMMN},
   bdsk-file-1   = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QLy4uLy4uLy4uLy4uLy4uLy4uL0Rvd25sb2Fkcy9mb3JtYWwtMTQtMDUtMDUucGRm0hcLGBlXTlMuZGF0YU8RAZIAAAAAAZIAAgAAC0Z1c2lvbkRyaXZlAAAAAAAAAAAAAAAAAAAAAMslZbRIKwAAABzeXxNmb3JtYWwtMTQtMDUtMDUucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcDll0qb7MwAAAAAAAAAAAAYAAgAACSAAAAAAAAAAAAAAAAAAAAAJRG93bmxvYWRzAAAQAAgAAMslV6QAAAARAAgAANKm7SMAAAABAAwAHN5fABy3gAACk+4AAgA6RnVzaW9uRHJpdmU6VXNlcnM6AERvbWluaWs6AERvd25sb2FkczoAZm9ybWFsLTE0LTA1LTA1LnBkZgAOACgAEwBmAG8AcgBtAGEAbAAtADEANAAtADAANQAtADAANQAuAHAAZABmAA8AGAALAEYAdQBzAGkAbwBuAEQAcgBpAHYAZQASACtVc2Vycy9Eb21pbmlrL0Rvd25sb2Fkcy9mb3JtYWwtMTQtMDUtMDUucGRmAAATAAEvAAAVAAIADv//AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAMAAxQDNAmMCZQJqAnUCfgKMApAClwKgAqUCsgK1AscCygLPAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAtE=},
   date-added    = {2015-12-28 13:51:38 +0000},
   date-modified = {2015-12-28 13:53:08 +0000},
@@ -21,7 +25,7 @@
 }
 
 @Book{Aalst2011,
-  author    = {Aalst, Wil van der},
+  author    = {van der Aalst, Wil},
   title     = {{P}rocess {M}ining - {D}iscovery, {C}onformance and {E}nhancement of {B}usiness {P}rocesses},
   year      = {2011},
   edition   = {2011. Aufl.},
@@ -43,6 +47,7 @@
 @InBook{BiardMauffBigandEtAl2015,
   author    = {Biard, Thierry and Mauff, Alexandre and Bigand, Michel and Bourey, Jean-Pierre},
   title     = {{R}isks and {R}esilience of {C}ollaborative {N}etworks: 16\textsuperscript{th} {IFIP} {WG} 5.5~{W}orking {C}onference on {V}irtual {E}nterprises, {PRO}-{VE} 2015, {A}lbi, {France},, {October} 5-7, 2015, {P}roceedings},
+  booktitle = {Risks and Resilience of Collaborative Networks},
   year      = {2015},
   editor    = {Camarinha-Matos, M. Luis and B{\'e}naben, Fr{\'e}d{\'e}rick and Picard, Willy},
   publisher = {Springer International Publishing},
@@ -50,6 +55,7 @@
   chapter   = {Separation of Decision Modeling from Business Process Modeling Using New ``Decision Model and Notation'' (DMN) for Automating Operational Decision-Making},
   pages     = {489--496},
   doi       = {10.1007/978-3-319-24141-8_45},
+  url       = {http://dx.doi.org/10.1007/978-3-319-24141-8_45},
   address   = {Cham},
   keywords  = {DMN, Decision modeling},
 }
@@ -98,6 +104,7 @@
 @InBook{Kuzin2013,
   author    = {Kuzin, Vadim and Kuzina, Galina},
   title     = {{O}n the {M}ove to {M}eaningful {I}nternet {S}ystems: {OTM} 2013~{W}orkshops: {C}onfederated {I}nternational {W}orkshops: {OTM} {A}cademy, {OTM} {I}ndustry {C}ase {S}tudies {P}rogram, {ACM}, {EI}2{N}, {ISDE}, {META}4e{S}, {ORM}, {S}e{D}e{S}, {SINCOM}, {SMS}, and {SOMOCO} 2013, {G}raz, {Austria}, {September} 9 - 13, 2013, {P}roceedings},
+  booktitle = {Lecture Notes in Computer Science},
   year      = {2013},
   editor    = {Demey, Yan Tang and Panetto, Herv{\'e}},
   publisher = {Springer Berlin Heidelberg},
@@ -105,6 +112,7 @@
   chapter   = {CMMN Implementation in Executable Model of Business Process at Order-Based Manufacturing Enterprise},
   pages     = {112--123},
   doi       = {10.1007/978-3-642-41033-8_18},
+  url       = {http://dx.doi.org/10.1007/978-3-642-41033-8_18},
   address   = {Berlin, Heidelberg},
 }
 
@@ -137,18 +145,18 @@
 }
 
 @InProceedings{MarinLotrietPoll2015,
-  author        = {Mike A. Marin and Hugo Lotriet and John A. Van Der Poll},
-  title         = {{M}etrics for the {C}ase {M}anagement {M}odeling and {N}otation ({CMMN}) {S}pecification},
-  booktitle     = {Proceedings of the 2015 Annual Research Conference on South African Institute of Computer Scientists and Information Technologists - {SAICSIT} {\textquotesingle}15},
-  year          = {2015},
-  publisher     = {Association for Computing Machinery ({ACM})},
-  doi           = {10.1145/2815782.2815813},
-  __markedentry = {[Dominik:1]},
+  author    = {Mike A. Marin and Hugo Lotriet and John A. Van Der Poll},
+  title     = {{M}etrics for the {C}ase {M}anagement {M}odeling and {N}otation ({CMMN}) {S}pecification},
+  booktitle = {Proceedings of the 2015 Annual Research Conference on South African Institute of Computer Scientists and Information Technologists - {SAICSIT} {\textquotesingle}15},
+  year      = {2015},
+  publisher = {Association for Computing Machinery ({ACM})},
+  doi       = {10.1145/2815782.2815813},
 }
 
 @InBook{HerzbergKirchnerWeske2015,
   author    = {Herzberg, Nico and Kirchner, Kathrin and Weske, Mathias},
   title     = {{B}usiness {P}rocess {M}anagement {W}orkshops: {BPM} 2014 {I}nternational {W}orkshops, {E}indhoven, {T}he {Netherlands}, {September} 7-8, 2014, {R}evised {P}apers},
+  booktitle = {Business Process Management Workshops},
   year      = {2015},
   editor    = {Fournier, Fabiana and Mendling, Jan},
   publisher = {Springer International Publishing},
@@ -156,6 +164,7 @@
   chapter   = {Modeling and Monitoring Variability in Hospital Treatments: A Scenario Using CMMN},
   pages     = {3--15},
   doi       = {10.1007/978-3-319-15895-2_1},
+  url       = {http://dx.doi.org/10.1007/978-3-319-15895-2_1},
   address   = {Cham},
 }
 
@@ -170,24 +179,26 @@
 }
 
 @InCollection{MertensGaillyPoels2015,
-  author    = {Steven Mertens and Frederik Gailly and Geert Poels},
-  title     = {{E}nhancing {D}eclarative {P}rocess {M}odels with {DMN} {D}ecision {L}ogic},
-  booktitle = {Enterprise, Business-Process and Information Systems Modeling},
-  year      = {2015},
-  publisher = {Springer Science $\mathplus$ Business Media},
-  pages     = {151--165},
-  doi       = {10.1007/978-3-319-19237-6_10},
-  keywords  = {DMN, Decision modeling},
+  author        = {Steven Mertens and Frederik Gailly and Geert Poels},
+  title         = {{E}nhancing {D}eclarative {P}rocess {M}odels with {DMN} {D}ecision {L}ogic},
+  booktitle     = {Enterprise, Business-Process and Information Systems Modeling},
+  year          = {2015},
+  publisher     = {Springer Science $\mathplus$ Business Media},
+  pages         = {151--165},
+  doi           = {10.1007/978-3-319-19237-6_10},
+  __markedentry = {[Dominik:1]},
+  keywords      = {DMN, Decision modeling},
 }
 
 @InCollection{BatoulisMeyerBazhenovaEtAl2015,
-  author    = {Kimon Batoulis and Andreas Meyer and Ekaterina Bazhenova and Gero Decker and Mathias Weske},
-  title     = {{E}xtracting {D}ecision {L}ogic from {P}rocess {M}odels},
-  booktitle = {Advanced Information Systems Engineering},
-  year      = {2015},
-  publisher = {Springer Science $\mathplus$ Business Media},
-  pages     = {349--366},
-  doi       = {10.1007/978-3-319-19069-3_22},
+  author        = {Kimon Batoulis and Andreas Meyer and Ekaterina Bazhenova and Gero Decker and Mathias Weske},
+  title         = {{E}xtracting {D}ecision {L}ogic from {P}rocess {M}odels},
+  booktitle     = {Advanced Information Systems Engineering},
+  year          = {2015},
+  publisher     = {Springer Science $\mathplus$ Business Media},
+  pages         = {349--366},
+  doi           = {10.1007/978-3-319-19069-3_22},
+  __markedentry = {[Dominik:1]},
 }
 
 @InCollection{WiebringSandkuhl2015,
@@ -202,14 +213,15 @@
 }
 
 @InCollection{BiardMauffBigandEtAl2015a,
-  author    = {Thierry Biard and Alexandre Le Mauff and Michel Bigand and Jean-Pierre Bourey},
-  title     = {{S}eparation of {D}ecision {M}odeling from {B}usiness {P}rocess {M}odeling {U}sing {N}ew {\textquotedblleft}{D}ecision {M}odel and {N}otation{\textquotedblright} ({DMN}) for {A}utomating {O}perational {D}ecision-{M}aking},
-  booktitle = {Risks and Resilience of Collaborative Networks},
-  year      = {2015},
-  publisher = {Springer Science $\mathplus$ Business Media},
-  pages     = {489--496},
-  doi       = {10.1007/978-3-319-24141-8_45},
-  keywords  = {DMN, Decision modeling},
+  author        = {Thierry Biard and Alexandre Le Mauff and Michel Bigand and Jean-Pierre Bourey},
+  title         = {{S}eparation of {D}ecision {M}odeling from {B}usiness {P}rocess {M}odeling {U}sing {N}ew {\textquotedblleft}{D}ecision {M}odel and {N}otation{\textquotedblright} ({DMN}) for {A}utomating {O}perational {D}ecision-{M}aking},
+  booktitle     = {Risks and Resilience of Collaborative Networks},
+  year          = {2015},
+  publisher     = {Springer Science $\mathplus$ Business Media},
+  pages         = {489--496},
+  doi           = {10.1007/978-3-319-24141-8_45},
+  __markedentry = {[Dominik:1]},
+  keywords      = {DMN, Decision modeling},
 }
 
 @InProceedings{ThomasDiamentMartinoEtAl2012,
@@ -238,7 +250,7 @@
 
 @Article{Recker2010,
   author    = {Jan Recker},
-  title     = {{O}pportunities and constraints: the current struggle with {BP}{MN}},
+  title     = {{O}pportunities and constraints: the current struggle with {BPMN}},
   year      = {2010},
   volume    = {16},
   number    = {1},
@@ -252,7 +264,7 @@
 
 @InProceedings{Repa2014,
   author    = {V. Repa and O. Zelenzfik},
-  title     = {{M}ethodological limitations of modeling languages {BP}{MN} and {ARIS}},
+  title     = {{M}ethodological limitations of modeling languages {BPMN} and {ARIS}},
   booktitle = {Proc. 15th Int Control Conf. (ICCC) Carpathian},
   year      = {2014},
   month     = may,
@@ -349,15 +361,94 @@
   url       = {https://books.google.de/books?id=fdlC7K\_3dzEC},
 }
 
+@Article{aalst2003,
+  author    = {W.M.P. van der Aalst and M. Stoffele and J.W.F. Wamelink},
+  title     = {{C}ase handling in construction},
+  year      = {2003},
+  volume    = {12},
+  number    = {3},
+  month     = {may},
+  pages     = {303--320},
+  doi       = {10.1016/s0926-5805(02)00106-1},
+  url       = {http://dx.doi.org/10.1016/S0926-5805(02)00106-1},
+  journal   = {Automation in Construction},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{aalst2005,
+  author    = {Wil M.P. van der Aalst and Mathias Weske and Dolf Grünbauer},
+  title     = {{C}ase handling: a new paradigm for business process support},
+  year      = {2005},
+  volume    = {53},
+  number    = {2},
+  month     = {may},
+  pages     = {129--162},
+  doi       = {10.1016/j.datak.2004.07.003},
+  url       = {http://dx.doi.org/10.1016/j.datak.2004.07.003},
+  journal   = {Data {\&} Knowledge Engineering},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Goedertier2013,
+  author        = {Stijn Goedertier and Jan Vanthienen and Filip Caron},
+  title         = {{D}eclarative business process modelling: principles and modelling languages},
+  year          = {2013},
+  volume        = {9},
+  number        = {2},
+  month         = {sep},
+  pages         = {161--185},
+  doi           = {10.1080/17517575.2013.830340},
+  url           = {http://dx.doi.org/10.1080/17517575.2013.830340},
+  __markedentry = {[Dominik:1]},
+  journal       = {Enterprise Information Systems},
+  publisher     = {Informa {UK} Limited},
+}
+
+@Book{Fish2012,
+  author        = {Alan N. Fish},
+  title         = {{K}nowledge {A}utomation: {H}ow to {I}mplement {D}ecision {M}anagement in {B}usiness {P}rocesses},
+  year          = {2012},
+  date          = {2012-03-11},
+  publisher     = {JOHN WILEY \& SONS INC},
+  isbn          = {111809476X},
+  pagetotal     = {180 Seiten},
+  url           = {http://www.ebook.de/de/product/16766746/alan_n_fish_knowledge_automation_how_to_implement_decision_management_in_business_processes.html},
+  __markedentry = {[Dominik:1]},
+  ean           = {9781118094761},
+}
+
+@Article{MendlingReijersAalst2010,
+  author        = {J. Mendling and H.A. Reijers and W.M.P. van der Aalst},
+  title         = {{S}even process modeling guidelines (7{PMG})},
+  year          = {2010},
+  volume        = {52},
+  number        = {2},
+  month         = {feb},
+  pages         = {127--136},
+  doi           = {10.1016/j.infsof.2009.08.004},
+  url           = {http://dx.doi.org/10.1016/j.infsof.2009.08.004},
+  __markedentry = {[Dominik:1]},
+  journal       = {Information and Software Technology},
+  publisher     = {Elsevier {BV}},
+}
+
+@TechReport{BPMNspec,
+  title       = {{B}usiness {P}rocess {M}odel and {N}otation},
+  institution = {The Object Management Group},
+  year        = {2013},
+  date        = {2013-09-12},
+  note        = {Version 2.0.2},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
 1 ExplicitGroup:proposal\;0\;Aalst2011\;BatoulisMeyerBazhenovaEtAl2015\;BiardMauffBigandEtAl2015\;BiardMauffBigandEtAl2015a\;CMMNspec2014\;Dumas2013\;HenkelPerjonsSneiders2015\;HerzbergKirchnerWeske2015\;KurzSchmidtFleischmannEtAl2015\;Kuzin2013\;MarinLotrietPoll2014\;MarinLotrietPoll2015\;MertensGaillyPoels2015\;Motahari-NezhadSwenson2013\;OsuszekStanek2015\;ThomasDiamentMartinoEtAl2012\;WangTraore2014\;WeilkiensWeissGrassEtAl2015\;WiebringSandkuhl2015\;Zeising_2014\;;
-1 ExplicitGroup:Background\;0\;Lankhorst2009\;Porter1988\;white2006\;;
-1 ExplicitGroup:BPMN\;0\;Allweyer2010\;Recker2010\;ReckerIndulskaRosemannEtAl2006\;Repa2014\;;
-1 ExplicitGroup:CMMN\;0\;;
-1 ExplicitGroup:DMN\;0\;;
+1 ExplicitGroup:Background\;0\;Allweyer2010\;Lankhorst2009\;Porter1988\;aalst2003\;aalst2005\;white2006\;;
+1 ExplicitGroup:BPMN\;0\;Allweyer2010\;BPMNspec\;Recker2010\;ReckerIndulskaRosemannEtAl2006\;Repa2014\;WiebringSandkuhl2015\;white2006\;;
+1 ExplicitGroup:CMMN\;0\;CMMNspec2014\;HenkelPerjonsSneiders2015\;KurzSchmidtFleischmannEtAl2015\;Kuzin2013\;MarinLotrietPoll2014\;MarinLotrietPoll2015\;Motahari-NezhadSwenson2013\;OsuszekStanek2015\;WangTraore2014\;Zeising_2014\;aalst2003\;aalst2005\;;
+1 ExplicitGroup:DMN\;0\;BatoulisMeyerBazhenovaEtAl2015\;BiardMauffBigandEtAl2015a\;Fish2012\;Goedertier2013\;MendlingReijersAalst2010\;MertensGaillyPoels2015\;;
 }
 
 @Comment{jabref-meta: groupsversion:3;}

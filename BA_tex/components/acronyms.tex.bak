@@ -13,7 +13,7 @@
 \end{center}
 \vspace{1cm}
 
-\begin{acronym}
+\begin{acronym}[bash]
 \acro{CMMN} {Case Management and Notation Model}
 \acro {DMN} {Decision Model and Notation}
 \acro {OMG} {Object Management Group}
@@ -25,4 +25,5 @@
 \acro {BPMI} {Business Process Management Initiative}
 \acro {BPEL} {Business Process Execution Language}
 \acro {UML} {Unified Modeling Language}
+\acro {DRD} {Decision Requirement Diagram}
 \end{acronym}

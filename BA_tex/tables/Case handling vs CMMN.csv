@@ -1,0 +1,8 @@
+;van der Aalst;CMMN Specification
+Product;Case ;Case 
+Atomic Unit of work;Activity / Task;Task
+Information Handler;Data Object;Case File Items
+Information Representation;Forms;
+Executing Person;Actors and Roles;Human tasks with asignees
+Connectors;not specified;specified
+Triggers;not specified;Event Listeners

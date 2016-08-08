@@ -97,8 +97,7 @@ T.~Allweyer.
 
 \bibitem{Repa2014}
 V.~Repa and O.~Zelenzfik.
-\newblock {M}ethodological limitations of modeling languages {BP}{MN} and
-  {ARIS}.
+\newblock {M}ethodological limitations of modeling languages {BPMN} and {ARIS}.
 \newblock In {\em Proc. 15th Int Control Conf. (ICCC) Carpathian}, pages
   507--512, May 2014.
 
@@ -108,5 +107,32 @@ Jan~C. Recker, Marta Indulska, Michael Rosemann, and Peter Green.
   {P}ractice.
 \newblock In Jan Ljungberg and Magnus Andersson, editors, {\em 14th European
   Conference on Information Systems}, Goeteborg, Sweden, 2006.
+
+\bibitem{aalst2003}
+W.M.P. van~der Aalst, M.~Stoffele, and J.W.F. Wamelink.
+\newblock {C}ase handling in construction.
+\newblock {\em Automation in Construction}, 12(3):303--320, may 2003.
+
+\bibitem{Goedertier2013}
+Stijn Goedertier, Jan Vanthienen, and Filip Caron.
+\newblock {D}eclarative business process modelling: principles and modelling
+  languages.
+\newblock {\em Enterprise Information Systems}, 9(2):161--185, sep 2013.
+
+\bibitem{BPMNspec}
+{B}usiness {P}rocess {M}odel and {N}otation.
+\newblock Technical report, The Object Management Group, 2013.
+\newblock Version 2.0.2.
+
+\bibitem{Fish2012}
+Alan~N. Fish.
+\newblock {\em {K}nowledge {A}utomation: {H}ow to {I}mplement {D}ecision
+  {M}anagement in {B}usiness {P}rocesses}.
+\newblock JOHN WILEY \& SONS INC, 2012.
+
+\bibitem{MendlingReijersAalst2010}
+J.~Mendling, H.A. Reijers, and W.M.P. van~der Aalst.
+\newblock {S}even process modeling guidelines (7{PMG}).
+\newblock {\em Information and Software Technology}, 52(2):127--136, feb 2010.
 
 \end{thebibliography}
