@@ -73,6 +73,12 @@
 	\phantomsection
 	\addcontentsline{toc}{chapter}{Table of contents}
 	\tableofcontents
+	\phantomsection
+	\addcontentsline{toc}{chapter}{\listfigurename}
+	\listoffigures 
+	\phantomsection
+	\addcontentsline{toc}{chapter}{\listtablename}
+	\listoftables 
   	\clearemptydoublepage
   
 	\mainmatter
@@ -97,10 +103,6 @@
 		\renewcommand\thesection{}
 %		\input{chapters/oneAppendix}
 
-	\clearemptydoublepage		
-	\phantomsection
-	\addcontentsline{toc}{chapter}{\listfigurename}
-	\listoffigures 
 	
     \clearemptydoublepage
 	\bibliography{bibliography/literature}
