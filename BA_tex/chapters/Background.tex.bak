@@ -13,5 +13,53 @@ ARIS was published 1994 by August Wilhelm Scheer, a researcher for Business Info
 \subsection{Shortcomings} 
 "As the name already indicates, BPMN is restricted to process modeling [...]" \cite{Lankhorst2009}. The goal in terms of BPMN was to create a powerful tool for modeling traditional processes. BPMN is an interchangeable language predestined as a middleware between the database and software layers. It has the ability to be executed \textit{Business Process Execution Language} (BPEL) and a well-known set of symbols and artifacts for modeling the diagrams. Additionally, it inherited its simplicity from EPCs and the \textit{Unified Modeling Language} (UML), which is also part of the OMG family. \\
 This simplicity, however, has limitations when it comes to agile and decision intensive models. Decisions, for instance, are illustrated by gateways. These gateways work as connectors separating the process flow into different branches. Each branch has a token wandering in flow direction through the graph. But what if a business wants to change decisions in real time without losing the tokens flowing through the chart? At the current state of development, which is BPMN v 2.0.2, there is no possibility to do so. This is only one of the problems which \cite{Repa2014} and \cite{ReckerIndulskaRosemannEtAl2006} investigated more closely. They both came to the conclusion that BPMN is lacking the ability implement business rules which leads the user to display them in spreadsheets. 
-Another downside is the impossibility of modeling agile processes. People working in departments which do not have strict processes but more agile ones cannot use the supportive power of BPMN or process optimization. Despite their knowledge intensive work, they still can benefit from optimizing workflows, or even help new employees getting known to their new job in the department. In this thesis, we will not focus on the d
+Another downside is the impossibility of modeling agile processes. People working in departments which do not have strict processes but more agile ones cannot use the supportive power of BPMN or process optimization. Despite their knowledge intensive work, they still can benefit from optimizing workflows, or even help new employees getting known to their new job in the department. In this thesis, we will not focus on \ac{BPMN}'s syntax deficits but more on the possibility CMMN and DMN offer. 
 
+\section{Origins of CMMN}
+\ac{CMMN} was standardized by the \ac{OMG} in 2014 which represented a peak in terms of notation for the case management research. However, research began more than ten years ago when Wil Van der Aalst first published his paper about case handling offering a new approach for flexible processes \cite{aalst2003}. He summarized different opinions from several authors into the statement that contemporary workflow-systems were not able to handle flexible processes. To be precise, he identified four problems: 
+\begin{itemize}
+\item work needs to be divided into atomic steps, so called 
+\item the routing of activities was used to distribute the tasks and authorize workers the workers to do them 
+\item \textit{context tunneling}: workers only focused on the process flow but not on the context surrounding the activities
+\item the individual's focus was more on what \textit{should} be done instead of what \textit{cane} be done 
+\end{itemize} 
+
+He portrayed a \textit{blind surgeon} as a metaphor who incorporates the four problems in his daily work, for instance refusing a blood sample when it was necessary but not part of the problem in case of what could be done and what should be done \cite{aalst2003}.
+Consequently he solved the problems inventing an adapted model for cases, which consists of objects that can be found in the OMG'S specification from 2014 as well. In \ref{tab:casehandling} a comparison of the key objects of Case Handling and CMMN is provided. The Case Handling's key objects are:
+\begin{itemize}
+\item activities or tasks which are the atomic unit of work
+\item Actors with roles who execute, skip or redo the tasks
+\item Case representing the product the actor is producing 
+\item data objects for information and values 
+\item forms that present data objects from different point of views 
+\end{itemize}
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\caption{Comparison CMMN and Case Handling Model}
+\label{tab:casehandling}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+                           & van der Aalst    & CMMN Specification        \\ \midrule
+Product                    & Case             & Case                      \\ \midrule
+Atomic Unit of work        & Activity / Task  & Task                      \\ \midrule
+Information Handler        & Data Object      & Case File Items           \\ \midrule
+Information Representation & Forms            &                           \\ \midrule
+Executing Person           & Actors and Roles & Human tasks with asignees \\ \midrule
+Connectors                 & not specified    & specified                 \\ \midrule
+Triggers                   & not specified    & Event Listeners           \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+Van der Aalst proved his concept practically in a joint venture with dutch Construction company. They applied the Case Handling model and built a prototype with FLOWer resulting in a rudimentary worklfow management system. They requested workers to use the system during their work and evaluated the prototype in the end. Van der Aalst calculated a Return on Investment (ROI) of 0.7 to 1.4 years in the year 2002 \cite{aalst2003}. With today's workflow management systems, the ROI would presumably be much higher. 
+
+\section{Origins of DMN}
+The \acl{DMN} language describes processes in a different way as \ac{BPMN} does. They differ in their way of how to achieve the actual goal of the process. BPMN, for instance, describes an imperative way. Goedertiert et al. define imperative as "[...] [focusing] on providing a precise definition of the control-flow of the business process in a graph-based process modeling language" \cite{Goedertier2013}. In order to model decisions, BPMN has a rich amount of gateways to direct the control-flow into the desired tasks depending on the decisions being made. Additionally BPMN provides a Business Rule Task sending data to and receiving it from a business rule engine \cite{BPMNspec}. However, this business rule task " [...] cannot be decomposed any further - and involves no user interaction" \cite{Fish2012}. Thus the modeler is not able to define roles for decision, define any requirements for these and is not able to decompose them into fine-grained steps. This might be unnecessary for simple decisions, but in larger and more sophisticated diagrams, complex decisions cause huge branches in the control-flow making the diagram confusing the reader. \cite{MendlingReijersAalst2010} formulated \textit{Seven Process Modeling Guidelines} according to an empirical study. They built an \ac{EPC} model which with various branches connected by \textit{AND}, \textit{OR} and \textit{XOR} connections. Additionally they violated naming conventions and used multiple end points. One of the resulting guidelines (G1) states "Use as few elements in the model as possible" \cite{MendlingReijersAalst2010}, which is contradicting the imperative way of modeling decisions in BPMN.  
+In this situation, declarative modeling approaches are more appropriate. According to Alan Fish, declarative languages "[...] focus on what should be done in order to achieve business goals, without prescribing how an end state should be reached" \cite{Fish2012}. The CMMN specification is a declarative modeling approach as well, whereas EPCs and BPMN aren't. 
+Fish also described a way to refine the decision requirements. He invented the \ac{DRD} to show " [...] the structure of the required decision-making as a network of decisions and subdecisions with their supporting areas of business knowledge and data" \cite{Fish2012}. The main use for this DRD is to make knowledge involved in decision-making explicit instead of implicit. 
+In the \ac{DMN} Specification by the Object Management Group, a DRD can also be found. This DRD includes the elements as Fish invented for his DRD: Decisions, Input Data (Fish: Data area), Knowledge Source (Fish: Knowledge Area). However, the OMG's DRD is a much more refined modeling approach since it incorporates Fish's DRD and is under constant development. 
+Summarizing the findings, the DMN technique is derived from Fish's findings on how to automate decisions and the declarative modeling approaches which supplement BPMN with tools to model processes without strict control-flows.  
