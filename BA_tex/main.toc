@@ -21,12 +21,16 @@
 \contentsline {section}{\numberline {2.1}BPMN}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}CMMN}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}DMN}{10}{section.2.3}
-\contentsline {part}{\numberline {III}The Evolution from BPMN to CMMN and DMN}{13}{part.3}
-\contentsline {chapter}{\numberline {3}The Evolution from BPMN to CMMN and DMN}{15}{chapter.3}
+\contentsline {part}{\numberline {III}Background}{13}{part.3}
+\contentsline {chapter}{\numberline {3}Background}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}BPMN and its shortcomings}{15}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Origins of BPMN}{15}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Shortcomings}{16}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Origins of CMMN}{17}{section.3.2}
+\contentsline {section}{\numberline {3.2}Origins of CMMN}{16}{section.3.2}
 \contentsline {section}{\numberline {3.3}Origins of DMN}{18}{section.3.3}
-\contentsline {part}{Appendix}{23}{part*.10}
-\contentsline {chapter}{\nonumberline Bibliography}{23}{appendix*.11}
+\contentsline {part}{\numberline {IV}Indicators}{21}{part.4}
+\contentsline {chapter}{\numberline {4}Differentiating between BPMN, CMMN and DMN}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}BPMN and routine processes}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Theoretical indicators of routine processes and BPMN}{23}{subsection.4.1.1}
+\contentsline {part}{Appendix}{29}{part*.10}
+\contentsline {chapter}{\nonumberline Bibliography}{29}{appendix*.11}

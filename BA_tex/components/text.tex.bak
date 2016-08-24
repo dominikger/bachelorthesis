@@ -20,9 +20,13 @@
 \label{part:relatedWork}
 \input{chapters/Related_Work}
 
-\part[The Evolution from BPMN to CMMN and DMN]{The Evolution from BPMN to CMMN and DMN}
+\part[Background]{Background}
 \label{part:background}
 \input{chapters/Background}
+
+\part{Indicators}
+\label{part:indicators}
+\input{chapters/Indicators}
 
 %
 %% ---------------------------------------------------------------------------

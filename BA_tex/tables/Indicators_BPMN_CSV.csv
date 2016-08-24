@@ -1,0 +1,9 @@
+INDICATORS;BPMN
+General;"predefined sequences ofactivities with decisions (gateways), to direct the sequence along the alternative paths or for iterations "
+Type of process;"predefined, fully specified,repeatable, business process, control flow oriented "
+Type of work;"routine work with possibleautomation"
+Type of decisions;"simple driven by rules or events"
+Control flow;strict and necessary
+intervention at run-time;no
+typical application;"value-added chain processes, workflows accross companies / departments etc."
+key question before modeling;Does the work consist of routine elements which can be optimized or even automated? 
