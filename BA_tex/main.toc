@@ -31,6 +31,6 @@
 \contentsline {part}{\numberline {IV}Indicators}{21}{part.4}
 \contentsline {chapter}{\numberline {4}Differentiating between BPMN, CMMN and DMN}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}BPMN and routine processes}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Theoretical indicators of routine processes and BPMN}{23}{subsection.4.1.1}
-\contentsline {part}{Appendix}{29}{part*.10}
-\contentsline {chapter}{\nonumberline Bibliography}{29}{appendix*.11}
+\contentsline {section}{\numberline {4.2}CMMN and knowledge work}{27}{section.4.2}
+\contentsline {part}{Appendix}{37}{part*.13}
+\contentsline {chapter}{\nonumberline Bibliography}{37}{appendix*.14}

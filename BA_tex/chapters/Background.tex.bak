@@ -18,7 +18,7 @@ Another downside is the impossibility of modeling agile processes. People workin
 \section{Origins of CMMN}
 \ac{CMMN} was standardized by the \ac{OMG} in 2014 which represented a peak in terms of notation for the case management research. However, research began more than ten years ago when Wil Van der Aalst first published his paper about case handling offering a new approach for flexible processes \cite{aalst2003}. He summarized different opinions from several authors into the statement that contemporary workflow-systems were not able to handle flexible processes. To be precise, he identified four problems: 
 \begin{itemize}
-\item work needs to be divided into atomic steps, so called 
+\item work needs to be divided into atomic steps, so called tasks
 \item the routing of activities was used to distribute the tasks and authorize workers the workers to do them 
 \item \textit{context tunneling}: workers only focused on the process flow but not on the context surrounding the activities
 \item the individual's focus was more on what \textit{should} be done instead of what \textit{cane} be done 

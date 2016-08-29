@@ -139,4 +139,18 @@ J.~Mendling, H.A. Reijers, and W.M.P. van~der Aalst.
 {B}usiness {M}otivation {M}odel.
 \newblock Technical report, The Object Management Group, 2015.
 
+\bibitem{CMMNspec2014}
+The Object~Management Group.
+\newblock {\em {C}ase {M}anagement {M}odel and {N}otation version 1.0}.
+\newblock Object Management Group, version 1.0 edition, May 2014.
+
+\bibitem{aalst2005}
+Wil~M.P. van~der Aalst, Mathias Weske, and Dolf Grünbauer.
+\newblock {C}ase handling: a new paradigm for business process support.
+\newblock {\em Data {\&} Knowledge Engineering}, 53(2):129--162, may 2005.
+
+\bibitem{hinkelmann2015}
+Knut Hinkelmann.
+\newblock {C}ase {M}anagement {M}odel and {N}otation - {CMMN}, 2015.
+
 \end{thebibliography}

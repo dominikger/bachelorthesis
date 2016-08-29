@@ -3,49 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: bibliography/literature.bib
+Warning--entry type for "hinkelmann2015" isn't style-file defined
+--line 471 of file bibliography/literature.bib
 Warning--can't use both author and editor fields in Kuzin2013
 Warning--can't use both author and editor fields in BiardMauffBigandEtAl2015
 Warning--empty author in BPMNspec
 Warning--empty author in bmm2015
-You've used 21 entries,
+You've used 24 entries,
             1791 wiz_defined-function locations,
-            588 strings with 8774 characters,
-and the built_in function-call counts, 5427 in all, are:
-= -- 511
-> -- 194
+            604 strings with 9204 characters,
+and the built_in function-call counts, 5934 in all, are:
+= -- 556
+> -- 213
 < -- 10
-+ -- 73
-- -- 52
-* -- 322
-:= -- 777
-add.period$ -- 68
-call.type$ -- 21
-change.case$ -- 16
++ -- 81
+- -- 57
+* -- 354
+:= -- 856
+add.period$ -- 76
+call.type$ -- 24
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 291
-empty$ -- 561
-format.name$ -- 52
-if$ -- 1292
+cite$ -- 28
+duplicate$ -- 312
+empty$ -- 618
+format.name$ -- 57
+if$ -- 1404
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 26
-newline$ -- 107
-num.names$ -- 21
-pop$ -- 103
+int.to.str$ -- 24
+missing$ -- 27
+newline$ -- 121
+num.names$ -- 24
+pop$ -- 114
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 147
+skip$ -- 155
 stack$ -- 0
-substring$ -- 318
-swap$ -- 96
+substring$ -- 343
+swap$ -- 100
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 50
-width$ -- 23
-write$ -- 235
-(There were 4 warnings)
+while$ -- 55
+width$ -- 26
+write$ -- 265
+(There were 5 warnings)

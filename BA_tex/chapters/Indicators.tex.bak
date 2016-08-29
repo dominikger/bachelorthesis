@@ -7,10 +7,11 @@ Creating business process diagrams nowadays almost seems to be intuitive. This r
 Since BPMN is a broadly adopted modeling language and a standard that shaped the industry, users might be mislead when to use BPMN correctly. In this chapter, a definition of requirements and indicators will be provided for the correct use case scenario identification in terms of BPMN as well as a short introduction to the model. 
 
 \begin{sidewaysfigure}
-	\caption{A small BPMN example: the application process for study programs.}
-	\label{fig:BPMNex}
+
 	\centering
-	\includegraphics[scale=0.5]{../figures/differentiating/BPMN_Example_Student_Application.png} 
+	\includegraphics[scale=0.5]{../figures/chapter_indicators/BPMN_Example_Student_Application.png} 
+		\caption{A small BPMN example: the application process for study programs.}
+	\label{fig:BPMNex}
 \end{sidewaysfigure}
 
 Business Process Model and Notation incorporates \textit{Business Process}, which has been defined and redefined many times by today. For this thesis, we use the OMG's definition of business processes: 
@@ -46,8 +47,7 @@ Furthermore, the OMG's specification not only provides exclusions such as the on
 % \usepackage{graphicx}
 \begin{table}[]
 \centering
-\caption{BPMN indicators.}
-\label{tab:bpmnIndicatorsTable}
+
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
@@ -62,10 +62,88 @@ Typical application          & Value-added chain processes, workflows across com
 Key question before modeling & \begin{tabular}[c]{@{}l@{}}Does the work consist of routine elements which can \\ be optimized or even automated?\end{tabular}                                               \\ \bottomrule
 \end{tabular}%
 }
+\caption{BPMN indicators.}
+\label{tab:bpmnIndicatorsTable}
 \end{table}
 
 Information about processes is often stored in documents, deprecated models or held by knowledge carriers according to Dumas et al. \cite{Dumas2013}. This information needs to be extracted by the application of the so called \textit{Process Discovery}, which is in short gathering all the information in a technical or manual way before creating the models. Having this information gathered together, the key question before modeling is \textit{Does the work consist of routine elements which can be optimized or even automated?} (see \ref{tab:bpmnIndicatorsTable}). Routine processes occur regularly and their flow is "known a priori" according to \cite{Zeising_2014}. Consequently it is not intended to change the process flow during run-time, as routine are well-structured and predefined. This is a major problem for workers whose job is more based on knowledge and their experience than routine work, wherefore is Case Management and CMMN were forged and standardized. 
-In our example, the decisions are simple yes or no questions. One of them, \textit{Check grades}, is a business rule task containing a small table of when a grade acceptable or must be rejected. Overall, the decisions do not require modeling any requirements or personnel apart from the assignee involved in the decision making process. Furthermore, the decisions are always stuck with rules or events that happened before. The process itself is control-flow-oriented and the control flow is necessarily strict since every candidate needs to be processes in a fair and equal manner. In the end, the process could be automated completely with the correct workflowmanagementsystem and would not need any assignee to check the deadline or the grades. 
-According to the indicators, the example is modeled using the appropriate modeling language as the process was predefined and well-structured. To prove the indicators' validity, a use case example taken from the eKulturPortal GmbH \footnote{see \url{http://ekulturportal.de/}} is provided in chapter \textbf{TODO !!!!!}. 
+In our example, the decisions are simple yes or no questions. One of them, \textit{Check grades}, is a business rule task containing a small table of when a grade acceptable or must be rejected. Overall, the decisions do not require modeling any requirements or personnel apart from the assignee involved in the decision making process. Furthermore, the decisions are always stuck with rules or events that happened before. The process itself is control-flow-oriented and the control flow is necessarily strict since every candidate needs to be processed in a fair and equal manner. In the end, the process could be automated completely with the appropriate workflowmanagementsystem and would not need any assignee to check the deadline or the grades. 
+According to the indicators, the example is modeled using the suitable modeling language as the process was predefined and well-structured. To prove the indicators' validity, a use case example taken from the eKulturPortal GmbH \footnote{see \url{http://ekulturportal.de/}} is provided in chapter \textbf{TODO !!!!!}. 
 
 \section{CMMN and knowledge work}
+Routine work occurs in every company, every industry and even in our leisure time. However, not every job is comprised entirely of routine work. If a person is sick and needs to see the doctor, often the doctor's job consists of routine parts and ad hoc parts. Each patient suffers in a different way, has a private or statutory health insurance, is able to understand the doctor's language or not. In each case, the doctor or the medical personnel needs to decide in an ad hoc manner to identify the patient's disease and medicate him accordingly. Overall, this job requires more knowledge and experience than a strict workflow. Applying the BPMN indicators makes the necessity of a different modeling technique obvious as the indicators do not meet the requirements of this example (flexibility instead of a strict workflow, knowledge driven instead of control flow driven).
+Standardized by the OMG in 2014 \cite{CMMNspec2014}, the modeling language is intended to meet the requirements of knowledge intensive professions and support workers with models and their execution in workflowmanagementsystems. 
+The above described example diverges from the business processes explained in the BPMN section earlier. Instead of focusing on what \textit{has} to be done in which order, the medical personnel should adhere to what \textit{can} be done, as Van der Aalst et al. described in \cite{aalst2005}. This is an essential part of the \textit{Case Management} (CM) and \textit{Adaptive Case Management} (ACM) approach. Case management starts with a case such as a legal case, a patient's disease or "some other focal point around which actions are taken to achieve an objective" \cite{CMMNspec2014}. Each case contains a set of tasks and files necessary to achieve the goal. These sets are "minimally predefined" \cite{CMMNspec2014} resulting in two phases of working with cases: the design phase and the running phase \cite{CMMNspec2014}. During the design phase, tasks and information are aggregated in a manner that is very similar to business process designs. As a result, the work is available in a more structured way as it has been before yet with the possibility to perform the work in a completely ad hoc if necessary. Additionally, case management requires the run-time flexibility such as performing tasks depending on the situation, changing the order of tasks or even collaborate with different people involved as intended. 
+At a first glance, this seems counter-intuitive since the common understanding of modeling processes is modeling business processes or similar strictly structured ones. To illustrate the paradigm of case management and introduce the CMMN notation, figure \ref{fig:CMMNex} provides an example \todo{soll hier noch eine Legende angelegt werden?}. The subsequent explanation is derived from \cite{CMMNspec2014} and \cite{hinkelmann2015}.
+
+\begin{sidewaysfigure}
+
+	\label{fig:CMMNex}
+	\centering
+	\includegraphics[scale=0.5]{../figures/chapter_indicators/CMMN_Example_Proposal_Creation.png} 
+		\caption{CMMN example: Creating a research proposal.}
+\end{sidewaysfigure}
+
+The first element that immediately catches the eye in this example is a large folder depicting the \texttt{Case Plan Model}, a root element containing all further elements involved with a name tag in the upper right corner. Next, there is a big structure called a stage and illustrated as a rectangle. Similar to BPMN, stages form a group of elements into a sub process or - to put it in the CMMN context - in a sub case. Stages can be connected via sentries and connectors that are the lines between tasks and the diamond shaped exit or entry criteria. Both, exit and entry criteria trigger when events occur. There are three possibilities to make sentries trigger:
+\begin{itemize}
+\item \texttt{on [event] if [condition]} 
+\item \texttt{on [ event]}
+\item\texttt{if  [condition]}
+\end{itemize}
+
+According to the CMMN specification, this provides the opportunity to receive events and check whether they have effect on the following process steps \cite{CMMNspec2014}. In figure \ref{fig:CMMNex} a timing event is called \texttt{Deadline missed}. This event is connected to an exit criterion, denoted as a black diamond on the border of the Case Plan Model. When the event is triggered, the sentry checks \texttt{on [deadline missed] if [date today > deadline date]} \footnote{Note: This example is just for illustration purpose and incorporates no concrete syntax nor semantics.} and triggers the exit criterion terminating the case due to the missed deadline. A different event type is the \texttt{User Event} listening to user interactions that trigger the exit criterion. Besides these two event types, each task, stage and \texttt{Case File Item} can trigger events on their own which are received by sentries. \texttt{Case File Items} are containers for pieces of information, for instance the patient's record or in this example the papers which need to be read (not contained in the diagram). They are denoted as files known from the notation as computer files are depicted.
+Another structural element is the \texttt{Milestone}, an oval shaped form representing an "achievable target" \cite{CMMNspec2014} and providing the ability to measure the progress of a case. Each milestone can have multiple entry criteria or none to show that a milestone is reached or not. In general, "no work is directly associated with a milestone" \cite{CMMNspec2014} but rather a "completion of a set of tasks" or "the availability of key deliverable" \cite{CMMNspec2014}. Figure \ref{fig:CMMNex} contains two example milestones: \texttt{Research questions developed} and \texttt{Proposal created}. Both milestones are connected to either a stage or an exit criterion indicating a dependency. The first milestone needs to be achieved to create the research proposal, the latter one determines the successful termination of the case. \\
+As mentioned earlier, CM requires run-time flexibility and by now, there has nothing been explained but tasks, events and milestones which are per se inflexible. To guarantee run-time planning, tasks and stages have a discretionary version. Discretionary means, a user may decide during run-time if this task or stage will be executed in a following iteration. At this point, the knowledge and experience comes into play. In our example, the gathered papers might not be enough to provide good citations and emphasize the solution approach. Here,  only the writer himself can identify if he needs to do more research to find correct citations as this is a decision requiring knowledge and experience in writing research papers. It is to his or her discretion if the task will be executed or not. 
+Supplementary to \texttt{Discretionary Items}, \texttt{Planning Tables} indicate the ability to plan \texttt{Discretionary Items} and apply control mechanisms called \texttt{Applicability Rules}. Case workers are presented \texttt{Planning Items} if the corresponding \texttt{Applicability Rule} evaluates to true. Overall, this allows the modeler and the case workers to plan at design-time (creating the case model) and at run-time (planning the time discretionary items). 
+The last visible part of the CMMN notation that has not been explained is the type of tasks available. In the example case, there are four types of tasks (each type can be indicated in the upper right corner of the task):
+\begin{itemize}
+\item \texttt{Human Tasks} either blocking (indicated with a "User" in the upper right corner) or non-blocking with a hand in the right corner
+\item \texttt{Process Task} with a "Chevron" symbol 
+\item \texttt{Case Task} with a folder symbol 
+\end{itemize}
+
+Both \texttt{Human Tasks} indicate that an assignee with the appropriate role needs to fulfill the modeled work here. Non-blocking signifies this step can be done while other tasks of the model run simultaneously in contrast to the blocking one, which does not allow other tasks to be performed at the same time. A \texttt{Process Task} calls a simple business process modeled e.g. in BPMN and a \texttt{Case Task} calls a different case potentially independent from the one being executed. In figure \ref{fig:CMMNex}, \texttt{Read Papers} is a non-blocking human task, \texttt{read books} a non-blocking discretionary human task, \texttt{Formulate research questions} a blocking human task, \texttt{Describe related work} a case task and \texttt{Search papers} a business process task.
+Apart from the mentioned types of tasks, there a additional execution semantics as seen in the \texttt{Search papers} task. An exclamation mark signifies this task as to perform, a sharp that this task has several iterations and a play symbol indicates the \texttt{Manual Activation Rule} (not in the example). This rule is connected to entry criteria and transitions from the status \texttt{enabled} to \texttt{active} if the criterion's condition is fulfilled. 
+CMMN, in contrast to BPMN, offers a complete lifecycle with corresponding states. 
+
+\begin{figure}
+  \centering
+\includegraphics[width=0.7\textwidth]{../figures/chapter_indicators/Stage_and_Task_Lifecycle_CMMN.png} 
+\caption{Stage and Task Lifecycle according to figure 7.3 in the CMMN specification.}
+  \label{fig:CMMNstates}
+\end{figure}
+
+Figure \ref{fig:CMMNstates} is a replica of figure 7.3 in \cite{CMMNspec2014} and shows the different states and transitions for stages and tasks. These stages, compared to BPMN, allow the modeler and the worker to measure and to plan work in a different way than business processes are handled. One of the most commonly mentioned downside of BPMN is the lack of states and transitions according to \cite{Recker2010}. In the example (fig. \ref{fig:CMMNex}), states are not included since they are not visible in the notation and only occur during run-time. In addition to fig. \ref{fig:CMMNstates}, CMMN offers similar states for sentries and the whole case plan model and can be found in the execution semantics chapter in \cite{CMMNspec2014}. \\
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll@{}}
+\toprule
+Indicators                   & CMMN                                                                                                                                                                                                                                                            \\ \midrule
+General                      & \begin{tabular}[c]{@{}l@{}}Workflow can be managed in a flexible way or in a complete \\ ad hoc manner, overall cast cannot be orchestrated by \\ predefined sequence of tasks\end{tabular}                                                                     \\
+Type of process              & Depending on evolving circumstances, ad hoc, data centric                                                                                                                                                                                                       \\
+Type of work                 & Ad hoc, not predefined, sparsely routine work                                                                                                                                                                                                                   \\
+Type of decisions            & Stateful conditions, rules, exit and entry criteria                                                                                                                                                                                                            \\
+Control flow                 & Not necessary but can be modeled                                                                                                                                                                                                                                \\
+Intervention at run-time     & Yes                                                                                                                                                                                                                                                             \\
+Typical application          & \begin{tabular}[c]{@{}l@{}}Patient care, medical diagnosis, insurance cases, \\ governmental permitting, problem resolution in call centers, \\ sales and operations planning, invoice discrepancy handling, \\ engineering of made-to-order products\end{tabular} \\
+Key question before modeling & \begin{tabular}[c]{@{}l@{}}Does the work comprise unstructured elements and \\ ad hoc worklfows requiring knowledge or \\ experience instead of strict rules?\end{tabular}                                                                                      \\ \bottomrule
+\end{tabular}%
+}
+\caption{CMMN indicators.}
+\label{tab:cmmnIndicatorsTable}
+\end{table}
+
+Table \ref{tab:cmmnIndicatorsTable} shows a summary derived from the explanation and the example, both planting on the basis of the CMMN specification \cite{CMMNspec2014}. The example emphasized that CMMN is in general applicable for not predefined, to a high degree knowledge dependent work. Decisions are modeled in conditions on when to enter or exit stages, task or milestones. Rules such as \texttt{Application Rule} or \texttt{Repetition Rule} allow the modeler to guide the case worker through tasks and show him or her what tasks have to be done and which have to be done for a specific amount of iterations. However, decisions similar to gateways in BPMN are not in scope of this notation and dedicated to the case worker. In addition, the required flexibility is fulfilled by \texttt{Discretionary Items} allowing the workers with the appropriate role to adapt the workflow in during run-time. States as shown in figure \ref{fig:CMMNstates} contribute to this flexibility but also let the involved personnel measure the progress of each case. This results in a more manageable and verifiable way of Case Management. 
+
+\section{DMN and decision making}
+
+
+\listoftodos
+
