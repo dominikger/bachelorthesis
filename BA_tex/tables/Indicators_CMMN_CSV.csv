@@ -1,0 +1,9 @@
+INDICATORS;CMMN
+General;"workflow can be managed ina flexible way or in a complete ad hoc manner, overall castcannot be orchestrated by predefined sequence of tasks, data centric  "
+Type of process;"depending on evolving circumstances, ad hoc, data centric"
+Type of work;agile, ad hoc work 
+Type of decisions;only conditions in sentries and exit or entry criteria, but not explicitly modeled
+Control flow;not necessary but can be modeled
+intervention at run-time;yes
+typical application;"patient care, medical diagnosis,insurance cases, govermental permitting, problem resolutionin call centers, sales and operations planning, invoice discrepancy handling, engineering of made-to-order products  "
+key question before modeling;"Does the work comprise unstructuredelements and ad hoc worklfows which requiring knowledge  or experience than strict rules?"

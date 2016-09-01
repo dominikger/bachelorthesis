@@ -28,4 +28,8 @@
 \acro {DRD} {Decision Requirement Diagram}
 \acro {CM} {Case Management}
 \acro {ACM} {Adaptive Case Management}
+\acro {DRG} {Decision Requirement Graph}
+\acro {FEEL} {Friendly Enough Expression Language}
+\acro {SQL} {Structured Query Language}
+\acro {PMML} {Predictive Model Markup Language}
 \end{acronym}

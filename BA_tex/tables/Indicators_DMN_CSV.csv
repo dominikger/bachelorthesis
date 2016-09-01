@@ -1,0 +1,9 @@
+INDICATORS;DMN
+General;"Making implicit decisionaldependencies and involved personnel such as knowledge carriers explicit, run-time adjusting of decision logic"
+Type of process;decisions only, but with all the requirements and input data
+Type of work;human decision-making, automated deicison making, aggregation of knowledge, preparation of decisions
+Type of decisions;complex, data-centric, many requirements, engangement of human decision-makers 
+Control flow;dependencies only 
+Intervention at run-time;yes
+Typical application;"calculation of discount rates, salary, multi-instance decisions, cross divisional decisions involving several deciders, aggregation of data to get a specific output for a specific case, inter-divisional decision-making "
+Key question before modeling;Are there decisions that need to be automated or require extra information such as policies, a vast amount of input data or analytical models? 

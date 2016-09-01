@@ -32,5 +32,7 @@
 \contentsline {chapter}{\numberline {4}Differentiating between BPMN, CMMN and DMN}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}BPMN and routine processes}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}CMMN and knowledge work}{27}{section.4.2}
-\contentsline {part}{Appendix}{37}{part*.13}
-\contentsline {chapter}{\nonumberline Bibliography}{37}{appendix*.14}
+\contentsline {section}{\numberline {4.3}DMN and decision making}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{39}{section.4.4}
+\contentsline {part}{Appendix}{45}{part*.21}
+\contentsline {chapter}{\nonumberline Bibliography}{45}{appendix*.22}

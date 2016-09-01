@@ -153,4 +153,16 @@ Wil~M.P. van~der Aalst, Mathias Weske, and Dolf Grünbauer.
 Knut Hinkelmann.
 \newblock {C}ase {M}anagement {M}odel and {N}otation - {CMMN}, 2015.
 
+\bibitem{Recker2010}
+Jan Recker.
+\newblock {O}pportunities and constraints: the current struggle with {BPMN}.
+\newblock {\em Business Process Mgmt Journal}, 16(1):181--201, feb 2010.
+
+\bibitem{DMNmicroguide}
+Tom Debevoise, James Taylor, Jim Sinur, and Rick Geneva.
+\newblock {\em {T}he {M}icro{G}uide to {P}rocess and {D}ecision {M}odeling in
+  {BPMN}/{DMN}: {B}uilding {M}ore {E}ffective {P}rocesses by {I}ntegrating
+  {P}rocess {M}odeling with {D}ecision {M}odeling}.
+\newblock CreateSpace Independent Publishing Platform, USA, 2014.
+
 \end{thebibliography}
