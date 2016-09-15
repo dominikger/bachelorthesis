@@ -1,0 +1,14 @@
+Indicators;CMMN
+Documentation style;Descriptions of best practices and recommendations
+Preceding process map ;Cluster
+Characteristics of work;Ad hoc, partly predefined, routine work elements, knowledge driven 
+Characteristics of process;Ad hoc adaption necessary, partly predictable, flexible, partly unstructured, human centric
+Characteristics of decisions;Stateful conditions, rules, exit and entry criteria
+Control flow;Not necessary but can be modeled
+intervention at run-time;Yes
+Objective;Support of knowledge workers
+Characteristics of process;Case
+Typical application;"Patient care, medical diagnosis,insurance cases, 
+govermental permitting, problem resolutionin call centers, 
+sales and operations planning, invoice discrepancy handling, 
+engineering of made-to-order products"

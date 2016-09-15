@@ -30,9 +30,18 @@
 \contentsline {section}{\numberline {3.3}Origins of DMN}{18}{section.3.3}
 \contentsline {part}{\numberline {IV}Indicators}{21}{part.4}
 \contentsline {chapter}{\numberline {4}Differentiating between BPMN, CMMN and DMN}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}BPMN and routine processes}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}CMMN and knowledge work}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}DMN and decision making}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Summary}{39}{section.4.4}
-\contentsline {part}{Appendix}{45}{part*.21}
-\contentsline {chapter}{\nonumberline Bibliography}{45}{appendix*.22}
+\contentsline {section}{\numberline {4.1}Discovering the processes}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}The manual way}{23}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}The automated way}{28}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Introducing the indicators}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}BPMN and routine processes}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}CMMN and knowledge work}{37}{section.4.4}
+\contentsline {section}{\numberline {4.5}DMN and decision making}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{49}{section.4.6}
+\contentsline {part}{\numberline {V}Combination}{53}{part.5}
+\contentsline {chapter}{\numberline {5}Combining the different standards}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Combining CMMN with BPMN}{55}{section.5.1}
+\contentsline {section}{\numberline {5.2}Combining DMN with BPMN}{55}{section.5.2}
+\contentsline {section}{\numberline {5.3}Combining CMMN with DMN}{55}{section.5.3}
+\contentsline {part}{Appendix}{59}{part*.22}
+\contentsline {chapter}{\nonumberline Bibliography}{59}{appendix*.23}

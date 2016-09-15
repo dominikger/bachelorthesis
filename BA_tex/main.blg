@@ -4,52 +4,50 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: bibliography/literature.bib
 Warning--entry type for "hinkelmann2015" isn't style-file defined
---line 474 of file bibliography/literature.bib
-Warning--I didn't find a database entry for "DMNspec2014"
-Warning--I didn't find a database entry for "DMNspec2016"
-Warning--can't use both author and editor fields in Kuzin2013
+--line 513 of file bibliography/literature.bib
+Warning--entry type for "Weimer2006" isn't style-file defined
+--line 577 of file bibliography/literature.bib
+Warning--I didn't find a database entry for "Aaalst2011"
 Warning--can't use both author and editor fields in BiardMauffBigandEtAl2015
-Warning--empty author in BPMNspec
-Warning--empty author in bmm2015
-You've used 26 entries,
+You've used 34 entries,
             1791 wiz_defined-function locations,
-            622 strings with 9708 characters,
-and the built_in function-call counts, 6352 in all, are:
-= -- 593
-> -- 231
-< -- 10
-+ -- 88
-- -- 62
-* -- 384
-:= -- 923
-add.period$ -- 82
-call.type$ -- 26
-change.case$ -- 20
+            661 strings with 10968 characters,
+and the built_in function-call counts, 8088 in all, are:
+= -- 749
+> -- 310
+< -- 12
++ -- 119
+- -- 85
+* -- 457
+:= -- 1204
+add.period$ -- 109
+call.type$ -- 34
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 331
-empty$ -- 661
-format.name$ -- 62
-if$ -- 1496
+cite$ -- 35
+duplicate$ -- 422
+empty$ -- 836
+format.name$ -- 85
+if$ -- 1901
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 30
-newline$ -- 131
-num.names$ -- 26
-pop$ -- 121
+int.to.str$ -- 34
+missing$ -- 38
+newline$ -- 172
+num.names$ -- 36
+pop$ -- 160
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 160
+skip$ -- 201
 stack$ -- 0
-substring$ -- 368
-swap$ -- 102
-text.length$ -- 10
+substring$ -- 432
+swap$ -- 129
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 59
-width$ -- 28
-write$ -- 287
-(There were 7 warnings)
+warning$ -- 1
+while$ -- 75
+width$ -- 36
+write$ -- 376
+(There were 4 warnings)

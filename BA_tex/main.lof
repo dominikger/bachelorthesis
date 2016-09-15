@@ -7,10 +7,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A small BPMN example: the application process for study programs.}}{24}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CMMN example: Creating a research proposal.}}{29}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Stage and Task Lifecycle according to figure 7.3 in the CMMN specification.}}{31}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with only two decisions.}}{34}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with additional decisions.}}{34}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces A DMN Decision Requirement Graph incorporating the decision-making of the BPMN process in \ref {fig:BPMNexpandedApplicationEx}.}}{35}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in fig. \ref {fig:BPMNexpandedApplicationEx}.}}{36}{figure.4.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A small BPMN example: the application process for study programs.}}{34}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMMN example: Creating a research proposal.}}{39}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Stage and Task Lifecycle according to figure 7.3 in the CMMN specification.}}{41}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with only two decisions.}}{44}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with additional decisions.}}{44}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A DMN Decision Requirement Graph incorporating the decision-making of the BPMN process in \ref {fig:BPMNexpandedApplicationEx}.}}{45}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in fig. \ref {fig:BPMNexpandedApplicationEx}.}}{46}{figure.4.7}
+\addvspace {10\p@ }

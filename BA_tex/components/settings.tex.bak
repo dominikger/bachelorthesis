@@ -182,3 +182,6 @@ stringstyle=\color{black}}
 
 %this package is used for wrapping text around figer 
 \usepackage{wrapfig}
+
+%allows usage of greek letters in text without switching to math mode 
+\usepackage{textgreek}

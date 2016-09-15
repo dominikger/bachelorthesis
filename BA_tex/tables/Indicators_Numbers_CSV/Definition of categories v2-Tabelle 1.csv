@@ -1,0 +1,10 @@
+Category;Definition
+Documentation;During process identification and process discovery, the gathered information is usually denoted in a document. Each modeling language corresponds to a more or less specific style of documentation.
+Preceding process map ;Process discovery should result in macro models showing how processes cooperate or how single processes roughly look like. These can be used to identify the correct modeling language. 
+Characteristics of work;Describes the work illustrated by the process (e.g. ad hoc, routine work, decision intensive, rule intensive etc.). 
+Characteristics of process;Desired process to be captured in the model (e.g. business process, case, decisional process, workflow etc.).
+Characteristics of decisions;Decisions can be simple or complex. 
+Control flow;Control flow can be necessary or unnecessary, strict or flexible. Different types of flows are also allowed as in this category (e.g. dependencies, information flow). 
+intervention at run-time;Example from practical applications and typical use case scenarios.
+Objective;Target the process model is intended to achieve.
+Typical application;Illustration and use cases for each standard to help associating the process with similar ones.

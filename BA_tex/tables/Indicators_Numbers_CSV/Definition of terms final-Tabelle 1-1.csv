@@ -1,0 +1,21 @@
+TERM;DEFINITION
+ad hoc adaption;Worker may decide during execution phase when to complete a task or not complete. Additionally, workers may adapt rules and decisions.
+automation;Human workers can be replaced by systems. No human intervention necessary apart from failures and monitoring. 
+complex decisions;Complex decisions require the processing of at least one input factor (e.g. calculation of salaries). They also require several input factors and cannot be mapped by yes or no answers.
+control flow oriented;The main characteristic of the process is a strict control flow. 
+data centric ;Processing data is central for the process and is mandatory to achieve the goal.
+decisions driven by rules or events ;Events trigger decisions and rules define the way the control flow takes. 
+dependency decisions ;A decision has sub-milestones that need to be reached in order to proceed with the superior decision. A sub-milestone can be a decision or any aggregation of input factors. 
+evolving circumstances ;Workers may adapt the process flow and the performed tasks according to influential factors (e.g. emergencies) during execution.
+flexible workflow;The sequence of activities can be derive from the designed process model during execution.
+human centric;The worker is the defining element of the process and cannot be replaced. Contrary to data centric. 
+knowledge driven;Workers adhere to their experience and best practices instead of strict directives. 
+orchestrated;The model captures all branches and execution variants of the process according to directives. No adaption during execution phase necessary.
+predefined ;All parts of the process, especially of the control flow and decisions, are known in the design phase. No adaption necessary during execution phase.
+repeatable ;The model can be completely repeated in a second instance without any changes. 
+routine work ;Work that can be repeated exactly the same way many times. 
+simple decisions;Yes or no questions. 
+stateful condition ;The execution of activities is depending on the respective status and can for instance be paused, resumed or aborted.
+strict control flow ;During the execution phase, there is no deviation from the intended sequence of activities and decisions allowed. 
+structured ;Structure implies a link from each element to a corresponding one, surrounded by a start and stop element. 
+unstructured ;Links between elements are partly existing, they are not compulsory. No defined start or stop event. 

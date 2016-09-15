@@ -25,9 +25,18 @@
 \BOOKMARK [1][-]{section.3.3}{Origins of DMN}{chapter.3}% 25
 \BOOKMARK [-1][-]{part.4}{Indicators}{}% 26
 \BOOKMARK [0][-]{chapter.4}{Differentiating between BPMN, CMMN and DMN}{part.4}% 27
-\BOOKMARK [1][-]{section.4.1}{BPMN and routine processes}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{CMMN and knowledge work}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.3}{DMN and decision making}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.4}{Summary}{chapter.4}% 31
-\BOOKMARK [-1][-]{part*.21}{Appendix}{}% 32
-\BOOKMARK [0][-]{appendix*.22}{Bibliography}{part*.21}% 33
+\BOOKMARK [1][-]{section.4.1}{Discovering the processes}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.1.1}{The manual way}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.2}{The automated way}{section.4.1}% 30
+\BOOKMARK [1][-]{section.4.2}{Introducing the indicators}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{BPMN and routine processes}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.4}{CMMN and knowledge work}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.5}{DMN and decision making}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 35
+\BOOKMARK [-1][-]{part.5}{Combination}{}% 36
+\BOOKMARK [0][-]{chapter.5}{Combining the different standards}{part.5}% 37
+\BOOKMARK [1][-]{section.5.1}{Combining CMMN with BPMN}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.2}{Combining DMN with BPMN}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.3}{Combining CMMN with DMN}{chapter.5}% 40
+\BOOKMARK [-1][-]{part*.22}{Appendix}{}% 41
+\BOOKMARK [0][-]{appendix*.23}{Bibliography}{part*.22}% 42

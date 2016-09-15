@@ -1,0 +1,15 @@
+Indicators;BPMN
+Documentation;Directives 
+Preceding process map ;Flowchart
+Characteristics of work;"Routine work with possible
+automation, orchestrated"
+Characteristics of process;"Predefined, fully specified,
+repeatable, control flow oriented "
+Characteristics of decisions;"Simple, driven by rules or 
+events"
+Control flow;Strict and necessary
+intervention at run-time;No
+Objective;Automation
+Characteristics of process;Business process
+Typical application;"Value-added chain processes, 
+workflows across companies or departments etc."

@@ -1,0 +1,21 @@
+INDICATORS;BPMN;CMMN;DMN;Quellen:
+Documentation;Directives ;Descriptions of best practices and recommendations;Spreadsheets;
+Preceding process map ;Flowchart;Cluster;Decision trees;
+Characteristics of work;"Routine work with possible
+automation, orchestrated";Ad hoc, partly predefined, routine work elements, knowledge driven ;Orchestrated, ad hoc adaption of values;
+Characteristics of process;"Predefined, fully specified,
+repeatable, control flow oriented ";Ad hoc adaption necessary, partly predictable, flexible, partly unstructured, human centric;Data centric decisions, ad hoc adaption beneficial, structured, repeatable;
+Characteristics of decisions;"Simple, driven by rules or 
+events";Stateful conditions, rules, exit and entry criteria;Complex and data centric;
+Control flow;Strict and necessary;Not necessary but can be modeled;Dependencies only;
+intervention at run-time;No;Yes;Yes;
+Objective;Automation;Support of knowledge workers;Automation ;
+Characteristics of process;Business process;Case;Decisions;
+Typical application;"Value-added chain processes, 
+workflows across companies or departments etc.";"Patient care, medical diagnosis,insurance cases, 
+govermental permitting, problem resolutionin call centers, 
+sales and operations planning, invoice discrepancy handling, 
+engineering of made-to-order products";"Calculation of discount rates, salary, multi-instance decisions,
+cross divisional decisions involving several deciders, 
+aggregation of data to get a specific output for a specific case, 
+inter-divisional decision-making";

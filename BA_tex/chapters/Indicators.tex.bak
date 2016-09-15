@@ -3,8 +3,207 @@
 \chapter{Differentiating between BPMN, CMMN and DMN}
 \label{chapter:indicators}
 
-\todo{Ausblick, was bietet dieses Kapitel und was ist das Ziel}
+Starting with process management means for some companies to start from the very bottom. They build up their infrastructure, workflows and eventually models on a greenfield. The following sections provide a brief overview of process discovery techniques (manually as well as automated) and serves as an introduction for further reading. It starts with data sources and ends with process maps. Building on process maps and the associated documentation, indicators for the differentiation between BPMN, CMMN and DMN are introduced. Terms and categories will be explained as well as the derivation of each set of indicators along with an explanation of the associated standard. 
+
 \todo{Diagramme mit Legende versehen} 
+\todo{Einleitung ins Kapitel erscheint mir noch etwas holprig} 
+
+\section{Discovering the processes}
+\label{section:process_discovery}
+% Diesen satz kann man gerne woanders wiederverwenden ---- Some researches like Van der Aalst et al. \cite{Aalst2011} put process mining and process discovery on the same semantical level, wherefore different researchers like Laury Verner \cite{Verner2004} don't. 
+Processes are resources. Similar to iron or copper, processes lie deep in the bedrock of a company and need to be discovered. This metaphor isn't even far-fetched, since the correct terms for gathering information is \textit{process mining} or \textit{process discovery}.
+In this chapter, the gathering of information before the actual process modeling will be discussed. Gathering information has two approaches: a manual one (often referred to as process discovery) and an automated one (often referred to as process mining). Both techniques will be discussed briefly and put in the context of the eKulturPortal venture. 
+
+\subsection{The manual way}
+According to the BPM Lifecycle \cite{Dumas2013}, gathering information begins with identifying the process. This first step poses the question that needs to be answered and leads to the accumulation of all the relevant processes surrounding this questions \cite{Dumas2013}. Ideally, the accumulation shows the posed question in a map surrounded by all the relevant processes. The way this map is created is up to the involved personnel. It can very from a mind-map to a more detailed flowchart or even something like a BPMN or EPC diagram. In the end, this map is useful for the following step: the process discovery. 
+
+Laury Verner identified three "key players" \cite{Verner2004} in the process discovery phase: 
+\begin{itemize}
+\item "The Sponsor", who decides the scope and the goal that needs to be achieved and is also called the process owner.
+\item "The Subject Matter Expert" (SME) who is also referred to as the \textit{domain expert} since he is the person working with the processes.
+\item "The Analyst", often referred to as Business Analyst, who is the expert for modeling and designing the processes. 
+\end{itemize}
+
+These three roles are commonly assigned to various people in large ventures. However, in this can also be small team according to the size of the departments. 
+To begin the process discovery, the process owner sets the goal such as optimizing the a department's workflow or integrating automation into manual processes. He is the one who is responsible for the whole project and has to monitor the progress. 
+The SME or domain expert is the employee working in the process. SMEs are the subject of every process discovery technique due to their role as knowledge source. A process analyst has to extract the knowledge they implicitly keep and to visualize it as explicit processes. The one created are most commonly not the ones which are presented as results. However, it is important for the progress of such a project to visualize the gathered knowledge. 
+
+The following process discovery technique are summarized by Marlon Dumas et al. in \cite{Dumas2013} in a theoretic way, which are emphasized by \cite{Verner2004} and \cite{Jadhav2011}. 
+Dumas categorizes three different approaches in terms of process discovery: The "evidence-based discovery", the "interview-based discovery" and the "workshop-based discovery" \cite{Dumas2013}. Each approach deals with different input sources. \\
+Beginning with he \textbf{evidence-based discovery,} it deals with documents, models, observations and event logs\footnote{Dumas et al. includes event logs in his manual approach for the reason of integrity}. The process analyst may choose different approaches in the evidence-based category: He may either examine the documents and aggregate the information the can be found there; he may also choose to observe the employee by playing an active participant in the process or just passively watching the employee work; or he may work with the event logs according to \cite{Dumas2013} which will be explained in the automatic section in more detail. 
+Each decision bears several advantages and challenges that need to be kept in mind: 
+
+\textit{Advantages:}
+\begin{itemize}
+\item Choosing the document analysis, an analyst can identify workflows in the company and the cooperation of different departments. He gets a big picture of how the company works and can locate the as-is process better \cite{Dumas2013}. 
+\item Documentation provides an unbiased view of the processes, if it is not written by a single person. 
+\item Observation is good to get a detailed understanding of how a process works. The analyst observes the SME by initiating either an active instance of a process (e.g. ordering a product as a customer) or by playing a passive role and just observing how the employee works \cite{Dumas2013}. 
+\item Observation additionally shows the boundaries, milestones and interfaces to different processes.
+\end{itemize}
+
+\textit{Challenges:}
+\begin{itemize}
+\item Documentation is not written process-ready, so the analyst needs aggregate the information to fit to the process. 
+\item The work described in documentation might not fit the granularity level of the process \cite{Dumas2013}. Often the steps are documented too detailed or, contrary, the documents only describe the big picture but leave out essential interfaces to different processes. 
+\item The biggest problem of documentation is the date of creation and to keep it up to date: Most documentation is written once and does not fit the as-is processes. Current adaptations to the processes might not be captured. 
+\item Observation might lead to wrong results because employees work different when they are observed. They might want to show the best practice example and leave out occurring failures. 
+\item Observing an employee might only show one perspective of the process but not different ones such as the customer perspective. In this case, the analyst switch the passive and active roles to get a thorough overview. 
+\end{itemize}
+
+The \textbf{interview-based strategy} works in a different way: The analyst sets up an interview with a domain expert. In this case, there is no specific input data involved except from the knowledge the domain expert has. Dumas et al. provide two paths the interviewer can guide the SME through the interrogation: backwards (from the product to the start) or forwards (start to product). Each direction has advantages: backwards show the input data the process has to wait for and forwards clarifies the path of the process and how the employee works. \cite{Dumas2013} Interview-based discovery has the following advantages and challenges: 
+
+\textit{Advantages:}
+\begin{itemize}
+\item Processes can be explained in detail by the persons directly involved. This results in a current view of the processes with advantages and downside directly from the workers. Later, the process design benefits from this additional information.
+\item Different routes show the process from various angles. "This is particularly helpful for understanding which decisions are taken at a given state" \cite{Dumas2013}.
+\item By interviewing various employees, a centralized documentation of the knowledge can be created that might not have been existing before.
+\end{itemize}
+
+\textit{Challenges:}
+\begin{itemize}
+\item Interviews need need a good plan: each process activity needs to be clarified, the expected outcome of the process needs to be defined, all the required input data from interface processes has to be figured out and all the subsequent processes need to be mentioned. 
+\item The analyst might need various iterations. Each interview leads to a script that needs to be transformed into a model, which then has to be verified by the interviewee again.
+\item Structured vs. free-from interviews: In the free-from interview, SMEs are completely "uncensored" \cite{Verner2004} and free to mention everything they associate with the process. In structured interviews, workers answers to "pre-defined questions" \cite{Verner2004}. The former method captures a larger picture of the process, the latter one provides a better understanding and more details for the analyst. 
+\item Similar to the evidence-based method, the interviewee might keep common failures secret that need to be figured out by the analyst.
+\end{itemize}
+
+A third method is the \textbf{workshop-based discovery}. Unlike in interviews, workshops include a group of SMEs, several analysts and one or more process owners. In these situations it is eminent to have a \textit{facilitator} who is responsible for the "verbal contributions" \cite{Dumas2013}. A good practice is to create the models directly in the workshops. The resulting illustrations are not the desired output, but it is possible to create a process map or brief processes that can be revised in further iterations. Dumas calls the responsible person the \textit{tool operator} \cite{Dumas2013}. 
+
+\textit{Advantages:}
+\begin{itemize}
+\item A workshop combines different views on a process at once and offers the possibility to create a rich and detailed model through several iterations \cite{Dumas2013}. 
+\item Models can be created simultaneously. 
+\item Involved analysts have the same level of knowledge, thus have an advantage in the design stadium.
+\end{itemize}
+
+\textit{Challenges:}
+\begin{itemize}
+\item Workshops need several iterations and are very similar to meetings. Each meeting needs a good preparation, a minute keeper and someone taking notes. In this case, the facilitator and the tool operator need to be well prepared and interact ad hoc with the participants. 
+\item The attendance of process owners may influence the employees, consequently they might not talk about failures or downsides of steps. 
+\item A level of detail needs to be defined before the meeting starts in order to differentiate between unnecessary tasks like "putting the document on a fax machine" \cite{Dumas2013} and the ones essential for the model. 
+\item Workshops are very time consuming and need to be planned in advance in order to unite all the roles in the workshop.
+\end{itemize}
+
+Apart from the three described methodologies, their challenges and advantages, there are a few meta-questions that need to be answered according to \cite{Verner2004} 
+\begin{itemize}
+\item A centralized vs. a distributed approach: The analyst need to decide whether workshops or interviews suit best in the specific situation.
+\item Top-down vs. bottom-up: Is it better to start from the top (e.g. the output of each process) and proceed until the smallest tasks are reached, or is it better to start from the bottom (the smallest tasks) and aggregate the model from the bottom up? 
+\item Free from vs. structured: As mentioned in the interview-based strategy, a workshop or interview can be held in a free from way or in a structured one. 
+\end{itemize}
+
+Verner also offers a recommendation that we also use in the eKulturPortal context: \cite{Verner2004}: 
+\begin{enumerate}
+\item Start with a top-down view of the processes. Cluster the processes in a map for navigation purposes and get an overview of how the company works. This can be done by interviews and documentation analysis. 
+\item Use bottom-up structured interviews to clarify the details and use the created map to validate them. The resulting outcome is an as-is process model that needs to be verified in step three.
+\item Create integrated models of the processes and validate them with stakeholders such as process owners in a workshop. These models are a good base for discussions and lead to structured outcomes. 
+\end{enumerate}
+
+Each scenario is individual and needs its own mix of approaches. However, the recommendation from Laura Verner worked for the eKulturPortal venture in a highly unstructured context where knowledge is implicit and a mix of documentation analysis, interviews and workshops were necessary. Although adapting the mixture, the actual structure of the recommendation was maintained. In the eKulturPortal context, there hasn't been any as-is documentation but SMEs that were observed and interviewed in a free-form way. Additionally, workshops were nearly impossible to hold due to the missing facilitator and tool operator. The involved domain experts had dual roles combining an SME and a process owner which made it complicated to differentiate between process knowledge and goals that need to be achieved. 
+The outcome was a combined approach of observation and interviewing simultaneously. 
+
+\subsection{The automated way}
+Small companies or such without any supporting IT infrastructure might rely to the manual way of process discovery. However, there is an option for automation, the so called \textit{automated process discovery} (ADP) \cite{Dumas2013}. This method relies on the event logs of a workflow management system. ADP is a sub-category of the \textit{Process mining} research field, which will be discussed briefly in this section.
+The term process mining originates from the very similar technique \textit{Data mining}. Both approaches use a set of input data to form it into a desired output structure like a spreadsheet, trees or rules, cluster etc. \cite{Aalst2011}. Process mining combines three different strategies: the process \textit{discovery}, \textit{conformance} and \textit{enhancement}. The first phase is corresponding to the preceding section: the system uses event logs to create models that have been unknown or implicit before. This phase works without any pre-defined input data apart from the logs. Conformance takes an existing process and the corresponding event logs to compare them. The goal of this comparison is to check whether the model matches the executed process and vice versa \cite{Aalst2011}. 
+In the enhancement phase, the process generated from the event logs \textit{enhances} the pre-defined models. The desired result is a model that matches the real executed processes by either repairing the models or extend them with another perspective \cite{Aalst2011}. 
+Depending on the infrastructure the executing company has, its to it's discretion with which phase to start. For the purpose of this thesis, we start with the discovery phase and assume there are no a priori models given. 
+The very first requirement for process mining is the conformance of event logs. Scanning data storage for event logs often results in various outputs. They might be scattered across departments, stored in various formats and - most importantly - not prepared for process mining. Solving this problem needs a three-way paradigm: \textit{Extract, transform and load} \cite{Aalst2011}. At first, the data needs to be extracted from the data storage and aggregate in a central warehouse for the process mining. Next, the data needs to be transformed to meet the requirements. This means, the event logs need to have at least an identification for the corresponding process and an activity column \cite{Aalst2011}. With these two columns, the events occurring in the log can be ordered and the model can be generated with accordingly. Without either ordering or activities, there is no possibility to create a model. 
+Third, the transformed tableau is loaded into the target system where process mining takes place. The more data is included in the logs, the more useful the output is for the later conformance and enhancement phase. Helpful additions are costs of paths and timestamps. With these two extra columns it is possible to analyze the critical path with e.g. the \textit{Critical Path Method} (CPM) \cite{Domschke2015}. Besides, timestamps solve another problem of event logs: Imagine two instances of the same activity start at different times. Which one is the first that stops and which one the last? \cite{Aalst2011} illustrates this example for event logs with an insufficient amount of attributes. 
+
+After the event logs are transformed and loaded into the target system, the analysts need to decide how to cluster the data. A well-known example is the \textalpha -algorithm invented and described by \cite{Aalst2011}. This algorithm takes an event log and creates a \textit{WF-net}, which are "[...] a natural subclass of Petri nets tailored toward the modeling and analysis of operational processes" \cite{Aalst2011}. Apart form this theoretic approach, tools like ProM\footnote{for further information see \url{http://www.promtools.org/doku.php}, 2018-09-12} offer plugins with algorithms that can be selected according to the desired input and output. An example is the Mutli-phase miner that generates and EPC from the causal dependencies in the event log \cite{Weimer2006}. This makes it easy for practical uses of the process mining approach and leads to fast results compared to the manual method. 
+
+Each of the mentioned phases (discovery, conformance, enhancement) are optional and it is to the analyst's discretion what needs to be executed. However, the discovery does not improve the as-is state but only displays it. It is recommended to do each phase of the process mining to get the desired results and to check, if the implemented processes achieve the intention designed in the models. 
+
+The process mining advantages are: 
+\begin{itemize}
+\item Accurate results describing the real-time status of the process. 
+\item Fast method that can be tracked in real-time. 
+\item Real-time monitoring of processes in a map-like structure. 
+\end{itemize} 
+ 
+And the according challenges according to \cite{manifesto2011} and \cite{Dumas2013}
+\begin{itemize}
+\item Aggregating the data in a format the process mining tool can handle and the output requires. 
+\item Understanding the resulting models, as they can be very complex and hard to read for the analysts.
+\item Asking the right questions: Taken into account that companies use ERP-systems with sometimes more than 10,000 data points, it is necessary to define the right question and extract the right data. 
+\item Dealing with bias and noise resulting from vast amounts of data. 
+\end{itemize}
+
+Both, the process mining and manual process discovery strategies provide methodologies that lead to the desired as-is and to-be models. It is up to the skills of the analysts, to the IT infrastructure of the company and the objective set for the whole project to choose the one. 
+
+\section{Introducing the indicators}
+\label{section:indicator_introduction}
+In the preceding chapter, two major approaches on how to aggregate input data were explained. The manual process discovery is a set of tools to get information from SMEs or process owners, the automated process discovery (or process mining) is a methodology to scan event logs of workflow management systems and generate models according to algorithms. Both techniques result in process maps and according documentation, e.g. spreadsheets, textual descriptions and interview transcripts. The next step is choosing the correct modeling language to either do an as-is model or start with the design model. Most commonly, an as-is model is commonly made first as a foundation for further analysis and the to-be model. 
+In this section, the conduction of indicators will be introduced and explained. Indicators in general are tools that take an input and show the user a value or a choice that should be made. Consequently, the subsequent indicators are intended to help the analyst to choose the appropriate modeling language for the identified processes. Of course, there are many modeling techniques on the market. However, the scope of this thesis is limited on three modeling techniques by the \ac{OMG}: BPMN, CMMN and DMN. 
+
+Table \ref{tab:indicators_categories_definition} provides the categorization and the corresponding definition of each category. Each standard is examined in the following section and the key aspects are summarized in the categories. 
+The intention behind the indicator table is that business analysts take their results from the process discovery phase and check whether their process maps, documentation and description of work, goals etc. match the key aspects of a standard. This cannot be measured by a concrete number, but is instead to the discretion of the analyst himself. However, the following sections provide typical application examples and illustrations to help the analyst with the decision-making. 
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll@{}}
+\toprule
+Category                     & Definition                                                                                                                                                                                                                                          \\ \midrule
+Documentation                & \begin{tabular}[c]{@{}l@{}}During process identification and process discovery, the gathered information \\ is usually denoted in a document. Each modeling language corresponds to a \\ more or less specific style of documentation.\end{tabular} \\
+Preceding process map        & \begin{tabular}[c]{@{}l@{}}Process discovery should result in macro models showing how processes \\ cooperate or how single processes roughly look like. These can be used to \\ identify the correct modeling language.\end{tabular}               \\
+Characteristics of work      & \begin{tabular}[c]{@{}l@{}}Describes the work illustrated by the process \\ (e.g. ad hoc, routine work, decision intensive, rule intensive etc.).\end{tabular}                                                                                      \\
+Characteristics of process   & \begin{tabular}[c]{@{}l@{}}Desired process to be captured in the model \\ (e.g. business process, case, decisional process, workflow etc.).\end{tabular}                                                                                            \\
+Characteristics of decisions & Decisions can be simple or complex.                                                                                                                                                                                                                 \\
+Control flow                 & \begin{tabular}[c]{@{}l@{}}Control flow can be necessary or unnecessary, strict or flexible. \\ Different types of flows are also allowed as in this category \\ (e.g. dependencies, information flow).\end{tabular}                                \\
+Intervention at run-time     & Example from practical applications and typical use case scenarios.                                                                                                                                                                                 \\
+Objective                    & Target the process model is intended to achieve.                                                                                                                                                                                                    \\
+Typical application          & \begin{tabular}[c]{@{}l@{}}Illustration and use cases for each standard to help associating \\ the process with similar ones.\end{tabular}                                                                                                          \\ \bottomrule
+\end{tabular}%
+}
+\caption{The indicators' categories and their definition.}
+\label{tab:indicators_categories_definition}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{graphicx}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll@{}}
+\toprule
+Term                                & Definition                                                                                                                                                                                                                             \\ \midrule
+ad hoc adaption                     & \begin{tabular}[c]{@{}l@{}}Worker may decide during execution phase when \\ to complete a task or not complete. Additionally, workers \\ may adapt rules and decisions.\end{tabular}                                                   \\
+automation                          & \begin{tabular}[c]{@{}l@{}}Human workers can be replaced by systems. \\ No human intervention necessary apart from failures and monitoring.\end{tabular}                                                                               \\
+complex decisions                   & \begin{tabular}[c]{@{}l@{}}Complex decisions require the processing of at least one input factor \\ (e.g. calculation of salaries). They also require several input factors and \\ cannot be mapped by yes or no answers.\end{tabular} \\
+control flow oriented               & The main characteristic of the process is a strict control flow.                                                                                                                                                                       \\
+data centric                        & Processing data is central for the process and is mandatory to achieve the goal.                                                                                                                                                       \\
+decisions driven by rules or events & Events trigger decisions and rules define the way the control flow takes.                                                                                                                                                              \\
+dependency decisions                & \begin{tabular}[c]{@{}l@{}}A decision has sub-milestones that need to be reached in order to proceed \\ with the superior decision. A sub-milestone can be a decision or any \\ aggregation of input factors.\end{tabular}             \\
+evolving circumstances              & \begin{tabular}[c]{@{}l@{}}Workers may adapt the process flow and the performed tasks \\ according to influential factors (e.g. emergencies) during execution.\end{tabular}                                                            \\
+flexible workflow                   & \begin{tabular}[c]{@{}l@{}}The sequence of activities can be derive from the designed process \\ model during execution.\end{tabular}                                                                                                  \\
+human centric                       & \begin{tabular}[c]{@{}l@{}}The worker is the defining element of the process and cannot be replaced. \\ Contrary to data centric.\end{tabular}                                                                                         \\
+knowledge driven                    & Workers adhere to their experience and best practices instead of strict directives.                                                                                                                                                    \\
+orchestrated                        & \begin{tabular}[c]{@{}l@{}}The model captures all branches and execution variants of the process \\ according to directives. No adaption during execution phase necessary.\end{tabular}                                                \\
+predefined                          & \begin{tabular}[c]{@{}l@{}}All parts of the process, especially of the control flow and decisions, \\ are known in the design phase. No adaption necessary during execution phase.\end{tabular}                                        \\
+repeatable                          & The model can be completely repeated in a second instance without any changes.                                                                                                                                                         \\
+routine work                        & Work that can be repeated exactly the same way many times.                                                                                                                                                                             \\
+simple decisions                    & Yes or no questions.                                                                                                                                                                                                                   \\
+stateful condition                  & \begin{tabular}[c]{@{}l@{}}The execution of activities is depending on the respective \\ status and can for instance be paused, resumed or aborted.\end{tabular}                                                                       \\
+strict control flow                 & \begin{tabular}[c]{@{}l@{}}During the execution phase, there is no deviation from \\ the intended sequence of activitiesand decisions allowed.\end{tabular}                                                                            \\
+structured                          & \begin{tabular}[c]{@{}l@{}}Structure implies a link from each element to a corresponding one, \\ surrounded by a start and stop element.\end{tabular}                                                                                  \\
+unstructured                        & \begin{tabular}[c]{@{}l@{}}Links between elements are partly existing, they are not compulsory. \\ No defined start or stop event.\end{tabular}                                                                                        \\ \bottomrule
+\end{tabular}%
+}
+\caption{Definition of terms forming the indicators.}
+\label{tab:indicators_terms_definition}
+\end{table}
+
+Table \ref{tab:indicators_terms_definition} defines a set of terms that is used to aggregate the indicators. Each indicators is a set of categories and corresponding terms that describe the input data and desired output. \\
+For illustration purpose, let's say the analyst has a process map that resembles a decision tree and a spreadsheet full of data that needs to be realized in a process model. He checks the indicator tables and notes that the categories \texttt{Preceding process map} and \texttt{Documentation} map with \textit{decision tree} and \textit{spreadsheet}. Additionally, the characteristics of decisions are \textit{complex and data centric}. As a result, the indicator table recommends the usage of DMN for this use case. 
+
+Of course, this was a very brief and simple example showing the intentional usage of the table. A more detailed use case scenario is provided in the use case section \todo{auf kapitel mit use case referenzieren} along with corresponding input data and resulting process models. 
+
+In the following sections, each standard is going to be introduced in short followed by the corresponding table of indicators. 
 
 \section{BPMN and routine processes}
 \label{section:BPMNindicators}
@@ -52,19 +251,20 @@ Furthermore, the OMG's specification not only provides exclusions such as the on
 % \usepackage{graphicx}
 \begin{table}[]
 \centering
-
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
-Indicators                   & BPMN                                                                                                                                                                         \\ \midrule
-General                      & \begin{tabular}[c]{@{}l@{}}Predefined sequences of activities with decisions (gateways) to direct the \\ sequence along the alternative paths or for iterations\end{tabular} \\
-Type of process              & \begin{tabular}[c]{@{}l@{}}Predefined, fully specified, repeatable, business process, \\ control flow oriented\end{tabular}                                                  \\
-Type of work                 & Routine work with possible automation                                                                                                                                        \\
-Type of decisions            & Simple, driven by rules or events                                                                                                                                            \\
-Control flow                 & Strict and necessary                                                                                                                                                         \\
-Intervention at run-time     & no                                                                                                                                                                           \\
-Typical application          & Value-added chain processes, workflows across companies, departments etc.                                                                                                    \\
-Key question before modeling & \begin{tabular}[c]{@{}l@{}}Does the work consist of routine elements which can \\ be optimized or even automated?\end{tabular}                                               \\ \bottomrule
+Indicators                   & BPMN                                                                                                                   \\ \midrule
+Documentation style          & Directives                                                                                                             \\
+Preceding process map        & Flowchart                                                                                                              \\
+Characteristics of work      & Routine work with possible automation, orchestrated                                                                    \\
+Characteristics of process   & Predefined, fully specified, repeatable, control flow oriented                                                         \\
+Characteristics of decisions & Simple, driven by rules or events                                                                                      \\
+Control flow                 & Strict and necessary                                                                                                   \\
+intervention at run-time     & No                                                                                                                     \\
+Objective                    & Automation                                                                                                             \\
+Characteristics of process   & Business process                                                                                                       \\
+Typical application          & \begin{tabular}[c]{@{}l@{}}Value-added chain processes, workflows across \\ companies or departments etc.\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
 \caption{BPMN indicators.}
@@ -72,12 +272,12 @@ Key question before modeling & \begin{tabular}[c]{@{}l@{}}Does the work consist 
 \end{table}
 
 Information about processes is often stored in documents, deprecated models or held by knowledge carriers according to Dumas et al. \cite{Dumas2013}. This information needs to be extracted by the application of the so called \textit{Process Discovery}, which is in short gathering all the information in a technical or manual way before creating the models. Having this information gathered together, the key question before modeling is \textit{Does the work consist of routine elements which can be optimized or even automated?} (see \ref{tab:bpmnIndicatorsTable}). Routine processes occur regularly and their flow is "known a priori" according to \cite{Zeising_2014}. Consequently it is not intended to change the process flow during run-time, as routine are well-structured and predefined. This is a major problem for workers whose job is more based on knowledge and their experience than routine work, wherefore is Case Management and CMMN were forged and standardized. 
-In our example, the decisions are simple yes or no questions. One of them, \textit{Check grades}, is a business rule task containing a small table of when a grade acceptable or must be rejected. Overall, the decisions do not require modeling any requirements or personnel apart from the assignee involved in the decision making process. Furthermore, the decisions are always stuck with rules or events that happened before. The process itself is control-flow-oriented and the control flow is necessarily strict since every candidate needs to be processed in a fair and equal manner. In the end, the process could be automated completely with the appropriate workflowmanagementsystem and would not need any assignee to check the deadline or the grades. 
+In our example, the decisions are simple yes or no questions. One of them, \textit{Check grades}, is a business rule task containing a small table of when a grade acceptable or must be rejected. Overall, the decisions do not require modeling any requirements or personnel apart from the assignee involved in the decision making process. Furthermore, the decisions are always stuck with rules or events that happened before. The process itself is control-flow-oriented and the control flow is necessarily strict since every candidate needs to be processed in a fair and equal manner. In the end, the process could be automated completely with the appropriate workflow management system and would not need any assignee to check the deadline or the grades. 
 According to the indicators, the example is modeled using the suitable modeling language as the process was predefined and well-structured. To prove the indicators' validity, a use case example taken from the eKulturPortal GmbH \footnote{see \url{http://ekulturportal.de/}} is provided in chapter \todo{hier fehlt die Chapter referenzierung!}. 
 
 \section{CMMN and knowledge work}
 Routine work occurs in every company, every industry and even in our leisure time. However, not every job is comprised entirely of routine work. If a person is sick and needs to see the doctor, often the doctor's job consists of routine parts and ad hoc parts. Each patient suffers in a different way, has a private or statutory health insurance, is able to understand the doctor's language or not. In each case, the doctor or the medical personnel needs to decide in an ad hoc manner to identify the patient's disease and medicate him accordingly. Overall, this job requires more knowledge and experience than a strict workflow. Applying the BPMN indicators makes the necessity of a different modeling technique obvious as the indicators do not meet the requirements of this example (flexibility instead of a strict workflow, knowledge driven instead of control flow driven).
-Standardized by the OMG in 2014 \cite{CMMNspec2014}, the modeling language is intended to meet the requirements of knowledge intensive professions and support workers with models and their execution in workflowmanagementsystems. 
+Standardized by the OMG in 2014 \cite{CMMNspec2014}, the modeling language is intended to meet the requirements of knowledge intensive professions and support workers with models and their execution in workflow management systems. 
 The above described example diverges from the business processes explained in the BPMN section earlier. Instead of focusing on what \textit{has} to be done in which order, the medical personnel should adhere to what \textit{can} be done, as Van der Aalst et al. described in \cite{aalst2005}. This is an essential part of the \textit{Case Management} (CM) and \textit{Adaptive Case Management} (ACM) approach. Case management starts with a case such as a legal case, a patient's disease or "some other focal point around which actions are taken to achieve an objective" \cite{CMMNspec2014}. Each case contains a set of tasks and files necessary to achieve the goal. These sets are "minimally predefined" \cite{CMMNspec2014} resulting in two phases of working with cases: the design phase and the running phase \cite{CMMNspec2014}. During the design phase, tasks and information are aggregated in a manner that is very similar to business process designs. As a result, the work is available in a more structured way as it has been before yet with the possibility to perform the work in a completely ad hoc if necessary. Additionally, case management requires the run-time flexibility such as performing tasks depending on the situation, changing the order of tasks or even collaborate with different people involved as intended. 
 At a first glance, this seems counter-intuitive since the common understanding of modeling processes is modeling business processes or similar strictly structured ones. To illustrate the paradigm of case management and introduce the CMMN notation, figure \ref{fig:CMMNex} provides an example \todo{soll hier noch eine Legende angelegt werden?}. The subsequent explanation is derived from \cite{CMMNspec2014} and \cite{hinkelmann2015}.
 
@@ -131,14 +331,16 @@ Figure \ref{fig:CMMNstates} is a replica of figure 7.3 in \cite{CMMNspec2014} an
 \begin{tabular}{@{}ll@{}}
 \toprule
 Indicators                   & CMMN                                                                                                                                                                                                                                                            \\ \midrule
-General                      & \begin{tabular}[c]{@{}l@{}}Workflow can be managed in a flexible way or in a complete \\ ad hoc manner, overall cast cannot be orchestrated by \\ predefined sequence of tasks\end{tabular}                                                                     \\
-Type of process              & Depending on evolving circumstances, ad hoc, data centric                                                                                                                                                                                                       \\
-Type of work                 & Ad hoc, not predefined, sparsely routine work                                                                                                                                                                                                                   \\
-Type of decisions            & Stateful conditions, rules, exit and entry criteria                                                                                                                                                                                                            \\
+Documentation style          & Descriptions of best practices and recommendations                                                                                                                                                                                                              \\
+Preceding process map        & Cluster                                                                                                                                                                                                                                                         \\
+Characteristics of work      & Ad hoc, partly predefined, routine work elements, knowledge driven                                                                                                                                                                                              \\
+Characteristics of process   & \begin{tabular}[c]{@{}l@{}}Ad hoc adaption necessary, partly predictable, flexible, \\ partly unstructured, human centric\end{tabular}                                                                                                                          \\
+Characteristics of decisions & Stateful conditions, rules, exit and entry criteria                                                                                                                                                                                                             \\
 Control flow                 & Not necessary but can be modeled                                                                                                                                                                                                                                \\
-Intervention at run-time     & Yes                                                                                                                                                                                                                                                             \\
-Typical application          & \begin{tabular}[c]{@{}l@{}}Patient care, medical diagnosis, insurance cases, \\ governmental permitting, problem resolution in call centers, \\ sales and operations planning, invoice discrepancy handling, \\ engineering of made-to-order products\end{tabular} \\
-Key question before modeling & \begin{tabular}[c]{@{}l@{}}Does the work comprise unstructured elements and \\ ad hoc workflows requiring knowledge or \\ experience instead of strict rules?\end{tabular}                                                                                      \\ \bottomrule
+intervention at run-time     & Yes                                                                                                                                                                                                                                                             \\
+Objective                    & Support of knowledge workers                                                                                                                                                                                                                                    \\
+Characteristics of process   & Case                                                                                                                                                                                                                                                            \\
+Typical application          & \begin{tabular}[c]{@{}l@{}}Patient care, medical diagnosis, insurance cases, governmental permitting, \\ problem resolution in call centers, sales and operations planning, \\ invoice discrepancy handling, engineering of made-to-order products\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
 \caption{CMMN indicators.}
@@ -208,7 +410,7 @@ Multiple hit & Output order (returns all hits in decreasing output priority orde
              & \begin{tabular}[c]{@{}l@{}}Collect (aggregates all hits with specified operators:\\ sum, min, max, count)\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
-\caption{DMN hit policies cited from the DMN specification \cite{DMNspec2014}.}
+\caption{DMN hit policies cited from the DMN specification \cite{DMNspec2016}.}
 \label{tab:DMN_hit_policies}
 \end{table}
  
@@ -227,15 +429,17 @@ On the contrary, it is not possible to any sequence with the DMN notation but th
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{@{}ll@{}}
 \toprule
-Indicators                   & DMN                                                                                                                                                                                                                                                                        \\ \midrule
-General                      & \begin{tabular}[c]{@{}l@{}}Detailed decision modeling and adjusting during run-time,\\ Decision Requirements Graph and Decision Tables \\ incorporating decision logic and involved authorities / dependencies\end{tabular}                                                    \\
-Type of process              & decisions only, but with all the requirements and input data                                                                                                                                                                                                               \\
-Type of work                 & \begin{tabular}[c]{@{}l@{}}human decision-making, automated decision making, \\ aggregation of knowledge, preparation of decisions\end{tabular}                                                                                                                            \\
-Type of decisions            & \begin{tabular}[c]{@{}l@{}}complex, data-centric, many requirements, engagement\\ of human decision-makers\end{tabular}                                                                                                                                                   \\
-Control flow                 & dependencies only                                                                                                                                                                                                                                                          \\
-Intervention at run-time     & yes                                                                                                                                                                                                                                                                        \\
-Typical application          & \begin{tabular}[c]{@{}l@{}}calculation of discount rates, salary, multi-instance decisions,\\ cross divisional decisions involving several deciders, \\ aggregation of data to get a specific output for a specific case, \\ inter-divisional decision-making\end{tabular} \\
-Key question before modeling & \begin{tabular}[c]{@{}l@{}}Are there decisions that need to be adjusted during run-time, \\ are data-intensive or require the modeling of extra \\ information (policies, analytical models)\\ or roles (responsible managers)?\end{tabular}                               \\ \bottomrule
+Indicators                   & DMN                                                                                                                                                                                                                                                                      \\ \midrule
+Documentation style          & Spreadsheets                                                                                                                                                                                                                                                             \\
+Preceding process map        & Decision trees                                                                                                                                                                                                                                                           \\
+Characteristics of work      & Orchestrated, ad hoc adaption of values                                                                                                                                                                                                                                  \\
+Characteristics of process   & \begin{tabular}[c]{@{}l@{}}Data centric decisions, ad hoc adaption beneficial, \\ structured, repeatable\end{tabular}                                                                                                                                                    \\
+Characteristics of decisions & Complex and data centric                                                                                                                                                                                                                                                 \\
+Control flow                 & Dependencies only                                                                                                                                                                                                                                                        \\
+intervention at run-time     & Yes                                                                                                                                                                                                                                                                      \\
+Objective                    & Automation                                                                                                                                                                                                                                                               \\
+Characteristics of process   & Decisions                                                                                                                                                                                                                                                                \\
+Typical application          & \begin{tabular}[c]{@{}l@{}}Calculation of discount rates, salary, multi-instance decisions, \\ cross divisional decisions involving several deciders, aggregation of data to \\ get a specific output for a specific case, inter-divisional decision-making\end{tabular} \\ \bottomrule
 \end{tabular}%
 }
 \caption{Indicators for the identification of DMN use cases.}
@@ -246,6 +450,7 @@ Table \ref{tab:dmnIndicatorsTable} summarizes the knowledge acquired by analyzin
 
 \section{Summary}
 In this chapter, each specification was presented with examples and their characteristics. By analyzing the OMG's standards and further research publications, these characteristics could be transformed into indicators helping modelers to identify when to use the corresponding technique. Additionally, the examples explained the fundamental principles of the notations and how to use them correctly. The main focus, however, was on developing the indicators. For further information about the notations and more sophisticated examples or instructions, please refer to the corresponding OMG specification or the provided sources in the references chapter. 
-Concluding the preceding sections, BPMN is useful for predefined processes, mainly mapping routine work without the possibility for run-time intervention; CMMN is beneficial for people working in volatile environments with routine parts but mainly work depending on their personal experience and knowledge; and DMN is a valuable way to encapsulate complex decision-making in a separate, compact notation that allows run-time adjusting. For all of the mentioned notations, there are overlaps that make it possible to combine them and creating a whole model with separate notations for each domains. This will be discussed more detailed in the following chapter. \todo{diese ueberscheidungen der specifications muss erst noch verifiziert werden!} 
+Additionally, a recommendation of how to combine manual process discovery techniques was presented along with an explanation of each approach. Besides the manual discovery, the automated one was explained and a recommendation for a corresponding tool was stated. 
+Concluding the indicator sections, BPMN is useful for predefined processes, mainly mapping routine work without the possibility for run-time intervention; CMMN is beneficial for people working in volatile environments with routine parts but mainly work depending on their personal experience and knowledge; and DMN is a valuable way to encapsulate complex decision-making in a separate, compact notation that allows run-time adjusting. For all of the mentioned notations, there are overlaps that make it possible to combine them and creating a whole model with separate notations for each domains. This will be discussed more detailed in the following chapter. \todo{diese ueberscheidungen der specifications muss erst noch verifiziert werden!} 
 
 \listoftodos
