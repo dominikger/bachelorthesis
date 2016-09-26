@@ -4,50 +4,49 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: bibliography/literature.bib
 Warning--entry type for "hinkelmann2015" isn't style-file defined
---line 513 of file bibliography/literature.bib
+--line 510 of file bibliography/literature.bib
 Warning--entry type for "Weimer2006" isn't style-file defined
---line 577 of file bibliography/literature.bib
-Warning--I didn't find a database entry for "Aaalst2011"
+--line 571 of file bibliography/literature.bib
 Warning--can't use both author and editor fields in BiardMauffBigandEtAl2015
-You've used 34 entries,
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            661 strings with 10968 characters,
-and the built_in function-call counts, 8088 in all, are:
-= -- 749
-> -- 310
-< -- 12
-+ -- 119
-- -- 85
-* -- 457
-:= -- 1204
-add.period$ -- 109
-call.type$ -- 34
-change.case$ -- 27
+            668 strings with 11328 characters,
+and the built_in function-call counts, 8660 in all, are:
+= -- 803
+> -- 337
+< -- 13
++ -- 129
+- -- 93
+* -- 493
+:= -- 1288
+add.period$ -- 116
+call.type$ -- 36
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 422
-empty$ -- 836
-format.name$ -- 85
-if$ -- 1901
+cite$ -- 37
+duplicate$ -- 451
+empty$ -- 889
+format.name$ -- 93
+if$ -- 2036
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 38
-newline$ -- 172
-num.names$ -- 36
-pop$ -- 160
+int.to.str$ -- 36
+missing$ -- 39
+newline$ -- 182
+num.names$ -- 38
+pop$ -- 169
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 201
+skip$ -- 216
 stack$ -- 0
-substring$ -- 432
-swap$ -- 129
-text.length$ -- 12
+substring$ -- 464
+swap$ -- 141
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 75
-width$ -- 36
-write$ -- 376
-(There were 4 warnings)
+while$ -- 80
+width$ -- 38
+write$ -- 399
+(There were 3 warnings)

@@ -216,4 +216,17 @@ Thierry Biard, Alexandre~Le Mauff, Michel Bigand, and Jean-Pierre Bourey.
 \newblock In {\em Risks and Resilience of Collaborative Networks}, pages
   489--496. Springer Science $\mathplus$ Business Media, 2015.
 
+\bibitem{FahlandLuebkeMendlingEtAl2009}
+Dirk Fahland, Daniel L{\"u}bke, Jan Mendling, Hajo Reijers, Barbara Weber,
+  Matthias Weidlich, and Stefan Zugal.
+\newblock Declarative versus imperative process modeling languages: The issue
+  of understandability.
+\newblock In {\em Enterprise, Business-Process and Information Systems
+  Modeling}, pages 353--366. Springer, 2009.
+
+\bibitem{CMMNbeta}
+The Object~Management Group.
+\newblock {\em {C}ase {M}anagement {M}odel and {N}otation version 1.1 (beta)}.
+\newblock Object Management Group, version 1.1 (beta) edition, May 2015.
+
 \end{thebibliography}

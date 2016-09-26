@@ -33,15 +33,18 @@
 \contentsline {section}{\numberline {4.1}Discovering the processes}{23}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The manual way}{23}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}The automated way}{28}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Introducing the indicators}{30}{section.4.2}
+\contentsline {section}{\numberline {4.2}Introducing the indicators}{31}{section.4.2}
 \contentsline {section}{\numberline {4.3}BPMN and routine processes}{32}{section.4.3}
 \contentsline {section}{\numberline {4.4}CMMN and knowledge work}{37}{section.4.4}
 \contentsline {section}{\numberline {4.5}DMN and decision making}{43}{section.4.5}
 \contentsline {section}{\numberline {4.6}Summary}{49}{section.4.6}
 \contentsline {part}{\numberline {V}Combination}{53}{part.5}
 \contentsline {chapter}{\numberline {5}Combining the different standards}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}Combining CMMN with BPMN}{55}{section.5.1}
-\contentsline {section}{\numberline {5.2}Combining DMN with BPMN}{55}{section.5.2}
-\contentsline {section}{\numberline {5.3}Combining CMMN with DMN}{55}{section.5.3}
-\contentsline {part}{Appendix}{59}{part*.22}
-\contentsline {chapter}{\nonumberline Bibliography}{59}{appendix*.23}
+\contentsline {section}{\numberline {5.1}When to combine}{55}{section.5.1}
+\contentsline {section}{\numberline {5.2}Combining CMMN with BPMN}{56}{section.5.2}
+\contentsline {section}{\numberline {5.3}Combining DMN with BPMN}{58}{section.5.3}
+\contentsline {section}{\numberline {5.4}Combining CMMN with DMN}{62}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Compatibility}{62}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Possible synergies}{63}{subsection.5.4.2}
+\contentsline {part}{Appendix}{67}{part*.22}
+\contentsline {chapter}{\nonumberline Bibliography}{67}{appendix*.23}

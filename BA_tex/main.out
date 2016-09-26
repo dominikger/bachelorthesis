@@ -35,8 +35,11 @@
 \BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 35
 \BOOKMARK [-1][-]{part.5}{Combination}{}% 36
 \BOOKMARK [0][-]{chapter.5}{Combining the different standards}{part.5}% 37
-\BOOKMARK [1][-]{section.5.1}{Combining CMMN with BPMN}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.2}{Combining DMN with BPMN}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.3}{Combining CMMN with DMN}{chapter.5}% 40
-\BOOKMARK [-1][-]{part*.22}{Appendix}{}% 41
-\BOOKMARK [0][-]{appendix*.23}{Bibliography}{part*.22}% 42
+\BOOKMARK [1][-]{section.5.1}{When to combine}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.2}{Combining CMMN with BPMN}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.3}{Combining DMN with BPMN}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.4}{Combining CMMN with DMN}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.4.1}{Compatibility}{section.5.4}% 42
+\BOOKMARK [2][-]{subsection.5.4.2}{Possible synergies}{section.5.4}% 43
+\BOOKMARK [-1][-]{part*.22}{Appendix}{}% 44
+\BOOKMARK [0][-]{appendix*.23}{Bibliography}{part*.22}% 45
