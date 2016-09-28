@@ -42,9 +42,7 @@
 \contentsline {chapter}{\numberline {5}Combining the different standards}{55}{chapter.5}
 \contentsline {section}{\numberline {5.1}When to combine}{55}{section.5.1}
 \contentsline {section}{\numberline {5.2}Combining CMMN with BPMN}{56}{section.5.2}
-\contentsline {section}{\numberline {5.3}Combining DMN with BPMN}{58}{section.5.3}
-\contentsline {section}{\numberline {5.4}Combining CMMN with DMN}{62}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Compatibility}{62}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Possible synergies}{63}{subsection.5.4.2}
-\contentsline {part}{Appendix}{67}{part*.22}
-\contentsline {chapter}{\nonumberline Bibliography}{67}{appendix*.23}
+\contentsline {section}{\numberline {5.3}Combining DMN with BPMN}{59}{section.5.3}
+\contentsline {section}{\numberline {5.4}Combining CMMN with DMN}{61}{section.5.4}
+\contentsline {part}{Appendix}{69}{part*.22}
+\contentsline {chapter}{\nonumberline Bibliography}{69}{appendix*.23}

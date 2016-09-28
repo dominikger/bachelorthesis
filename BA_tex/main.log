@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.4)  23 SEP 2016 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.4)  28 SEP 2016 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,7 +1180,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 43.
-<styles/informat.png, id=187, 355.3275pt x 355.3275pt>
+<styles/informat.png, id=179, 355.3275pt x 355.3275pt>
 File: styles/informat.png Graphic file (type png)
 
 <use styles/informat.png>
@@ -1450,7 +1450,7 @@ Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [31]
 <figures/../figures/chapter_indicators/BPMN_Example_Student_Application.png, id
-=611, 1243.64626pt x 383.4325pt>
+=601, 1243.64626pt x 383.4325pt>
 File: figures/../figures/chapter_indicators/BPMN_Example_Student_Application.pn
 g Graphic file (type png)
 
@@ -1472,7 +1472,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 [36] [37]
 <figures/../figures/chapter_indicators/CMMN_Example_Proposal_Creation.png, id=6
-63, 996.72375pt x 777.90625pt>
+53, 996.72375pt x 777.90625pt>
 File: figures/../figures/chapter_indicators/CMMN_Example_Proposal_Creation.png 
 Graphic file (type png)
 
@@ -1493,7 +1493,7 @@ Underfull \vbox (badness 2903) has occurred while \output is active []
 
  [40]
 <figures/../figures/chapter_indicators/CMMN_Stage_and_Task_Lifecycle_CMMN.png, 
-id=688, 658.46pt x 625.33624pt>
+id=678, 658.46pt x 625.33624pt>
 File: figures/../figures/chapter_indicators/CMMN_Stage_and_Task_Lifecycle_CMMN.
 png Graphic file (type png)
 
@@ -1544,7 +1544,7 @@ LaTeX Warning: Marginpar on page 43 moved.
 
 
 <figures/../figures/chapter_indicators/BPMN_Example_Student_Application_Short.p
-ng, id=713, 672.5125pt x 309.155pt>
+ng, id=703, 672.5125pt x 309.155pt>
 File: figures/../figures/chapter_indicators/BPMN_Example_Student_Application_Sh
 ort.png Graphic file (type png)
 
@@ -1555,7 +1555,7 @@ dent_Application_Short.png used on input line 360.
 (pdftex.def)             Requested size: 336.25542pt x 154.57712pt.
 
 <figures/../figures/chapter_indicators/BPMN_Example_Student_Application_DMN_Sho
-rt.png, id=716, 1159.33125pt x 567.11874pt>
+rt.png, id=706, 1159.33125pt x 567.11874pt>
 File: figures/../figures/chapter_indicators/BPMN_Example_Student_Application_DM
 N_Short.png Graphic file (type png)
 
@@ -1566,7 +1566,7 @@ dent_Application_DMN_Short.png used on input line 363.
 (pdftex.def)             Requested size: 463.72429pt x 226.84348pt.
 
 <figures/../figures/chapter_indicators/DMN_Application_Example_Deadline_ToR.png
-, id=719, 410.2828pt x 351.56343pt>
+, id=709, 410.2828pt x 351.56343pt>
 File: figures/../figures/chapter_indicators/DMN_Application_Example_Deadline_To
 R.png Graphic file (type png)
 
@@ -1603,7 +1603,7 @@ Overfull \hbox (18.04356pt too wide) in paragraph at lines 384--385
 [45 <./figures/../figures/chapter_indicators/DMN_Application_Example_Deadline_T
 oR.png>]
 <figures/../figures/chapter_indicators/DMN_Application_Example_Decision_Table_T
-oR.png, id=747, 1361.085pt x 530.98375pt>
+oR.png, id=737, 1361.085pt x 530.98375pt>
 File: figures/../figures/chapter_indicators/DMN_Application_Example_Decision_Ta
 ble_ToR.png Graphic file (type png)
 
@@ -1680,156 +1680,170 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 [55
 
 ]
-<figures/../figures/chapter_combinations/CMMN_Process_Tasks.png, id=830, 428.60
+<figures/../figures/chapter_combinations/CMMN_Process_Tasks.png, id=821, 428.60
 126pt x 244.915pt>
 File: figures/../figures/chapter_combinations/CMMN_Process_Tasks.png Graphic fi
 le (type png)
 
 <use figures/../figures/chapter_combinations/CMMN_Process_Tasks.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/CMMN_Process_T
-asks.png used on input line 23.
+asks.png used on input line 24.
 (pdftex.def)             Requested size: 303.34886pt x 173.34149pt.
 Package acronym Info: Label `acro:XPDL' newly defined as it shall be overridden
 
-although it is yet undefined on input line 29.
+although it is yet undefined on input line 30.
 Package acronym Info: Label `acro:WSBPEL' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 29.
+although it is yet undefined on input line 30.
 
-Overfull \hbox (103.438pt too wide) in paragraph at lines 28--31
+Overfull \hbox (103.438pt too wide) in paragraph at lines 29--32
 \OT1/pcr/m/n/12 : ProcessParameter \OT1/ppl/m/n/12 and \OT1/pcr/m/n/12 outputs 
 : ProcessParameter \OT1/ppl/m/n/12 [[]]. The \OT1/pcr/m/n/12 implementationType
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 [56]
-<figures/../figures/chapter_combinations/BPMN_Call_Task.png, id=840, 531.9875pt
+<figures/../figures/chapter_combinations/BPMN_Call_Task.png, id=830, 531.9875pt
  x 92.345pt>
 File: figures/../figures/chapter_combinations/BPMN_Call_Task.png Graphic file (
 type png)
  <use figures/../figures/chapter_combinations/BPMN_Call_Task.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Call_Task
-.png used on input line 34.
+.png used on input line 35.
 (pdftex.def)             Requested size: 303.34886pt x 52.65831pt.
 
-[57 <./figures/../figures/chapter_combinations/CMMN_Process_Tasks.png> <./figur
-es/../figures/chapter_combinations/BPMN_Call_Task.png>] [58]
-Overfull \hbox (5.34514pt too wide) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
+
+ []
+
+[57 <./figures/../figures/chapter_combinations/CMMN_Process_Tasks.png>]
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [58 <./figures/../figures/chapter_combinations/BPMN_Call_Task.png>]
+Underfull \vbox (badness 5681) has occurred while \output is active []
+
+ [59]
+Overfull \hbox (5.34514pt too wide) in paragraph at lines 54--55
 \OT1/ppl/m/n/12 one or more sub-se-quent, par-al-lel ex-e-cuted tasks con-necte
 d by an \OT1/pcr/m/n/12 AND\OT1/ppl/m/n/12 -gateway
  []
 
-[59] [60]
+
+Overfull \hbox (4.3493pt too wide) in paragraph at lines 70--72
+\OT1/ppl/m/n/12 en-cap-su-lates de-ci-sion logic. Ac-cord-ing to the DMN meta m
+odel, Knowl-edge Source
+ []
+
+[60]
 <figures/../figures/chapter_combinations/BPMN_Task_Table/Multi_instance.png, id
-=879, 396.48125pt x 127.47626pt>
+=871, 396.48125pt x 127.47626pt>
 File: figures/../figures/chapter_combinations/BPMN_Task_Table/Multi_instance.pn
 g Graphic file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_Task_Table/Multi_instance.png
 >
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Task_Tabl
-e/Multi_instance.png used on input line 82.
+e/Multi_instance.png used on input line 85.
 (pdftex.def)             Requested size: 198.24013pt x 63.73796pt.
 
 <figures/../figures/chapter_combinations/BPMN_Task_Table/Service_task.png, id=8
-80, 135.50626pt x 111.41624pt>
+72, 135.50626pt x 111.41624pt>
 File: figures/../figures/chapter_combinations/BPMN_Task_Table/Service_task.png 
 Graphic file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_Task_Table/Service_task.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Task_Tabl
-e/Service_task.png used on input line 84.
+e/Service_task.png used on input line 87.
 (pdftex.def)             Requested size: 94.85371pt x 77.99083pt.
 
-<figures/../figures/chapter_combinations/BPMN_Task_Table/User_task.png, id=881,
+<figures/../figures/chapter_combinations/BPMN_Task_Table/User_task.png, id=873,
  133.49875pt x 122.4575pt>
 File: figures/../figures/chapter_combinations/BPMN_Task_Table/User_task.png Gra
 phic file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_Task_Table/User_task.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Task_Tabl
-e/User_task.png used on input line 86.
+e/User_task.png used on input line 89.
 (pdftex.def)             Requested size: 93.44847pt x 85.71965pt.
 
 <figures/../figures/chapter_combinations/BPMN_Task_Table/Business_rule_task.png
-, id=883, 137.51375pt x 112.42pt>
+, id=875, 137.51375pt x 112.42pt>
 File: figures/../figures/chapter_combinations/BPMN_Task_Table/Business_rule_tas
 k.png Graphic file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_Task_Table/Business_rule_task
 .png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Task_Tabl
-e/Business_rule_task.png used on input line 88.
+e/Business_rule_task.png used on input line 91.
 (pdftex.def)             Requested size: 96.25896pt x 78.69345pt.
 
-<figures/../figures/chapter_combinations/BPMN_Task_Table/Script_task.png, id=88
-4, 136.51pt x 112.42pt>
+<figures/../figures/chapter_combinations/BPMN_Task_Table/Script_task.png, id=87
+6, 136.51pt x 112.42pt>
 File: figures/../figures/chapter_combinations/BPMN_Task_Table/Script_task.png G
 raphic file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_Task_Table/Script_task.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_Task_Tabl
-e/Script_task.png used on input line 90.
+e/Script_task.png used on input line 93.
 (pdftex.def)             Requested size: 95.55634pt x 78.69345pt.
 
-Overfull \hbox (6.66199pt too wide) in paragraph at lines 78--93
+Overfull \hbox (6.66199pt too wide) in paragraph at lines 81--96
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 1.38208pt on input line 95.
+LaTeX Warning: Float too large for page by 1.38208pt on input line 98.
 
 
-<figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png, id=887, 720.
+<figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png, id=879, 720.
 6925pt x 436.63126pt>
 File: figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png Graphic 
 file (type png)
 
 <use figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/BPMN_DMN_Salar
-y_2in1.png used on input line 103.
+y_2in1.png used on input line 106.
 (pdftex.def)             Requested size: 433.35742pt x 262.54707pt.
 Package acronym Info: Label `acro:URI' newly defined as it shall be overridden
-although it is yet undefined on input line 112.
+although it is yet undefined on input line 116.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+[61] [62 <./figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61 <./figures/../figures/chapter_combinations/BPMN_DMN_Salary_2in1.png>] [62]
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-<figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png, id=903,
+<figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png, id=894,
  483.8075pt x 163.61125pt>
 File: figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png Gra
 phic file (type png)
 
 <use figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png>
 Package pdftex.def Info: figures/../figures/chapter_combinations/CMMN_thesis_de
-cision_task.png used on input line 125.
+cision_task.png used on input line 126.
 (pdftex.def)             Requested size: 346.68726pt x 117.24577pt.
-)
-[63 <./figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png>]
-[64 <./figures/../figures/chapter_combinations/BPMN_Task_Table/Multi_instance.p
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63])
+[64 <./figures/../figures/chapter_combinations/CMMN_thesis_decision_task.png>]
+[65 <./figures/../figures/chapter_combinations/BPMN_Task_Table/Multi_instance.p
 ng> <./figures/../figures/chapter_combinations/BPMN_Task_Table/Service_task.png
 > <./figures/../figures/chapter_combinations/BPMN_Task_Table/User_task.png> <./
 figures/../figures/chapter_combinations/BPMN_Task_Table/Business_rule_task.png>
  <./figures/../figures/chapter_combinations/BPMN_Task_Table/Script_task.png>]
-[65
+[66
 
-] [66]) (./main.bbl [67
+] [67] [68]) (./main.bbl [69
 
 
 ]
@@ -1866,13 +1880,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[68]
+[70]
 Underfull \hbox (badness 5091) in paragraph at lines 162--165
 []\OT1/ppl/m/n/12 Robert Klein & Armin Scholl Wolf-gang Dom-schke, An-dreas Dre
 xl.
  []
 
-[69]
+[71]
 ! Undefined control sequence.
 <recently read> \mathplus 
                           
@@ -1884,14 +1898,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [70]
+) [72]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B3B11B7AA2E2371F4295690A884CAEDE;2678.
+(rerunfilecheck)             Checksum: FFB90B107D9AA959802BD6D4BA81DB32;2539.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1899,10 +1913,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 24286 strings out of 493089
- 440058 string characters out of 6134842
- 585934 words of memory out of 5000000
- 26959 multiletter control sequences out of 15000+600000
+ 24284 strings out of 493089
+ 440004 string characters out of 6134842
+ 585931 words of memory out of 5000000
+ 26957 multiletter control sequences out of 15000+600000
  29603 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,18n,76p,16142b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1913,10 +1927,10 @@ ive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015
 dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (88 pages, 542991 bytes).
+Output written on main.pdf (90 pages, 548204 bytes).
 PDF statistics:
- 1016 PDF objects out of 1200 (max. 8388607)
- 872 compressed objects within 9 object streams
+ 1017 PDF objects out of 1200 (max. 8388607)
+ 871 compressed objects within 9 object streams
  214 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

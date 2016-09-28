@@ -16,6 +16,6 @@
 \contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in fig. \ref {fig:BPMNexpandedApplicationEx}.}}{47}{figure.4.7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces A CMMN process task to call a BPMN process.}}{57}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A BPMN model with a call activity and an unspecified task.}}{57}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The DMN decision logic implemented as a BPMN business rule (illustrating example).}}{61}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces CMMN case with a decision task linking to a DMN decision table.}}{63}{figure.5.4}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A BPMN model with a call activity and an unspecified task.}}{58}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The DMN decision logic implemented as a BPMN business rule (illustrating example).}}{62}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CMMN case with a decision task linking to a DMN decision table.}}{64}{figure.5.4}
