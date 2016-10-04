@@ -7,15 +7,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A small BPMN example: the application process for study programs.}}{34}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CMMN example: Creating a research proposal.}}{39}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Stage and Task Lifecycle according to figure 7.3 in the CMMN specification.}}{42}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with only two decisions.}}{44}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with additional decisions.}}{44}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces A DMN Decision Requirement Graph incorporating the decision-making of the BPMN process in \ref {fig:BPMNexpandedApplicationEx}.}}{45}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in fig. \ref {fig:BPMNexpandedApplicationEx}.}}{47}{figure.4.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A small BPMN example: the application process for study programs.}}{35}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMMN example: Creating a research proposal.}}{40}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Stage and Task Lifecycle adopted from Figure 7.3 in the CMMN specification \cite {CMMNspec2014}.}}{42}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with only two decisions.}}{45}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with additional decisions.}}{45}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A DMN Decision Requirement Graph incorporating the decision-making of the BPMN process in \ref {fig:BPMNexpandedApplicationEx}.}}{46}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in Fig. \ref {fig:BPMNexpandedApplicationEx}.}}{48}{figure.4.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces A CMMN process task to call a BPMN process.}}{57}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces A BPMN model with a call activity and an unspecified task.}}{58}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The DMN decision logic implemented as a BPMN business rule (illustrating example).}}{62}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces CMMN case with a decision task linking to a DMN decision table.}}{64}{figure.5.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A CMMN process task to call a BPMN process.}}{59}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A BPMN model with a call activity and an unspecified task.}}{60}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The DMN decision logic implemented as a BPMN business rule (illustrating example).}}{64}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CMMN case with a decision task linking to a DMN decision table.}}{66}{figure.5.4}
+\addvspace {10\p@ }

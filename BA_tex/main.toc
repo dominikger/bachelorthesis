@@ -7,8 +7,8 @@
 \contentsline {chapter}{Acknowledgements}{ix}{section*.2}
 \contentsline {chapter}{Acronyms}{xi}{section*.3}
 \contentsline {chapter}{Table of contents}{xiii}{section*.4}
-\contentsline {chapter}{List of Figures}{xiv}{section*.6}
-\contentsline {chapter}{List of Tables}{xv}{section*.8}
+\contentsline {chapter}{List of Figures}{xv}{section*.6}
+\contentsline {chapter}{List of Tables}{xvii}{section*.8}
 \contentsline {part}{\numberline {I}Introduction}{1}{part.1}
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
@@ -23,26 +23,31 @@
 \contentsline {section}{\numberline {2.3}DMN}{10}{section.2.3}
 \contentsline {part}{\numberline {III}Background}{13}{part.3}
 \contentsline {chapter}{\numberline {3}Background}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}BPMN and its shortcomings}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Origins of BPMN}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Shortcomings}{16}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.1}Origins of BPMN}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}Origins of CMMN}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Origins of DMN}{18}{section.3.3}
+\contentsline {section}{\numberline {3.3}Origins of DMN}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}eKultur GmbH}{18}{section.3.4}
 \contentsline {part}{\numberline {IV}Indicators}{21}{part.4}
 \contentsline {chapter}{\numberline {4}Differentiating between BPMN, CMMN and DMN}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Discovering the processes}{23}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The manual way}{23}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}The automated way}{28}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Introducing the indicators}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}BPMN and routine processes}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}CMMN and knowledge work}{37}{section.4.4}
-\contentsline {section}{\numberline {4.5}DMN and decision making}{43}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{49}{section.4.6}
-\contentsline {part}{\numberline {V}Combination}{53}{part.5}
-\contentsline {chapter}{\numberline {5}Combining the different standards}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}When to combine}{55}{section.5.1}
-\contentsline {section}{\numberline {5.2}Combining CMMN with BPMN}{56}{section.5.2}
-\contentsline {section}{\numberline {5.3}Combining DMN with BPMN}{59}{section.5.3}
-\contentsline {section}{\numberline {5.4}Combining CMMN with DMN}{61}{section.5.4}
-\contentsline {part}{Appendix}{69}{part*.22}
-\contentsline {chapter}{\nonumberline Bibliography}{69}{appendix*.23}
+\contentsline {section}{\numberline {4.3}BPMN and routine processes}{34}{section.4.3}
+\contentsline {section}{\numberline {4.4}CMMN and knowledge work}{38}{section.4.4}
+\contentsline {section}{\numberline {4.5}DMN and decision making}{44}{section.4.5}
+\contentsline {section}{\numberline {4.6}Summary}{51}{section.4.6}
+\contentsline {part}{\numberline {V}Combination}{55}{part.5}
+\contentsline {chapter}{\numberline {5}Combining the different standards}{57}{chapter.5}
+\contentsline {section}{\numberline {5.1}When to combine}{57}{section.5.1}
+\contentsline {section}{\numberline {5.2}Combining CMMN with BPMN}{58}{section.5.2}
+\contentsline {section}{\numberline {5.3}Combining DMN with BPMN}{61}{section.5.3}
+\contentsline {section}{\numberline {5.4}Combining CMMN with DMN}{63}{section.5.4}
+\contentsline {part}{\numberline {VI}Use Case Study}{69}{part.6}
+\contentsline {chapter}{\numberline {6}Case Case Study}{71}{chapter.6}
+\contentsline {section}{\numberline {6.1}Methodology}{73}{section.6.1}
+\contentsline {section}{\numberline {6.2}CMMN}{73}{section.6.2}
+\contentsline {section}{\numberline {6.3}DMN}{73}{section.6.3}
+\contentsline {section}{\numberline {6.4}Combined approach}{73}{section.6.4}
+\contentsline {part}{Appendix}{77}{part*.17}
+\contentsline {chapter}{\nonumberline Bibliography}{77}{appendix*.18}
