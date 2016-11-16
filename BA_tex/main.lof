@@ -6,3 +6,40 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A small BPMN example: the application process for study programs.}}{23}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMMN example: Creating a research proposal.}}{28}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Stage and Task Lifecycle adopted from Figure 7.3 in the CMMN specification \cite {CMMNspec2014}.}}{31}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with only two decisions.}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Shortened example from section \ref {section:BPMNindicators} with additional decisions.}}{35}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A DMN Decision Requirement Graph incorporating the decision-making of the BPMN process in \ref {fig:BPMNexpandedApplicationEx}.}}{36}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces An example DMN decision table with the decision logic accord to the BPMN example in Fig. \ref {fig:BPMNexpandedApplicationEx}.}}{37}{figure.4.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A CMMN process task to call a BPMN process.}}{43}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A BPMN model with a call activity and an unspecified task.}}{44}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The DMN decision logic implemented as a BPMN business rule (illustrating example).}}{48}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CMMN case with a decision task linking to a DMN decision table.}}{50}{figure.5.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The recommendation engine denoted as a DRG.}}{53}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Company Audit process map result from a first iteration of process discovery.}}{56}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \textit {Check Federal Gazette} process modeled in BPMN.}}{58}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \textit {Check District Court} process modeled in BPMN.}}{58}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \textit {Check DUNS Number} process modeled in BPMN.}}{60}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \textit {Check Creditor Identifier} process modeled in BPMN.}}{60}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \textit {Check Website} process modeled in CMMN.}}{63}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \textit {Check Current Media} process modeled in CMMN.}}{65}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \textit {Personal Contact} process modeled in CMMN.}}{67}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The \textit {Company Audit} process modeled in CMMN.}}{69}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces \textit {Create New Venue} process map resembling a flow chart.}}{70}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The \textit {Create New Venue} process modeled in BPMN according to the indicators in Table \ref {tab:create_new_venue} and the process documentation in Appendix B.}}{75}{figure.6.12}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces The \textit {Create New Company} process modeled in BPMN according to the indicators in Table \ref {tab:create_new_company} and the process documentation in Appendix C}}{76}{figure.6.13}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\select@language {german}
+\select@language {english}
+\addvspace {10\p@ }
+\select@language {german}
+\select@language {english}
+\addvspace {10\p@ }
+\select@language {german}
+\select@language {english}

@@ -1,0 +1,8 @@
+Policy;Explanation
+Single hit;Unique (no overlap allowed)
+;"Any (overlap allowed, outputsmust be equal)"
+;"Priority (returns matching rulewith highest output priority)"
+;First (first hit by rule order
+Multiple hit ;"Output order (returns all hit indecreasing output priority order)"
+;Rule order (returns all hits in rule order(
+;"Collect (aggregates all hits withspecified operatores)"

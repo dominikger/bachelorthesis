@@ -1,0 +1,14 @@
+Indicators;DMN
+Documentation style;Spreadsheets
+Preceding process map ;Decision trees
+Characteristics of work;Orchestrated, ad hoc adaption of values
+Characteristics of process;Data centric decisions, ad hoc adaption beneficial, structured, repeatable
+Characteristics of decisions;Complex and data centric
+Control flow;Dependencies only
+intervention at run-time;Yes
+Objective;Automation 
+Characteristics of process;Decisions
+Typical application;"Calculation of discount rates, salary, multi-instance decisions,
+cross divisional decisions involving several deciders, 
+aggregation of data to get a specific output for a specific case, 
+inter-divisional decision-making"

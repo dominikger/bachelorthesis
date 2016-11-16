@@ -1,17 +1,33 @@
 \begin{thebibliography}{10}
 
+\bibitem{CMMNspec2014}
+The Object~Management Group.
+\newblock {\em {C}ase {M}anagement {M}odel and {N}otation version 1.0}.
+\newblock Object Management Group, version 1.0 edition, May 2014.
+
+\bibitem{DMNspec2016}
+The Object~Management Group.
+\newblock {\em {D}ecision {M}odel and {N}otiation}.
+\newblock Object Management Group, version 1.1 edition, May 2016.
+
 \bibitem{Porter1988}
-Micheal~Porter Michael E.~Porter.
+Michael~E. Porter.
 \newblock {\em {C}ompetitive {A}dvantage: {C}reating and {S}ustaining
   {S}uperior {P}erformance}.
 \newblock FREE PR, 1998.
 
-\bibitem{Motahari-NezhadSwenson2013}
-H.~R. Motahari-Nezhad and K.~D. Swenson.
-\newblock {A}daptive {C}ase {M}anagement: {O}verview and {R}esearch
-  {C}hallenges.
-\newblock In {\em 2013 IEEE 15\textsuperscript{th} Conference on Business
-  Informatics}, pages 264--269, July 2013.
+\bibitem{KurzSchmidtFleischmannEtAl2015}
+Matthias Kurz, Werner Schmidt, Albert Fleischmann, and Matthias Lederer.
+\newblock {L}everaging {CMMN} for {ACM}.
+\newblock In {\em Proceedings of the 7\textsuperscript{th} International
+  Conference on Subject-Oriented Business Process Management - S-{BPM} {ONE}
+  {\textquotesingle}15}. Association for Computing Machinery ({ACM}), 2015.
+
+\bibitem{Fish2012}
+Alan~N. Fish.
+\newblock {\em {K}nowledge {A}utomation: {H}ow to {I}mplement {D}ecision
+  {M}anagement in {B}usiness {P}rocesses}.
+\newblock JOHN WILEY \& SONS INC, 2012.
 
 \bibitem{OsuszekStanek2015}
 {\L}ukasz Osuszek and Stanis{\l}aw Stanek.
@@ -21,63 +37,55 @@ H.~R. Motahari-Nezhad and K.~D. Swenson.
   Science and Information Systems}. Polish Information Processing Society
   {PTI}, October 2015.
 
-\bibitem{Kuzin2013}
-Vadim Kuzin and Galina Kuzina.
-\newblock {\em {O}n the {M}ove to {M}eaningful {I}nternet {S}ystems: {OTM}
-  2013~{W}orkshops: {C}onfederated {I}nternational {W}orkshops: {OTM}
-  {A}cademy, {OTM} {I}ndustry {C}ase {S}tudies {P}rogram, {ACM}, {EI}2{N},
-  {ISDE}, {META}4e{S}, {ORM}, {S}e{D}e{S}, {SINCOM}, {SMS}, and {SOMOCO} 2013,
-  {G}raz, {Austria}, {September} 9 - 13, 2013, {P}roceedings}, chapter CMMN
-  Implementation in Executable Model of Business Process at Order-Based
-  Manufacturing Enterprise, pages 112--123.
-\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2013.
+\bibitem{LuSadiq}
+Ruopeng Lu and Shazia Sadiq.
+\newblock A survey of comparative business process modeling approaches.
+\newblock In {\em Business Information Systems}, pages 82--94. Springer Science
+  $\mathplus$ Business Media, 2007.
 
-\bibitem{WangTraore2014}
-Shaowei Wang and Mamadou~Kaba Traor{\'e}.
-\newblock {A} {S}ystem-theoretic {A}pproach to {C}ase {M}anagement.
-\newblock In {\em Proceedings of the 2014 SpringSim Poster Session}, Posters
-  '14, pages 31--32, San Diego, CA, USA, 2014. Society for Computer Simulation
-  International.
+\bibitem{KoLeeLee2009}
+Ryan~K.L. Ko, Stephen~S.G. Lee, and Eng~Wah Lee.
+\newblock Business process management ({BPM}) standards: a survey.
+\newblock {\em Business Process Management Journal}, 15(5):744--791, sep 2009.
 
-\bibitem{Zeising_2014}
-Michael Zeising, Stefan Sch{\"{o}}nig, and Stefan Jablonski.
-\newblock {T}owards a {C}ommon {P}latform for the {S}upport of {R}outine and
-  {A}gile {B}usiness {P}rocesses.
-\newblock In {\em Proceedings of the 10\textsuperscript{th} {IEEE}
-  International Conference on Collaborative Computing: Networking, Applications
-  and Worksharing}, pages 94--103. Institute for Computer Sciences, Social
-  Informatics and Telecommunications Engineering ({ICST}), October 2014.
+\bibitem{FettkeLoosZwicker2006}
+Peter Fettke, Peter Loos, and Jörg Zwicker.
+\newblock Business process reference models: Survey and classification.
+\newblock In {\em Business Process Management Workshops}, pages 469--483.
+  Springer Science $\mathplus$ Business Media, 2006.
 
-\bibitem{KurzSchmidtFleischmannEtAl2015}
-Matthias Kurz, Werner Schmidt, Albert Fleischmann, and Matthias Lederer.
-\newblock {L}everaging {CMMN} for {ACM}.
-\newblock In {\em Proceedings of the 7\textsuperscript{th} International
-  Conference on Subject-Oriented Business Process Management - S-{BPM} {ONE}
-  {\textquotesingle}15}. Association for Computing Machinery ({ACM}), 2015.
+\bibitem{BendraouJezequelGervaisEtAl2010}
+R.~Bendraou, J.~M. Jezequel, M.~P. Gervais, and X.~Blanc.
+\newblock A comparison of six {UML}-based languages for software process
+  modeling.
+\newblock {\em IEEE Transactions on Software Engineering}, 36(5):662--675,
+  September 2010.
 
-\bibitem{BiardMauffBigandEtAl2015}
-Thierry Biard, Alexandre Mauff, Michel Bigand, and Jean-Pierre Bourey.
-\newblock {\em {R}isks and {R}esilience of {C}ollaborative {N}etworks:
-  16\textsuperscript{th} {IFIP} {WG} 5.5~{W}orking {C}onference on {V}irtual
-  {E}nterprises, {PRO}-{VE} 2015, {A}lbi, {France},, {October} 5-7, 2015,
-  {P}roceedings}, chapter Separation of Decision Modeling from Business Process
-  Modeling Using New ``Decision Model and Notation'' (DMN) for Automating
-  Operational Decision-Making, pages 489--496.
-\newblock Springer International Publishing, Cham, 2015.
+\bibitem{Vallecillo2010}
+Antonio Vallecillo.
+\newblock On the combination of domain specific modeling languages.
+\newblock In {\em Modelling Foundations and Applications}, pages 305--320.
+  Springer Science $\mathplus$ Business Media, 2010.
 
-\bibitem{BatoulisMeyerBazhenovaEtAl2015}
-Kimon Batoulis, Andreas Meyer, Ekaterina Bazhenova, Gero Decker, and Mathias
-  Weske.
-\newblock {E}xtracting {D}ecision {L}ogic from {P}rocess {M}odels.
-\newblock In {\em Advanced Information Systems Engineering}, pages 349--366.
-  Springer Science $\mathplus$ Business Media, 2015.
+\bibitem{SoederstroemAnderssonJohannessonEtAl2002}
+Eva Söderström, Birger Andersson, Paul Johannesson, Erik Perjons, and Benkt
+  Wangler.
+\newblock Towards a framework for comparing process modelling languages.
+\newblock In {\em Advanced Information Systems Engineering}, pages 600--611.
+  Springer Science $\mathplus$ Business Media, 2002.
 
-\bibitem{MertensGaillyPoels2015}
-Steven Mertens, Frederik Gailly, and Geert Poels.
-\newblock {E}nhancing {D}eclarative {P}rocess {M}odels with {DMN} {D}ecision
-  {L}ogic.
-\newblock In {\em Enterprise, Business-Process and Information Systems
-  Modeling}, pages 151--165. Springer Science $\mathplus$ Business Media, 2015.
+\bibitem{MiliTremblayJaoudeEtAl2010}
+Hafedh Mili, Guy Tremblay, Guitta~Bou Jaoude, {\'{E}}ric Lefebvre, Lamia
+  Elabed, and Ghizlane~El Boussaidi.
+\newblock Business process modeling languages.
+\newblock {\em {ACM} Computing Surveys}, 43(1):1--56, nov 2010.
+
+\bibitem{RoserBauer2005}
+S.~Roser and B.~Bauer.
+\newblock A categorization of collaborative business process modeling
+  techniques.
+\newblock In {\em Proc. Seventh IEEE Int. Conf. E-Commerce Technology
+  Workshops}, pages 43--51, July 2005.
 
 \bibitem{Dumas2013}
 Marlon Dumas, Marcello~La Rosa, Jan Mendling, and Hajo Reijers.
@@ -95,19 +103,6 @@ T.~Allweyer.
   {P}rocess {M}odeling}.
 \newblock Books on Demand, 2010.
 
-\bibitem{Repa2014}
-V.~Repa and O.~Zelenzfik.
-\newblock {M}ethodological limitations of modeling languages {BPMN} and {ARIS}.
-\newblock In {\em Proc. 15th Int Control Conf. (ICCC) Carpathian}, pages
-  507--512, May 2014.
-
-\bibitem{ReckerIndulskaRosemannEtAl2006}
-Jan~C. Recker, Marta Indulska, Michael Rosemann, and Peter Green.
-\newblock {H}ow {G}ood is {BPMN} {R}eally? {I}nsights from {T}heory and
-  {P}ractice.
-\newblock In Jan Ljungberg and Magnus Andersson, editors, {\em 14th European
-  Conference on Information Systems}, Goeteborg, Sweden, 2006.
-
 \bibitem{aalst2003}
 W.M.P. van~der Aalst, M.~Stoffele, and J.W.F. Wamelink.
 \newblock {C}ase handling in construction.
@@ -120,19 +115,109 @@ Stijn Goedertier, Jan Vanthienen, and Filip Caron.
 \newblock {\em Enterprise Information Systems}, 9(2):161--185, sep 2013.
 
 \bibitem{BPMNspec}
-{B}usiness {P}rocess {M}odel and {N}otation.
+The Object~Management Group.
+\newblock {B}usiness {P}rocess {M}odel and {N}otation.
 \newblock Technical report, The Object Management Group, 2013.
 \newblock Version 2.0.2.
-
-\bibitem{Fish2012}
-Alan~N. Fish.
-\newblock {\em {K}nowledge {A}utomation: {H}ow to {I}mplement {D}ecision
-  {M}anagement in {B}usiness {P}rocesses}.
-\newblock JOHN WILEY \& SONS INC, 2012.
 
 \bibitem{MendlingReijersAalst2010}
 J.~Mendling, H.A. Reijers, and W.M.P. van~der Aalst.
 \newblock {S}even process modeling guidelines (7{PMG}).
 \newblock {\em Information and Software Technology}, 52(2):127--136, feb 2010.
+
+\bibitem{Verner2004}
+Laury Verner.
+\newblock The challenge of process discovery.
+\newblock {\em BPM Trends, May}, 2004.
+
+\bibitem{Jadhav2011}
+Sandeep Jadhav.
+\newblock {B}usiness {P}rocess {D}iscovery.
+\newblock {\em BP Trends (February)}, 2011.
+
+\bibitem{Aalst2011}
+Wil van~der Aalst.
+\newblock {\em {P}rocess {M}ining - {D}iscovery, {C}onformance and
+  {E}nhancement of {B}usiness {P}rocesses}.
+\newblock Springer Science \& Business Media, Berlin Heidelberg, 2011. aufl.
+  edition, 2011.
+
+\bibitem{Domschke2015}
+Robert Klein \& Armin~Scholl Wolfgang~Domschke, Andreas~Drexl.
+\newblock {\em Einführung in Operations Research}.
+\newblock Springer Berlin Heidelberg, 2015.
+
+\bibitem{Weimer2006}
+Marco Weimer.
+\newblock Integration adaptiver prozess-management-technologie und process
+  mining.
+\newblock techreport, Univeristaet Ulm, 2006.
+
+\bibitem{manifesto2011}
+Wil Van Der~Aalst, Arya Adriansyah, Ana Karla~Alves De~Medeiros, Franco
+  Arcieri, Thomas Baier, Tobias Blickle, Jagadeesh~Chandra Bose, Peter van~den
+  Brand, Ronald Brandtjen, Joos Buijs, et~al.
+\newblock Process mining manifesto.
+\newblock In {\em International Conference on Business Process Management},
+  pages 169--194. Springer, 2011.
+
+\bibitem{bmm2015}
+The Object~Management Group.
+\newblock {B}usiness {M}otivation {M}odel.
+\newblock Technical report, The Object Management Group, 2015.
+
+\bibitem{Zeising_2014}
+Michael Zeising, Stefan Sch{\"{o}}nig, and Stefan Jablonski.
+\newblock {T}owards a {C}ommon {P}latform for the {S}upport of {R}outine and
+  {A}gile {B}usiness {P}rocesses.
+\newblock In {\em Proceedings of the 10\textsuperscript{th} {IEEE}
+  International Conference on Collaborative Computing: Networking, Applications
+  and Worksharing}, pages 94--103. Institute for Computer Sciences, Social
+  Informatics and Telecommunications Engineering ({ICST}), October 2014.
+
+\bibitem{aalst2005}
+Wil~M.P. van~der Aalst, Mathias Weske, and Dolf Grünbauer.
+\newblock {C}ase handling: a new paradigm for business process support.
+\newblock {\em Data {\&} Knowledge Engineering}, 53(2):129--162, may 2005.
+
+\bibitem{hinkelmann2015}
+Knut Hinkelmann.
+\newblock {\em {C}ase {M}anagement {M}odel and {N}otation - {CMMN}}.
+\newblock University of Applied Sciences and Arts Northwestern Switzerland,
+  2015.
+
+\bibitem{Recker2010}
+Jan Recker.
+\newblock {O}pportunities and constraints: the current struggle with {BPMN}.
+\newblock {\em Business Process Mgmt Journal}, 16(1):181--201, feb 2010.
+
+\bibitem{FahlandLuebkeMendlingEtAl2009}
+Dirk Fahland, Daniel L{\"u}bke, Jan Mendling, Hajo Reijers, Barbara Weber,
+  Matthias Weidlich, and Stefan Zugal.
+\newblock Declarative versus imperative process modeling languages: The issue
+  of understandability.
+\newblock In {\em Enterprise, Business-Process and Information Systems
+  Modeling}, pages 353--366. Springer, 2009.
+
+\bibitem{DMNmicroguide}
+Tom Debevoise, James Taylor, Jim Sinur, and Rick Geneva.
+\newblock {\em {T}he {M}icro{G}uide to {P}rocess and {D}ecision {M}odeling in
+  {BPMN}/{DMN}: {B}uilding {M}ore {E}ffective {P}rocesses by {I}ntegrating
+  {P}rocess {M}odeling with {D}ecision {M}odeling}.
+\newblock CreateSpace Independent Publishing Platform, USA, 2014.
+
+\bibitem{BiardMauffBigandEtAl2015a}
+Thierry Biard, Alexandre~Le Mauff, Michel Bigand, and Jean-Pierre Bourey.
+\newblock {S}eparation of {D}ecision {M}odeling from {B}usiness {P}rocess
+  {M}odeling {U}sing {N}ew {\textquotedblleft}{D}ecision {M}odel and
+  {N}otation{\textquotedblright} ({DMN}) for {A}utomating {O}perational
+  {D}ecision-{M}aking.
+\newblock In {\em Risks and Resilience of Collaborative Networks}, pages
+  489--496. Springer Science $\mathplus$ Business Media, 2015.
+
+\bibitem{CMMNbeta}
+The Object~Management Group.
+\newblock {\em {C}ase {M}anagement {M}odel and {N}otation version 1.1 (beta)}.
+\newblock Object Management Group, version 1.1 (beta) edition, May 2015.
 
 \end{thebibliography}

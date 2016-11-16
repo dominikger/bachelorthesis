@@ -4,24 +4,47 @@
 \BOOKMARK [0][-]{section*.4}{Table of contents}{}% 4
 \BOOKMARK [0][-]{section*.6}{List of Figures}{}% 5
 \BOOKMARK [0][-]{section*.8}{List of Tables}{}% 6
-\BOOKMARK [-1][-]{part.1}{Introduction}{}% 7
-\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 8
-\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.3}{Approach}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.4}{Contributions}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.5}{Organization}{chapter.1}% 13
-\BOOKMARK [-1][-]{part.2}{Related Work}{}% 14
-\BOOKMARK [0][-]{chapter.2}{Related Work}{part.2}% 15
-\BOOKMARK [1][-]{section.2.1}{BPMN}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.2}{CMMN}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.3}{DMN}{chapter.2}% 18
-\BOOKMARK [-1][-]{part.3}{The Evolution from BPMN to CMMN and DMN}{}% 19
-\BOOKMARK [0][-]{chapter.3}{The Evolution from BPMN to CMMN and DMN}{part.3}% 20
-\BOOKMARK [1][-]{section.3.1}{BPMN and its shortcomings}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.1.1}{Origins of BPMN}{section.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.1.2}{Shortcomings}{section.3.1}% 23
-\BOOKMARK [1][-]{section.3.2}{Origins of CMMN}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.3}{Origins of DMN}{chapter.3}% 25
-\BOOKMARK [-1][-]{part*.10}{Appendix}{}% 26
-\BOOKMARK [0][-]{appendix*.11}{Bibliography}{part*.10}% 27
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Problem Statement}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Approach}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{Contributions}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{Organization}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 13
+\BOOKMARK [0][-]{chapter.3}{Background}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Origins of BPMN}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Origins of CMMN}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Origins of DMN}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{eKultur GmbH}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Differentiating between BPMN, CMMN and DMN}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Discovering the processes}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{The manual way}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{The automated way}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Introducing the indicators}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.3}{BPMN and routine processes}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.4}{CMMN and knowledge work}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.5}{DMN and decision making}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.6}{Summary}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Combining the different standards}{}% 28
+\BOOKMARK [1][-]{section.5.1}{When to combine}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Combining CMMN with BPMN}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.3}{Combining DMN with BPMN}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.4}{Combining CMMN with DMN}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.5}{Summary}{chapter.5}% 33
+\BOOKMARK [0][-]{chapter.6}{Case Study}{}% 34
+\BOOKMARK [1][-]{section.6.1}{Methodology}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.2}{Company audit process}{chapter.6}% 36
+\BOOKMARK [2][-]{subsection.6.2.1}{Sub-processes}{section.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.2.2}{Combining the sub-processes}{section.6.2}% 38
+\BOOKMARK [1][-]{section.6.3}{Create New Venue}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.4}{Create New Company}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.5}{Summary}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{Conclusion and future work}{}% 42
+\BOOKMARK [1][-]{section.7.1}{The big picture}{chapter.7}% 43
+\BOOKMARK [1][-]{section.7.2}{Downsides of this thesis}{chapter.7}% 44
+\BOOKMARK [1][-]{section.7.3}{Future work}{chapter.7}% 45
+\BOOKMARK [-1][-]{part*.17}{Appendix}{}% 46
+\BOOKMARK [0][-]{appendix.A}{Company Audit Process Documentation}{part*.17}% 47
+\BOOKMARK [0][-]{appendix.B}{Create new Venue Process Documentation}{part*.17}% 48
+\BOOKMARK [0][-]{appendix.C}{Create New Company Process Documentation}{part*.17}% 49
+\BOOKMARK [0][-]{appendix*.27}{Bibliography}{part*.17}% 50
