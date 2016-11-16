@@ -63,7 +63,7 @@
 \selectlanguage{english}
 
 % use german characters as well
-\usepackage[latin1]{inputenc}       % allow Latin1 characters
+\usepackage[utf8]{inputenc}       % allow Latin1 characters
 
 % use initals dropped caps - doesn't work with PDF
 % \usepackage{dropping}
@@ -185,3 +185,9 @@ stringstyle=\color{black}}
 
 %allows usage of greek letters in text without switching to math mode 
 \usepackage{textgreek}
+
+% Hurenkinder und Schusterjungen verhindern
+\clubpenalty10000
+\widowpenalty10000
+\displaywidowpenalty=10000
+\looseness=-1

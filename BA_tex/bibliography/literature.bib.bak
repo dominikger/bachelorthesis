@@ -105,7 +105,7 @@
   month     = oct,
   pages     = {94--103},
   doi       = {10.4108/icst.collaboratecom.2014.257269},
-  groups    = {proposal, CMMN},
+  groups    = {proposal, CMMN, Related Work},
   keywords  = {business data processing;knowledge based systems;CMMN models;agile business processes;business process requirements;case management model and notation;intermediate language;process navigation platform;routine business processes;rule-based notation;Routing;Synchronization;Transient analysis;CMMN;Process Navigation;Workflow Patterns;agile processes;business processes;cross-perspective modeling;modalities;procedural modeling;routine processes;rule-based modeling},
 }
 
@@ -223,7 +223,7 @@
   publisher = {Springer Science $\mathplus$ Business Media},
   pages     = {129--144},
   doi       = {10.1007/978-3-319-21915-8_9},
-  groups    = {proposal, BPMN},
+  groups    = {proposal, BPMN, Related Work},
   keywords  = {DMN, Decision modeling},
 }
 
@@ -254,7 +254,7 @@
 }
 
 @Book{Porter1988,
-  author    = {Michael E. Porter, Micheal Porter},
+  author    = {Porter, Michael E.},
   title     = {{C}ompetitive {A}dvantage: {C}reating and {S}ustaining {S}uperior {P}erformance},
   year      = {1998},
   date      = {1998-06-11},
@@ -289,7 +289,7 @@
   month     = may,
   pages     = {507--512},
   doi       = {10.1109/CarpathianCC.2014.6843657},
-  groups    = {BPMN},
+  groups    = {BPMN, Related Work},
   keywords  = {business data processing, specification languages, ARIS modeling languages, Architecture of Integrated Systems Notation, BPMN modeling languages, Business Process Modeling Notation, MMABP business process meta-model, business perspective, business process management, business-technology border, technology perspective, Collaboration, Computer aided software engineering, Organizations, Process control, Standards organizations, ARIS, BPMN, business process management, business process modeling, modeling language},
 }
 
@@ -568,25 +568,24 @@
   pages        = {169--194},
 }
 
-@Thesis{Weimer2006,
+@TechReport{Weimer2006,
   author      = {Marco Weimer},
   title       = {Integration Adaptiver Prozess-Management-Technologie und Process Mining},
-  type        = {candthesis},
   institution = {Univeristaet Ulm},
   year        = {2006},
   date        = {2006-08-31},
+  type        = {techreport},
   url         = {http://dbis.eprints.uni-ulm.de/563/1/Waim06a.pdf},
 }
 
 @InCollection{FahlandLuebkeMendlingEtAl2009,
-  author        = {Fahland, Dirk and L{\"u}bke, Daniel and Mendling, Jan and Reijers, Hajo and Weber, Barbara and Weidlich, Matthias and Zugal, Stefan},
-  title         = {Declarative versus imperative process modeling languages: The issue of understandability},
-  booktitle     = {Enterprise, Business-Process and Information Systems Modeling},
-  year          = {2009},
-  publisher     = {Springer},
-  pages         = {353--366},
-  __markedentry = {[Dominik:6]},
-  groups        = {Background},
+  author    = {Fahland, Dirk and L{\"u}bke, Daniel and Mendling, Jan and Reijers, Hajo and Weber, Barbara and Weidlich, Matthias and Zugal, Stefan},
+  title     = {Declarative versus imperative process modeling languages: The issue of understandability},
+  booktitle = {Enterprise, Business-Process and Information Systems Modeling},
+  year      = {2009},
+  publisher = {Springer},
+  pages     = {353--366},
+  groups    = {Background, Related Work},
 }
 
 @Manual{CMMNbeta,
@@ -605,6 +604,136 @@
   month         = may,
 }
 
+@InProceedings{RoserBauer2005,
+  author    = {S. Roser and B. Bauer},
+  title     = {A categorization of collaborative business process modeling techniques},
+  booktitle = {Proc. Seventh IEEE Int. Conf. E-Commerce Technology Workshops},
+  year      = {2005},
+  month     = jul,
+  pages     = {43--51},
+  doi       = {10.1109/CECW.2005.1},
+  groups    = {Related Work},
+  keywords  = {business data processing, software engineering, collaborative business process modeling, information and communication technology, modeling language, service-oriented solution, software engineering, Application software, Collaboration, Collaborative software, Collaborative work, Computer science, Service oriented architecture, Software engineering, Standardization, Standards development, Standards organizations},
+}
+
+@Article{BendraouJezequelGervaisEtAl2010,
+  author   = {R. Bendraou and J. M. Jezequel and M. P. Gervais and X. Blanc},
+  title    = {A Comparison of Six {UML}-Based Languages for Software Process Modeling},
+  year     = {2010},
+  volume   = {36},
+  number   = {5},
+  month    = sep,
+  pages    = {662--675},
+  issn     = {0098-5589},
+  doi      = {10.1109/TSE.2009.85},
+  groups   = {Related Work},
+  journal  = {IEEE Transactions on Software Engineering},
+  keywords = {Unified Modeling Language, software engineering, UML based SPML, UML based language, metamodeling approach, software development process, software process modeling language, Analytical models, Computational modeling, Object oriented modeling, Programming, Semantics, Software, Unified modeling language, Metamodeling, UML., process modeling and execution, software process modeling languages},
+}
+
+@InCollection{LuSadiq,
+  author    = {Ruopeng Lu and Shazia Sadiq},
+  title     = {A Survey of Comparative Business Process Modeling Approaches},
+  booktitle = {Business Information Systems},
+  year      = {2007},
+  publisher = {Springer Science $\mathplus$ Business Media},
+  pages     = {82--94},
+  doi       = {10.1007/978-3-540-72035-5_7},
+  url       = {http://dx.doi.org/10.1007/978-3-540-72035-5_7},
+  groups    = {Related Work},
+}
+
+@Article{KoLeeLee2009,
+  author    = {Ryan K.L. Ko and Stephen S.G. Lee and Eng Wah Lee},
+  title     = {Business process management ({BPM}) standards: a survey},
+  year      = {2009},
+  volume    = {15},
+  number    = {5},
+  month     = {sep},
+  pages     = {744--791},
+  doi       = {10.1108/14637150910987937},
+  url       = {http://dx.doi.org/10.1108/14637150910987937},
+  groups    = {Related Work},
+  journal   = {Business Process Management Journal},
+  publisher = {Emerald},
+}
+
+@Article{MiliTremblayJaoudeEtAl2010,
+  author    = {Hafedh Mili and Guy Tremblay and Guitta Bou Jaoude and {\'{E}}ric Lefebvre and Lamia Elabed and Ghizlane El Boussaidi},
+  title     = {Business process modeling languages},
+  year      = {2010},
+  volume    = {43},
+  number    = {1},
+  month     = {nov},
+  pages     = {1--56},
+  doi       = {10.1145/1824795.1824799},
+  url       = {http://dx.doi.org/10.1145/1824795.1824799},
+  groups    = {Related Work},
+  journal   = {{ACM} Computing Surveys},
+  publisher = {Association for Computing Machinery ({ACM})},
+}
+
+@InCollection{FettkeLoosZwicker2006,
+  author    = {Peter Fettke and Peter Loos and Jörg Zwicker},
+  title     = {Business Process Reference Models: Survey and Classification},
+  booktitle = {Business Process Management Workshops},
+  year      = {2006},
+  publisher = {Springer Science $\mathplus$ Business Media},
+  pages     = {469--483},
+  doi       = {10.1007/11678564_44},
+  url       = {http://dx.doi.org/10.1007/11678564_44},
+  groups    = {Related Work},
+}
+
+@InProceedings{CzarneckiGruenbacherRabiserEtAl2012,
+  author    = {Krzysztof Czarnecki and Paul Grünbacher and Rick Rabiser and Klaus Schmid and Andrzej W{\k{a}}sowski},
+  title     = {Cool features and tough decisions},
+  booktitle = {Proceedings of the Sixth International Workshop on Variability Modeling of Software-Intensive Systems - {VaMoS} {\textquotesingle}12},
+  year      = {2012},
+  publisher = {Association for Computing Machinery ({ACM})},
+  doi       = {10.1145/2110147.2110167},
+  url       = {http://dx.doi.org/10.1145/2110147.2110167},
+  groups    = {Related Work},
+}
+
+@InCollection{Vallecillo2010,
+  author    = {Antonio Vallecillo},
+  title     = {On the Combination of Domain Specific Modeling Languages},
+  booktitle = {Modelling Foundations and Applications},
+  year      = {2010},
+  publisher = {Springer Science $\mathplus$ Business Media},
+  pages     = {305--320},
+  doi       = {10.1007/978-3-642-13595-8_24},
+  url       = {http://dx.doi.org/10.1007/978-3-642-13595-8_24},
+  groups    = {Related Work},
+}
+
+@InProceedings{FucknerBarthesScalabrin2015,
+  author        = {M. Fuckner and J. P. Barth{\`{e}}s and E. E. Scalabrin},
+  title         = {Selecting and combining services using goals: A step towards goal-driven processes},
+  booktitle     = {Proc. IEEE 19th Int Computer Supported Cooperative Work in Design (CSCWD) Conf},
+  year          = {2015},
+  month         = may,
+  pages         = {182--187},
+  doi           = {10.1109/CSCWD.2015.7230955},
+  __markedentry = {[Dominik:]},
+  groups        = {Related Work},
+  keywords      = {Web services, business data processing, cooperative systems, formal languages, semantic Web, service-oriented architecture, MOSS, SOA service, SWS, business process modeling activity, business team, dynamic service-based environment, formal language, goal-driven process, information system developer, intelligent agent, planning technique, semantic Web service, service composition, service selection, Companies, Planning, Terminology, Intelligent Agents, Planning, SOA, Semantic Web Services},
+}
+
+@InCollection{SoederstroemAnderssonJohannessonEtAl2002,
+  author        = {Eva Söderström and Birger Andersson and Paul Johannesson and Erik Perjons and Benkt Wangler},
+  title         = {Towards a Framework for Comparing Process Modelling Languages},
+  booktitle     = {Advanced Information Systems Engineering},
+  year          = {2002},
+  publisher     = {Springer Science $\mathplus$ Business Media},
+  pages         = {600--611},
+  doi           = {10.1007/3-540-47961-9_41},
+  url           = {http://dx.doi.org/10.1007/3-540-47961-9_41},
+  __markedentry = {[Dominik:6]},
+  groups        = {Related Work},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: groupstree:
@@ -618,6 +747,7 @@
 1 ExplicitGroup:CMMN Indicators\;0\;;
 1 ExplicitGroup:DMN Indicators\;0\;;
 1 ExplicitGroup:Process Discovery\;0\;;
+1 ExplicitGroup:Related Work\;0\;;
 }
 
 @Comment{jabref-meta: groupsversion:3;}

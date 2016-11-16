@@ -1,0 +1,17 @@
+
+\chapter{Create new Venue Process Documentation}
+\label{app:B}
+\begin{otherlanguage}{german}
+\section*{Prolog: Spielstätte anlegen}
+Um eine Spielstätte anlegen zu können, muss ich als Benutzer registriert sein und einem Betrieb angehören. Eine Spielstätte muss mit einem Betrieb zugeordnet werden können, um später den Rechnungsempfänger zu ermitteln bzw. einen Vertragspartner angehören. Daher ist es wesentlich, dass die nicht sensiblen Informationen des Spielortbesitzers auch immer angezeigt werden. 
+Folgende Wege sollen zur Erfassung des Spielorts möglich sein: Im Menü kann ich das Anlegen, Bearbeiten eines Spielorts auswählen. Allerdings kann ich auch innerhalb des Betriebs die Spielstätte verknüpfen. Hier wird sich vorgestellt, dass in einer Maske nach Ort oder Name gefragt wird (Textfeld), die Maske den Namen oder Ort erkennt und eine Ergebnisliste aufzeigt. Der User wählt über Name oder Ort die Spielstätte aus oder klickt auf den Button: Spielstätte nicht vorhandenen und wird dann im Dashboard gefragt, ob er eine Spielstätte anlegen will.
+
+\section*{Ziel des Prozesses}
+Eine Spielstätte ist eine Entität im Portal, die verschiedene Merkmale aufweist, mindestens aber eine Adresse, einen Ansprechpartner und eine zugehörige Firma. Das Schlagwort „Fremd“ weist darauf hin, dass eine Spielstätte angelegt werden soll, die nicht dem anlegenden Benutzer zugehörig ist. 
+
+\section*{Herangehensweise}
+Zunächst muss sichergestellt werden, dass die anzulegende Spielstätte nicht bereits im Portal existiert. Die soll durch einen Datenbankabgleich geschehen woraufhin der Benutzer informiert wird, falls es einen solchen Eintrag schon gibt. 
+Danach wird der User gebeten, die Daten der Spielstätte einzugeben und nachfolgend mit einem Betrieb zu verknüpfen. Sollte es diesen Betrieb nicht geben, muss mindestens ein Ansprechpartner hinterlegt werden. 
+Nach dem Anlegen einer Spielstätte wird eine Nachricht an den Ansprechpartner bzw. den Betrieb verschickt, damit die Entität freigegeben werden kann. Zudem beinhaltet diese Nachricht eine Einladung zur Registrierung im Portal. 
+Abschließend wird alles gespeichert und als „nicht verifiziert“ hinterlegt, damit man eine Spielstätte später nicht buchen kann, wenn sie keinem aktiven Betrieb zugeordnet ist. 
+\end{otherlanguage}

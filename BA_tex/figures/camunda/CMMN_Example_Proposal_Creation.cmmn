@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmmn:definitions xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:di="http://www.omg.org/spec/CMMN/20151109/DI" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Test" targetNamespace="http://bpmn.io/schema/cmmn" exporter="Camunda Modeler" exporterVersion="1.3.2">
+<cmmn:definitions xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:di="http://www.omg.org/spec/CMMN/20151109/DI" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Test" targetNamespace="http://bpmn.io/schema/cmmn" exporter="Camunda Modeler" exporterVersion="1.4.0">
   <cmmn:caseFileItemDefinition id="CaseFileItemDefinition_0wyd0f6" name="Papers" />
   <cmmn:case id="Case_1">
     <cmmn:casePlanModel id="CasePlanModel_1" name="Develop reserach proposal">
@@ -120,36 +120,6 @@
       <cmmn:exitCriterion id="ExitCriterion_04yarow" sentryRef="Sentry_0islav9" />
     </cmmn:casePlanModel>
   </cmmn:case>
-  <cmmn:association id="Association_0vrsegi" sourceRef="PlanItem_1gfgknl" targetRef="TextAnnotation_1yt7j6e" />
-  <cmmn:textAnnotation id="TextAnnotation_1qqh874">  <cmmn:text>User Event</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_1q6ultw" sourceRef="PlanItem_1x9bzq0" targetRef="TextAnnotation_1qqh874" />
-  <cmmn:textAnnotation id="TextAnnotation_08uyb0n">  <cmmn:text>Milestone</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_0banrri" sourceRef="PlanItem_1gmwdyw" targetRef="TextAnnotation_08uyb0n" />
-  <cmmn:textAnnotation id="TextAnnotation_1y6hb8f">  <cmmn:text>Exit criterion</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_0fvqtrg" sourceRef="ExitCriterion_04yarow" targetRef="TextAnnotation_1y6hb8f" />
-  <cmmn:textAnnotation id="TextAnnotation_14e27jo">  <cmmn:text>Human task (non-blocking)</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_1etd4jv" sourceRef="PlanItem_09yz09w" targetRef="TextAnnotation_14e27jo" />
-  <cmmn:textAnnotation id="TextAnnotation_19vnoma">  <cmmn:text>Case task</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_0ffs4vs" sourceRef="PlanItem_1vcz0hm" targetRef="TextAnnotation_19vnoma" />
-  <cmmn:textAnnotation id="TextAnnotation_0t5gan9">  <cmmn:text>Discretionary human task (blocking)</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_0c8ocun" sourceRef="PlanItem_1e9qknu" targetRef="TextAnnotation_0t5gan9" />
-  <cmmn:textAnnotation id="TextAnnotation_1yt7j6e">  <cmmn:text>Timer Event</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:textAnnotation id="TextAnnotation_00y251a">  <cmmn:text>Process task with required rule and repetition rule</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_0zzve59" sourceRef="PlanItem_080zql4" targetRef="TextAnnotation_00y251a" />
-  <cmmn:textAnnotation id="TextAnnotation_1g9jvi7">  <cmmn:text>Milestone</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_1m5kadv" sourceRef="PlanItem_0ddqgb8" targetRef="TextAnnotation_1g9jvi7" />
-  <cmmn:textAnnotation id="TextAnnotation_1cuqr53">  <cmmn:text>Stage</cmmn:text>
-</cmmn:textAnnotation>
-  <cmmn:association id="Association_1re2e9u" sourceRef="PlanItem_00l6vpd" targetRef="TextAnnotation_1cuqr53" />
   <cmmndi:CMMNDI>
     <cmmndi:CMMNDiagram id="_5a66685b-5f57-4e2f-b1d1-acca4fae04b2">
       <cmmndi:Size xsi:type="dc:Dimension" width="500" height="500" />
@@ -339,113 +309,10 @@
         <dc:Bounds x="555" y="289" width="100" height="80" />
         <cmmndi:CMMNLabel />
       </cmmndi:CMMNShape>
-      <cmmndi:CMMNShape id="TextAnnotation_1yt7j6e_di" cmmnElementRef="TextAnnotation_1yt7j6e">
-        <dc:Bounds x="827.2617079889807" y="75.73829201101928" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0vrsegi_di" cmmnElementRef="Association_0vrsegi">
-        <di:waypoint xsi:type="dc:Point" x="955" y="112" />
-        <di:waypoint xsi:type="dc:Point" x="941" y="112" />
-        <di:waypoint xsi:type="dc:Point" x="941" y="91" />
-        <di:waypoint xsi:type="dc:Point" x="927" y="91" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_1qqh874_di" cmmnElementRef="TextAnnotation_1qqh874">
-        <dc:Bounds x="860.2617079889807" y="172.73829201101927" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_1q6ultw_di" cmmnElementRef="Association_1q6ultw">
-        <di:waypoint xsi:type="dc:Point" x="955" y="219" />
-        <di:waypoint xsi:type="dc:Point" x="931" y="203" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_08uyb0n_di" cmmnElementRef="TextAnnotation_08uyb0n">
-        <dc:Bounds x="890.2617079889807" y="347.73829201101927" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0banrri_di" cmmnElementRef="Association_0banrri">
-        <di:waypoint xsi:type="dc:Point" x="837" y="299" />
-        <di:waypoint xsi:type="dc:Point" x="837" y="323" />
-        <di:waypoint xsi:type="dc:Point" x="940" y="323" />
-        <di:waypoint xsi:type="dc:Point" x="940" y="348" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_1y6hb8f_di" cmmnElementRef="TextAnnotation_1y6hb8f">
-        <dc:Bounds x="923" y="515.7382920110193" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0fvqtrg_di" cmmnElementRef="Association_0fvqtrg">
-        <di:waypoint xsi:type="dc:Point" x="1075" y="585" />
-        <di:waypoint xsi:type="dc:Point" x="1049" y="531" />
-        <di:waypoint xsi:type="dc:Point" x="1023" y="531" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_14e27jo_di" cmmnElementRef="TextAnnotation_14e27jo">
-        <dc:Bounds x="535.2617079889807" y="453.73829201101927" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_1etd4jv_di" cmmnElementRef="Association_1etd4jv">
-        <di:waypoint xsi:type="dc:Point" x="502" y="549" />
-        <di:waypoint xsi:type="dc:Point" x="502" y="516" />
-        <di:waypoint xsi:type="dc:Point" x="585" y="516" />
-        <di:waypoint xsi:type="dc:Point" x="585" y="484" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_19vnoma_di" cmmnElementRef="TextAnnotation_19vnoma">
-        <dc:Bounds x="322.26170798898073" y="454" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0ffs4vs_di" cmmnElementRef="Association_0ffs4vs">
-        <di:waypoint xsi:type="dc:Point" x="373" y="549" />
-        <di:waypoint xsi:type="dc:Point" x="372" y="484" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_0t5gan9_di" cmmnElementRef="TextAnnotation_0t5gan9">
-        <dc:Bounds x="713" y="709" width="101" height="38" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0c8ocun_di" cmmnElementRef="Association_0c8ocun">
-        <di:waypoint xsi:type="dc:Point" x="552" y="693" />
-        <di:waypoint xsi:type="dc:Point" x="633" y="693" />
-        <di:waypoint xsi:type="dc:Point" x="633" y="728" />
-        <di:waypoint xsi:type="dc:Point" x="713" y="728" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
       <cmmndi:CMMNShape id="DiscretionaryItem_1la2i7w_di" cmmnElementRef="PlanItem_1nkfawy">
         <dc:Bounds x="323" y="653" width="100" height="80" />
         <cmmndi:CMMNLabel />
       </cmmndi:CMMNShape>
-      <cmmndi:CMMNShape id="TextAnnotation_00y251a_di" cmmnElementRef="TextAnnotation_00y251a">
-        <dc:Bounds x="134" y="440" width="112" height="38" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_0zzve59_di" cmmnElementRef="Association_0zzve59">
-        <di:waypoint xsi:type="dc:Point" x="212" y="369" />
-        <di:waypoint xsi:type="dc:Point" x="212" y="405" />
-        <di:waypoint xsi:type="dc:Point" x="190" y="405" />
-        <di:waypoint xsi:type="dc:Point" x="190" y="440" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_1g9jvi7_di" cmmnElementRef="TextAnnotation_1g9jvi7">
-        <dc:Bounds x="834.980198019802" y="682.009900990099" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_1m5kadv_di" cmmnElementRef="Association_1m5kadv">
-        <di:waypoint xsi:type="dc:Point" x="837" y="654" />
-        <di:waypoint xsi:type="dc:Point" x="837" y="668" />
-        <di:waypoint xsi:type="dc:Point" x="885" y="668" />
-        <di:waypoint xsi:type="dc:Point" x="885" y="682" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
-      <cmmndi:CMMNShape id="TextAnnotation_1cuqr53_di" cmmnElementRef="TextAnnotation_1cuqr53">
-        <dc:Bounds x="737" y="123.009900990099" width="100" height="30" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNShape>
-      <cmmndi:CMMNEdge id="Association_1re2e9u_di" cmmnElementRef="Association_1re2e9u">
-        <di:waypoint xsi:type="dc:Point" x="718" y="161" />
-        <di:waypoint xsi:type="dc:Point" x="741" y="153" />
-        <cmmndi:CMMNLabel />
-      </cmmndi:CMMNEdge>
     </cmmndi:CMMNDiagram>
   </cmmndi:CMMNDI>
 </cmmn:definitions>

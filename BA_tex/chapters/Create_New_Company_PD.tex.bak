@@ -1,0 +1,21 @@
+
+\chapter{Create New Company Process Documentation}
+\label{app:C}
+\begin{otherlanguage}{german}
+\section*{Prolog}
+Das eKulturPortal besteht aus drei grundsätzlichen Bausteinen: Betriebe, Spiel\-stätten und Personen. Jeder dieser Bausteine stellt eine eigene Entität im Portal da, mit der aufgrund von Verknüpfungen interagiert und am Ende auch Geschäfte gemacht werden können. Beispielsweise können Betriebe mit Spielstätten verknüpft werden, welche dann wiederum für Veranstaltungen gebucht werden können. \\
+Um einen Betrieb ins Portal zu heben benötigt es einer Personen, ergo des Nutzers, die solche Betriebe anlegen und sich mit diesen verknüpfen können, beispielsweise als Mitarbeiter oder auch einfach nur als Interessent. Idealerweise sollen durch dynamische Verknüpfungen am Ende dann Geschäftsbeziehungen und Verträge über das Portal abgebildet werden und diese dynamisch generiert werden. Um die Echtheit eines Betriebes sicherstellen zu können, wird jeder neu angelegte Betrieb geprüft über den „Betrieb prüfen“ Prozess. 
+
+\section*{Ziel des „Betrieb-prüfen“ Prozesses}
+Ein neuer Betrieb soll von einem registrierten Benutzer angelegt werden, der auf Duplikate geprüft wurde und anschließend in den „Betrieb prüfen“ Prozess über\-geht. 
+
+
+\section*{Herangehensweise}
+Der Benutzer wird zunächst gebeten, die Daten des Betriebes einzugeben. Dazu gehört die Art des Betriebes, der Name und die Adresse. Die Art des Betriebes ist eine Liste, die verschiedene Werte enthält. Darunter sind Kategorien wie Verein, Produktionsfirma, Hotel usw. 
+Nach der Eingabe wird ein erster Abgleich gemacht durch die Datenbank, damit am Ende keine Duplikate oder doppelte Einträge vorhanden sind. Dieser Service wird nicht modelliert, da eine API der Datenbank das vollautomatisch übernehmen kann. 
+Nach der Duplikat-Prüfung kann entweder weiter verfahren werden, oder dem Nutzer wird angezeigt, dass es den Betrieb gibt und er sich mit diesem verknüpfen kann. Möchte er den Betrieb bearbeiten, so benötigt er erst eine Verknüpfung mit den richtigen Rechten. Alternativ kann er eKultur um eine Prüfung bitten. \\
+Sollte der Eintrag noch nicht in der Datenbank existieren, wird mit der Eingabe sensibler Informationen verfahren. Eine Gläubiger ID oder die Handelsregisternummer zählen genauso dazu wie die Telefonnummer des Mitarbeiters und der Geschäftsführer mit Kontaktdaten. Dies ist wichtig, damit man die Seriosität der Unternehmen sicherstellen kann und die anschließenden Prüfungsprozesse greifen. \\
+Abschließend wird der Eintrag in die Datenbank persistiert und der Nutzer wird als Ersteller gespeichert, sowie eine Verknüpfung angeboten. Verknüpft sich der Benutzer, so wird der Betrieb als „Eigener Betrieb“ markiert, was dem Gegenteil eines „fremden Betriebes“ entspricht und einen Betrieb darstellt, der von seinen Mitarbeitern gepflegt wird. Ergo braucht es nicht die Community, um die Daten aktuell zu halten. Selbstverständlich greift aber auch hier der Aspekt des \textit{Crowdsourcings}. 
+Abschließend wird dem Nutzer angeboten, weitere Mitarbeiter zu verknüpfen und diese ins Portal einzuladen oder, falls schon registriert, einfach hinzugefügt. \\
+Der Prozess wird beendet, indem der neu angelegte Betrieb in den Prüfprozess übergeht. Dies wird erreicht, indem der Status auf „Nicht verifiziert“ gesetzt wurde und  somit in eine Liste kommt, die dann durch den Prozess „Betrieb prüfen“ abgearbeitet wird. 
+\end{otherlanguage}
